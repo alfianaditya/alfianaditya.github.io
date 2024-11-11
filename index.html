@@ -57,30 +57,53 @@
             transform: translate(-50%, -50%);
             font: 14px arial;
         }
+        .texthover {
+            color: #A5A7A9;
+            font-weight: bold;
+            text-decoration: none;
+            .cardwhite {
+                background-color: white;
+            }
+        }
+        .texthover:hover {
+            color: white;
+            text-decoration: none;
+            .cardwhite {
+                background-color: #149DDD;
+            }
+        }   
+        .ron {
+            border-radius: 2px;
+        }
     </style>
 
     <script src="assets/vendor/jquery/jquery.min.js "></script>
 
-<body>
+</head>
+<body style="background-color: #0C1623;">
     <!-- loading -->
     <!-- <div class="preloader">
         <div class="loading">
             <img src="assets/img/loading/infinity-load.gif" width="80">
         </div>
     </div> -->
+
     <!-- particles.js container -->
-    <div id="particles-js">
+    <!-- <div id="particles-js"> -->
 
         <!-- ======= Hero Section ======= -->
         <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
             <div class="hero-container mx-3" data-aos="fade-in">
                 <h1>Alfian Aditya,</h1>
-                <p style="font-family: 'font-content';">Web & Game Developer</p>
+                <p style="font-family: 'font-content';">Game & Website Developer</p>
                 <hr>
             </div>
         </section>
         <!-- End Hero -->
-    </div>
+
+    <!-- </div> -->
+
+
     <!-- ======= Mobile nav toggle button ======= -->
     <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
@@ -99,7 +122,7 @@
                 </div>
                 <nav class="nav-menu">
                     <ul style="font-family: 'font-sidebar';">
-                        <li class="active"><a href="fairytale.html"><span>Home</span></a></li>
+                        <li class="active"><a href=""><span>Home</span></a></li>
                         <li><a href="#about"><span>Tentang</span></a></li>
                         <li><a href="#resume"><span>Pengalaman</span></a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
@@ -115,14 +138,14 @@
     <!-- End Header -->
 
 
-    <main id="main" style="background-color: #040b14; color: #ffffff;">
+    <main id="main" style="color: #ffffff;">
 
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container">
 
                 <div class="section-title">
-                    <h2 style="color: #ffffff;">Tentang Saya</h2>
+                    <h2 style="color: #149DDD;">Tentang Saya</h2>
                     <div class="row mb-5">
                         <div class="col-lg-4" data-aos="fade-right">
                             <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_wqypnpu5.json"
@@ -137,7 +160,7 @@
                     </div>
                     <div class="row mb-5">
                         <div class="col text-center">
-                            <p style="font-size: 30px; font-weight: bold;">Apa Yang Saya Buat?</p>
+                            <p style="font-size: 30px; font-weight: bold; color: #149DDD;">Apa Yang Saya Buat?</p>
                         </div>
                     </div>
                     <!-- ======= Services Section ======= -->
@@ -170,11 +193,11 @@
         <!-- End About Section -->
 
         <!-- ======= Skills Section ======= -->
-        <section id="skills" class="skills section-bg" style="background-color: #040b14;">
+        <section id="skills" class="skills section-bg">
             <div class="container">
 
                 <div class="section-title">
-                    <h2 style="color: #ffffff;">Skills Game Developer</h2>
+                    <h2 style="color: #149DDD;">Skills Game Developer</h2>
                 </div>
 
                 <div class="row skills-content">
@@ -197,6 +220,11 @@
                                 class="figure-img img-fluid rounded " alt="... ">
                             <center><small style="font-family: 'font-content'; ">UNITY</small></center>
                         </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <img src="assets/img/fw/unreal.svg" style="width: 50px; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <center><small style="font-family: 'font-content'; ">UNREAL</small></center>
+                        </figure>
                         <!-- <figure class="figure mx-3 mb-3">
                             <img src="assets/img/fw/blender.svg" style="width: 60px; height: 50px; object-fit: cover; "
                                 class="figure-img img-fluid rounded " alt="... ">
@@ -215,11 +243,11 @@
         <!-- End Skills Section -->
 
         <!-- ======= Skills Section ======= -->
-        <section id="skills" class="skills section-bg" style="background-color: #040b14;">
+        <section id="skills" class="skills section-bg">
             <div class="container">
 
                 <div class="section-title">
-                    <h2 style="color: #ffffff;">Skills Web Developer</h2>
+                    <h2 style="color: #149DDD;">Skills Web Developer</h2>
                 </div>
 
                 <div class="row skills-content">
@@ -299,7 +327,7 @@
             <div class="container ">
 
                 <div class="section-title ">
-                    <h2 style="color: #ffffff; ">Pengalaman</h2>
+                    <h2 style="color: #149DDD; ">Pengalaman</h2>
                 </div>
 
                 <div class="row ">
@@ -369,166 +397,241 @@
         </section>
         <!-- End Resume Section -->
 
+        
+                                        <!-- <a href="#" data-toggle="modal" data-target="#gameFairyModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"> <i class="far fa-eye"></i>
+                                        </a> -->
+
+
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio section-bg " style="background-color: #040b14;">
+        <section id="portfolio" class="portfolio section-bg ">
             <div class="container ">
                 <div class="section-title ">
-                    <h2 style="color: white;">Portfolio</h2>
+                    <h2 style="color: #149DDD;">Portfolio</h2>
                     <hr>
                     <b style=" font-size: 15px; font-family: 'font-content'; "> Projects Game</b>
                 </div>
 
                 <div class="row portfolio-container" data-aos="fade-up " data-aos-delay="100 ">
 
+
+
+
                     <center>
                         <!-- background-color: #0f4c75;  -->
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/game/game.png"
-                                    style="object-position: left; width: 100%;"
-                                    class="card-img-top" alt="game">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">Fairy Tale : Return of Heroes</label>
-                                    <p>
-                                        <label style="font-size: 1rem; font-family: 'font-port';"> (Kamp Kreatif SMK Indonesia)</label>
-                                    </p>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#gameFairyModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
+                         <a href="fairytale.html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                    <img src="assets/img/category/game/fairy/fairy1.png"
+                                        style="object-position: left; width: 100%; border-radius: 20px;"
+                                        class="card-img-top" alt="game">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">Fairy Tale : Return of Heroes</label>
+                                        <!-- <label style="font-size: 20px; font-family: 'font-content';">Unity</label> -->
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                         </a>
+                        
+                         <a href="sesat.html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                    <img src="assets/img/category/game/sesat/sesat.png"
+                                        style="object-position: left; width: 100%; border-radius: 20px;"
+                                        class="card-img-top" alt="game">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">SESAT : Tersesat ohhh tersesat </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
+                        <a href="pentolf.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/pentol/pentol.png"
-                                    style=" object-position: left; width: 100%;"
+                            <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                <img src="assets/img/category/game/pentol/pentol.png"
+                                    style=" object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game">
                                 <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">PENTOLF : Pentol Golf</label>
-                                    <p>
-                                        <label style="font-size: 1rem; font-family: 'font-port';"> (GAME JAM INTERNAL PENS)</label>
-                                    </p>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#gamePentolModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
+                                    <label style="font-size: 20px; font-family: 'font-content';">Pentol Golf</label>
                                 </div>
                             </div>
                         </div>
+                        </a>
 
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/yufo/yufo.png"
-                                    style=" object-position: left; width: 100%;"
-                                    class="card-img-top" alt="game">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">YUFO : NEW PLANET</label>
-                                    <p>
-                                        <label style="font-size: 1rem; font-family: 'font-port';">(GAME JAM EKSTERNAL PENS)</label>
-                                    </p>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#gameYufoModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
+                        <a href="gerilya.html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                    <img src="assets/img/category/game/geril/geril.png"
+                                        style="object-position: left; width: 100%; border-radius: 20px;"
+                                        class="card-img-top" alt="game Finding Fungus">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">GERILYA : DOMINATE NUSANTARA </label>
+                                        <!-- <p>
+                                            <label style="font-size: 20px; font-family: 'font-content';">(WORKSHOP PRODUKSI GAME I)</label>
+                                        </p>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#gameGerilModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> -->
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
+                        <a href="yufo.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/sesat/sesat.png"
-                                    style="object-position: left; width: 100%;"
+                            <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                <img src="assets/img/category/game/yufo/yufo.png"
+                                    style=" object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game">
                                 <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">SESAT : Tersesat ohhh tersesat </label>
-                                    <p>
-                                        <label style="font-size: 1rem; font-family: 'font-port';">(GAME JAM EKSTERNAL BINUS)</label>
-                                    </p>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#gameSesatModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
+                                    <label style="font-size: 20px; font-family: 'font-content';">YUFO : NEW PLANET</label>
                                 </div>
                             </div>
                         </div>
+                        </a>
+
+
+
+                        <a href="mememory.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/meme/meme.png"
-                                    style="object-position: left; width: 100%;"
+                            <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                <img src="assets/img/category/game/meme/meme.png"
+                                    style="object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game MEMEMORY">
                                 <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">MEMEMORY</label>
-                                    <p>
-                                        <label style="font-size: 1rem; font-family: 'font-port';">(GAME JAM EKSTERNAL ITB)</label>
-                                    </p>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#gameMemeModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
+                                    <label style="font-size: 20px; font-family: 'font-content';">MEMEMORY</label>
                                 </div>
                             </div>
                         </div>
+                        </a>
+
+
+
+                        <a href="findingfungus.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/geril/geril.png"
-                                    style="object-position: left; width: 100%;"
+                            <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                <img src="assets/img/category/game/fungus/fungus3.png"
+                                    style="object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game Finding Fungus">
                                 <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">BOARD GAME GERILYA : DOMINATE NUSANTARA </label>
-                                    <p>
-                                        <label style="font-size: 1rem; font-family: 'font-port';">(WORKSHOP PRODUKSI GAME I)</label>
-                                    </p>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#gameGerilModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/fungus/fungus3.png"
-                                    style="object-position: left; width: 100%;"
-                                    class="card-img-top" alt="game Finding Fungus">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">FINDING FUNGUS : THE MAGICAL MUSHROOM</label>
-                                    <p>
-                                        <label style="font-size: 1rem; font-family: 'font-port';">(WORKSHOP PRODUKSI GAME II)</label>
+                                    <label style="font-size: 20px; font-family: 'font-content';">FINDING FUNGUS : THE MAGICAL MUSHROOM</label>
+                                    <!-- <p>
+                                        <label style="font-size: 20px; font-family: 'font-content';">(WORKSHOP PRODUKSI GAME II)</label>
                                     </p>
                                     <hr>
                                     <a href="#" data-toggle="modal" data-target="#gameFungusModal" class="btn btn-sm"
                                         style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
+                                            class="far fa-eye"></i></a> -->
                                 </div>
                             </div>
                         </div>
+                        </a>
+
+                        <a href="lontong.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/var/ai.png"
-                                    style="object-position: left; width: 100%;"
+                            <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                <img src="assets/img/category/game/lontong/lontong.png"
+                                    style="object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game Finding Fungus">
                                 <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">VIRTUAL ASSISTANT RECEPTIONIST</label>
-                                    <p>
-                                        <label style="font-size: 1rem; font-family: 'font-port';">(RESEARCH VIRTUAL ASSISTANT)</label>
+                                    <label style="font-size: 20px; font-family: 'font-content';">Lontong Balap</label>
+                                    <!-- <p>
+                                        <label style="font-size: 20px; font-family: 'font-content';">(RESEARCH VIRTUAL ASSISTANT)</label>
                                     </p>
                                     <hr>
                                     <a href="#" data-toggle="modal" data-target="#gameAIModal" class="btn btn-sm"
                                         style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
-                                </div>
+                                            class="far fa-eye"></i></a>-->
+                                </div> 
                             </div>
                         </div>
+                        </a>
+
+                        <a href="space.html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                    <img src="assets/img/category/game/space/space.png"
+                                        style="object-position: left; width: 100%; border-radius: 20px;"
+                                        class="card-img-top" alt="game Finding Fungus">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">SPACE 301</label>
+                                        <!-- <p>
+                                            <label style="font-size: 20px; font-family: 'font-content';">(RESEARCH VIRTUAL ASSISTANT)</label>
+                                        </p>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#gameAIModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>-->
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a href="project.html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                    <img src="assets/img/category/game/white/white.png"
+                                        style="object-position: left; width: 100%; border-radius: 20px;"
+                                        class="card-img-top" alt="game Finding Fungus">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">Project White</label>
+                                        <!-- <p>
+                                            <label style="font-size: 20px; font-family: 'font-content';">(RESEARCH VIRTUAL ASSISTANT)</label>
+                                        </p>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#gameAIModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>-->
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a href="aventala.html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
+                                    <img src="assets/img/category/game/aventala/aventala.png"
+                                        style="object-position: left; width: 100%; border-radius: 20px;"
+                                        class="card-img-top" alt="game Finding Fungus">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">Aventala : The Lost Tribe</label>
+                                        <!-- <p>
+                                            <label style="font-size: 20px; font-family: 'font-content';">(RESEARCH VIRTUAL ASSISTANT)</label>
+                                        </p>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#gameAIModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>-->
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        
+                        
+                        <a href="ecosity.html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%;">
+                                    <img src="assets/img/category/game/ecosity/ecosity.png"
+                                        style="object-position: left; width: 100%;"
+                                        class="card-img-top" alt="game Finding Fungus">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">ECOSITY : New Dawn On Mars</label>
+                                        <!-- <p>
+                                            <label style="font-size: 1rem; font-family: 'font-port';">(RESEARCH VIRTUAL ASSISTANT)</label>
+                                        </p>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#gameAIModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>-->
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        
+
+                        
 
                     </center>
                 </div>
@@ -546,8 +649,8 @@
                         <!-- background-color: #0f4c75;  -->
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/corak/corak.png"
+                                style="width: 100%; background: white;">
+                                <img src="assets/img/category//corak/corak.png"
                                     style="object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="corak">
                                 <div class="card-body my-2">
@@ -577,12 +680,13 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/genre/genre.png"
+                                <img src="assets/img/category//genre/genre.png"
                                     style="object-position: left; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="genre">
                                 <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';"> GenRe Class
-                                        </label>
+                                    <label style="font-size: 1rem; font-family: 'font-port';"> 
+                                        GenRe Class
+                                    </label>
                                     <div class="my-2">
                                         <span class="badge badge-light mt-2"
                                             style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Django</span>
@@ -608,7 +712,7 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/warrior/warrior.png"
+                                <img src="assets/img/category//warrior/warrior.png"
                                     style=" object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="Tefa">
                                 <div class="card-body my-2">
@@ -633,7 +737,7 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/ent/ent.png"
+                                <img src="assets/img/category//ent/ent.png"
                                     style=" object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="">
                                 <div class="card-body my-2">
@@ -660,7 +764,7 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/resep/resep.png"
+                                <img src="assets/img/category//resep/resep.png"
                                     style=" object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="Tefa">
                                 <div class="card-body my-2">
@@ -686,7 +790,7 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/cafe/cafe.png"
+                                <img src="assets/img/category//cafe/cafe.png"
                                     style=" object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="cafe Auth">
                                 <div class="card-body my-2">
@@ -713,7 +817,7 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/self/self.png"
+                                <img src="assets/img/category//self/self.png"
                                     style=" object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="laundry">
                                 <div class="card-body my-2">
@@ -740,7 +844,7 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/laundry/laundry.png"
+                                <img src="assets/img/category//laundry/laundry.png"
                                     style=" object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="laundry">
                                 <div class="card-body my-2">
@@ -767,7 +871,7 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/tefa/tefa.png"
+                                <img src="assets/img/category//tefa/tefa.png"
                                     style=" object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="Tefa">
                                 <div class="card-body my-2">
@@ -797,7 +901,7 @@
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1"
                                 style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/port/voting/voting.png"
+                                <img src="assets/img/category//voting/voting.png"
                                     style=" object-position: top; width: 100%; object-fit: cover;"
                                     class="card-img-top" alt="voting">
                                 <div class="card-body my-2">
@@ -918,7 +1022,7 @@
                 <hr>
                 <div class="modal-body my-2" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/laundry/img.png"
+                        <img src="assets/img/category//laundry/img.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="laundry">
                     </div>
@@ -953,7 +1057,7 @@
                 <hr>
                 <div class="modal-body my-2" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/self/self2.png"
+                        <img src="assets/img/category//self/self2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="Self">
                     </div>
@@ -989,7 +1093,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/tefa/tefa.png"
+                        <img src="assets/img/category//tefa/tefa.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="tefa">
                     </div>
@@ -1025,7 +1129,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/voting/voting.png"
+                        <img src="assets/img/category//voting/voting.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="voting">
                     </div>
@@ -1062,7 +1166,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/corak/corak.png"
+                        <img src="assets/img/category//corak/corak.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="corak">
                     </div>
@@ -1100,7 +1204,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/ent/ent2.png"
+                        <img src="assets/img/category//ent/ent2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="">
                     </div>
@@ -1136,7 +1240,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/warrior/warrior2.png"
+                        <img src="assets/img/category//warrior/warrior2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="tefa">
                     </div>
@@ -1172,7 +1276,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/resep/resep.png"
+                        <img src="assets/img/category//resep/resep.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="tefa">
                     </div>
@@ -1209,7 +1313,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/cafe/cafe2.png"
+                        <img src="assets/img/category//cafe/cafe2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="cafe">
                     </div>
@@ -1245,7 +1349,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/genre/genre.png"
+                        <img src="assets/img/category//genre/genre.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="genre">
                     </div>
@@ -1280,7 +1384,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/game/game.png"
+                        <img src="assets/img/category//game/game.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="klinik">
                     </div>
@@ -1336,7 +1440,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/pentol/pentol2.png"
+                        <img src="assets/img/category//pentol/pentol2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="klinik">
                     </div>
@@ -1391,7 +1495,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/yufo/yufo2.png"
+                        <img src="assets/img/category//yufo/yufo2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="klinik">
                     </div>
@@ -1447,7 +1551,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/sesat/sesat2.png"
+                        <img src="assets/img/category//sesat/sesat2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="klinik">
                     </div>
@@ -1505,7 +1609,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/meme/meme2.png"
+                        <img src="assets/img/category//meme/meme2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="meme">
                     </div>
@@ -1563,7 +1667,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/geril/geril2.png"
+                        <img src="assets/img/category//geril/geril2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="Fungus">
                     </div>
@@ -1620,7 +1724,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/fungus/fungus2.png"
+                        <img src="assets/img/category//fungus/fungus2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="Fungus">
                     </div>
@@ -1677,7 +1781,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/port/var/ai2.png"
+                        <img src="assets/img/category//var/ai2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="Fungus">
                     </div>
