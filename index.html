@@ -35,7 +35,7 @@
     <style>
         footer {
             width: 100%;
-            background-color: #040b14;
+            background-color: #0C1623;
             height: 50px;
             padding: 10px;
         }
@@ -72,6 +72,15 @@
                 background-color: #149DDD;
             }
         }   
+        .texthoverweb {
+            color: #0C1623;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .texthoverweb:hover {
+            color: white;
+            text-decoration: none;
+        }
         .ron {
             border-radius: 2px;
         }
@@ -92,13 +101,13 @@
     <!-- <div id="particles-js"> -->
 
         <!-- ======= Hero Section ======= -->
-        <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <!-- <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
             <div class="hero-container mx-3" data-aos="fade-in">
                 <h1>Alfian Aditya,</h1>
                 <p style="font-family: 'font-content';">Game & Website Developer</p>
                 <hr>
             </div>
-        </section>
+        </section> -->
         <!-- End Hero -->
 
     <!-- </div> -->
@@ -109,11 +118,11 @@
 
     <!-- ======= Header ======= -->
     <header id="header">
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column" style="padding-top: 50px;">
 
             <div class="profile">
                 <img src="assets/img/ian.jpeg" style="object-fit: cover;" alt="" class="img-fluid rounded-circle">
-                <h1 class="text-light" style="font-family: 'font-my-name';"><a href="index.html">AlfianAditya</a></h1>
+                <h1 class="text-light" style="font-family: 'font-my-name';"><a href="index.html">Alfian Aditya</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="https://wa.me/+628989896204" class="instagram"><i class="bx bxl-whatsapp"></i></a>
                     <a href="https://t.me/Alfianditya/" class="twitter"><i class="bx bxl-telegram"></i></a>
@@ -122,11 +131,12 @@
                 </div>
                 <nav class="nav-menu">
                     <ul style="font-family: 'font-sidebar';">
-                        <li class="active"><a href=""><span>Home</span></a></li>
-                        <li><a href="#about"><span>Tentang</span></a></li>
-                        <li><a href="#resume"><span>Pengalaman</span></a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Kontak</a></li>
+                        <!-- <li class="active"><a href=""><span>Home</span></a></li> -->
+                        <li><a href="#about"><span>About Me</span></a></li>
+                        <li><a href="#resume"><span>Experience</span></a></li>
+                        <li><a href="#gameport">Game Portfolio</a></li>
+                        <li><a href="#websiteport">Web Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <!-- .nav-menu -->
@@ -138,14 +148,14 @@
     <!-- End Header -->
 
 
-    <main id="main" style="color: #ffffff;">
+    <main id="main" style="color: #A5A7A9;">
 
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container">
 
                 <div class="section-title">
-                    <h2 style="color: #149DDD;">Tentang Saya</h2>
+                    <h2 style="color: #149DDD;">About Me</h2>
                     <div class="row mb-5">
                         <div class="col-lg-4" data-aos="fade-right">
                             <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_wqypnpu5.json"
@@ -153,14 +163,13 @@
                                 style="width: 100%; margin-bottom: 30px;" loop autoplay></lottie-player>
                         </div>
                         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                            <p style="font-size: 20px; font-family: 'font-desc';">Perkenalkan nama saya <b>Alfian Aditya
-                                    Kurniawan</b>, saya seorang pengembang Fullstack Web dengan keahlian dalam Framework <b>Laravel</b> dan database <b>MySQL</b>. Selain itu, saya juga seorang Game Developer dengan pengalaman dalam pembuatan game menggunakan <b>Unity 3D</b>. Saya sangat menikmati tantangan dalam menciptakan mekanika permainan yang menarik dan mendalam.
+                            <p style="font-size: 25px; font-family: 'font-desc';">My name is <b>Alfian Aditya Kurniawan</b>, a Game Programmer experienced in using <b>Unity</b> and <b>Unreal Engine</b>, specializing in developing game systems and engaging mechanics. I also have experience as a Web Programmer in Frontend Development, with expertise in Vue, React, and Tailwind CSS to create responsive and modern user interfaces.
                             </p>
                         </div>
                     </div>
                     <div class="row mb-5">
                         <div class="col text-center">
-                            <p style="font-size: 30px; font-weight: bold; color: #149DDD;">Apa Yang Saya Buat?</p>
+                            <p style="font-size: 30px; font-weight: bold; color: #149DDD;">What Do I Make?</p>
                         </div>
                     </div>
                     <!-- ======= Services Section ======= -->
@@ -168,19 +177,16 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
-                                    <div class="icon"><i class="icofont-computer"></i></div>
-                                    <h4 class="title">Web Development</h4>
-                                    <p class="description" style="font-family: 'font-desc';"><b>Melayani pengembangan
-                                            website dari awal yang bersifat Dinamis / Statis, mulai dari tampilan depan
-                                            sampai integrasi back-end & database.</b></p>
-                                </div>
-                                <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
                                     <div class="icon"><i class="icofont-ui-game"></i></div>
                                     <h4 class="title">Game Development</h4>
-                                    <p class="description" style="font-family: 'font-desc';"><b>Mengembangkan
-                                            Game dari perancangan game sampai mengimplementasikan kedalam suatu program
-                                            agar game tersebut dapat dimainkan.</b></p>
+                                    <p class="description" style="font-family: 'font-desc';"><b>Designing and implementing games, from concept to a playable program.</b></p>
                                 </div>
+                                <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+                                    <div class="icon"><i class="icofont-computer"></i></div>
+                                    <h4 class="title">Web Development</h4>
+                                    <p class="description" style="font-family: 'font-desc';"><b>Developing dynamic or static websites, including front-end creation and back-end integration.</b></p>
+                                </div>
+
                             </div>
 
                         </div>
@@ -197,44 +203,59 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2 style="color: #149DDD;">Skills Game Developer</h2>
+                    <h2 style="color: #149DDD;">Game Developer Skills</h2>
                 </div>
 
                 <div class="row skills-content">
 
                     <div class="col-md-12" data-aos="fade-up">
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/csharp.svg" style="width: 50px; height: 50px; object-fit: cover;"
+                            <center><img src="assets/img/fw/git.svg" style="width: auto; height: 50px; object-fit: cover;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">C#</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Git</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/c++.svg" style="width: auto; height: 50px; object-fit: cover;"
+                                class="figure-img img-fluid rounded" alt="...">
+                            <p style="font-family: 'font-content';font-size: 15px;">C++</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/csharp.svg" style="width: auto; height: 50px; object-fit: cover;"
+                                class="figure-img img-fluid rounded" alt="...">
+                            <p style="font-family: 'font-content';font-size: 15px;">C#</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/unity.svg" style="width: auto; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <p style="font-family: 'font-content';font-size: 15px;">Unity</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/unreal.svg" style="width: auto; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <p style="font-family: 'font-content';font-size: 15px;">Unreal</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/figma.svg" style="width:auto; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <p style="font-family: 'font-content';font-size: 15px;">Figma</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/Notion.svg" style="width:auto; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <p style="font-family: 'font-content';font-size: 15px;">Notion</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/miro.svg" style="width:auto; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <p style="font-family: 'font-content';font-size: 15px;">Miro</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/Diagrams.svg" style="width:auto; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <p style="font-family: 'font-content';font-size: 15px;">Draw.io</p></center>
                         </figure>
 
-                        
-                        <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/git.svg" style="width: 50px; height: 50px; object-fit: cover;"
-                                class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">Git</small></center>
-                        </figure>
-                        <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/unity.svg" style="width: 50px; height: 50px; object-fit: cover; "
-                                class="figure-img img-fluid rounded " alt="... ">
-                            <center><small style="font-family: 'font-content'; ">UNITY</small></center>
-                        </figure>
-                        <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/unreal.svg" style="width: 50px; height: 50px; object-fit: cover; "
-                                class="figure-img img-fluid rounded " alt="... ">
-                            <center><small style="font-family: 'font-content'; ">UNREAL</small></center>
-                        </figure>
-                        <!-- <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/blender.svg" style="width: 60px; height: 50px; object-fit: cover; "
-                                class="figure-img img-fluid rounded " alt="... ">
-                            <center><small style="font-family: 'font-content'; ">BLENDER 3D</small></center>
-                        </figure> -->
-                        <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/figma.svg" style="width: 35px; height: 50px; object-fit: cover; "
-                                class="figure-img img-fluid rounded " alt="... ">
-                            <center><small style="font-family: 'font-content'; ">FIGMA</small></center>
-                        </figure>
+
                     </div>
                 </div>
 
@@ -247,73 +268,99 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2 style="color: #149DDD;">Skills Web Developer</h2>
+                    <h2 style="color: #149DDD;">Website Developer Skills </h2>
                 </div>
 
                 <div class="row skills-content">
 
                     <div class="col-md-12" data-aos="fade-up">
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/php.svg" style="width: 50px; height: 50px;"
+                            <center><img src="assets/img/fw/git.svg" style="width: auto; height: 50px; object-fit: cover;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">PHP</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Git</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/laravel.svg" style="width: 50px; height: 50px; object-fit: cover;"
+                            <center><img src="assets/img/fw/html.svg" style="width: auto; height: 50px; object-fit: cover;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">Laravel</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">HTML</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/codeigniter.svg" style="width: 50px; height: 50px; object-fit: cover;"
+                            <center><img src="assets/img/fw/js.svg" style="width: auto; height: 50px; object-fit: cover;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">CodeIgniter</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Javascript</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/python.svg" style="width: 50px; height: 50px; object-fit: cover;"
+                            <center><img src="assets/img/fw/bootstrap.svg" style="width: auto; height: 50px; object-fit: cover;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">Python</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Bootstrap</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/django.svg" style="width: 50px; height: 50px; object-fit: cover;"
+                            <center><img src="assets/img/fw/tailwind.svg" style="width: auto; height: 50px; object-fit: cover;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">Django</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Tailwind</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/bootstrap.svg" style="width: 50px; height: 50px; object-fit: cover;"
+                            <center><img src="assets/img/fw/python.svg" style="width: auto; height: 50px; object-fit: cover;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">Bootstrap</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Python</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/html.svg" style="width: 50px; height: 50px; object-fit: cover;"
+                            <center><img src="assets/img/fw/php.svg" style="width: 75px; height: 50px;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">HTML</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">PHP</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/js.svg" style="width: 50px; height: 50px; object-fit: cover;"
+                            <center><img src="assets/img/fw/java.svg" style="width: auto; height: 50px;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">Javascript</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Java</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/postgresql.svg"
-                                style="width: 50px; height: 50px; background-color: white; object-position: center; padding: 3px;"
+                            <center><img src="assets/img/fw/django.svg" style="width: auto; height: 50px; object-fit: cover;"
                                 class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">PostgreSQL</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Django</p></center>
                         </figure>
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/mysql.svg" style="width: 50px; height: 50px; object-fit: cover; "
+                            <center><img src="assets/img/fw/laravel.svg" style="width: auto; height: 50px; object-fit: cover;"
+                                class="figure-img img-fluid rounded" alt="...">
+                            <p style="font-family: 'font-content';font-size: 15px;">Laravel</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/codeigniter.svg" style="width: auto; height: 50px; object-fit: cover;"
+                                class="figure-img img-fluid rounded" alt="...">
+                            <p style="font-family: 'font-content';font-size: 15px;">CodeIgniter</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/netbeans.svg" style="width: auto; height: 50px; object-fit: cover;"
+                                class="figure-img img-fluid rounded" alt="...">
+                            <p style="font-family: 'font-content';font-size: 15px;">Netbeans</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/postgresql.svg"style="width: auto; height: 50px; background-color: white; object-position: center; padding: 3px;"
+                                class="figure-img img-fluid rounded" alt="...">
+                            <p style="font-family: 'font-content';font-size: 15px;">PostgreSQL</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/PhpMyAdmin.svg" style="width: auto; height: 50px; object-fit: cover; "
                                 class="figure-img img-fluid rounded " alt="... ">
-                            <center><small style="font-family: 'font-content'; ">MySQL</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">PhpMyAdmin</p></center>
                         </figure>
+
                         <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/git.svg" style="width: 50px; height: 50px; object-fit: cover;"
-                                class="figure-img img-fluid rounded" alt="...">
-                            <center><small style="font-family: 'font-content';">Git</small></center>
-                        </figure>
-                        <figure class="figure mx-3 mb-3">
-                            <img src="assets/img/fw/figma.svg" style="width: 35px; height: 50px; object-fit: cover; "
+                            <center><img src="assets/img/fw/figma.svg" style="width: auto; height: 50px; object-fit: cover; "
                                 class="figure-img img-fluid rounded " alt="... ">
-                            <center><small style="font-family: 'font-content'; ">FIGMA</small></center>
+                            <p style="font-family: 'font-content';font-size: 15px;">Figma</p></center>
                         </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/Notion.svg" style="width:auto; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <p style="font-family: 'font-content';font-size: 15px;">Notion</p></center>
+                        </figure>
+                        <figure class="figure mx-3 mb-3">
+                            <center><img src="assets/img/fw/Diagrams.svg" style="width:auto; height: 50px; object-fit: cover; "
+                                class="figure-img img-fluid rounded " alt="... ">
+                            <p style="font-family: 'font-content';font-size: 15px;">Draw.io</p></center>
+                        </figure>
+
                     </div>
                 </div>
 
@@ -327,67 +374,108 @@
             <div class="container ">
 
                 <div class="section-title ">
-                    <h2 style="color: #149DDD; ">Pengalaman</h2>
+                    <h2 style="color: #149DDD; ">Experience</h2>
                 </div>
 
                 <div class="row ">
                     <div class="col-lg-6 " data-aos="fade-up ">
-                        <h3 class="resume-title " style="color: #ffffff; ">Edukasi</h3>                  
+                        <h3 class="resume-title" style="color: #A5A7A9;">Education</h3>                  
                         <div class="resume-item ">
-                            <h4 style="color: #ffffff; font-family: 'font-exp'; ">Software Engineering di <u>Smkn 01
-                                    Boyolangu</u></h4>
-                            <em style="color: #ffffff; font-family: 'font-content'; ">2019 - 2022</em>
-                            <p style="font-family: 'font-content'; ">Nah pada jenjang pendidikan SMK ini saya mengambil
-                                jurusan RPL(Software Engineering) selama 3 tahun.</p>
+                            <p style=" font-family: 'font-exp';font-size: 20px; ">SOFTWARE ENGINEERING at <a href="https://www.linkedin.com/school/pensjoss/" target="blank"><u>Boyolangu State Vocational High School 1"</u></a></p>
+                            <em style=" font-family: 'font-content';font-size: 14px; ">2019 - 2022</em>
+                            <p style="font-family: 'font-content';font-size: 16px; ">I took the Software Engineering (RPL) program for 3 years, focusing on software development and programming.</p>
+                                
                         </div>
                         <div class="resume-item ">
-                            <h4 style="color: #ffffff; font-family: 'font-exp'; ">Game Technology di <u>Politeknik Elektronika
-                                    Negeri Surabaya</u></h4>
-                            <em style="color: #ffffff; font-family: 'font-content'; ">2022 - Sekarang</em>
-                            <p style="font-family: 'font-content'; ">Nah pada jenjang pendidikan Kuliah ini saya mengambil
-                                jurusan GT(Game Technology) selama 4 tahun.</p>
+                            <p style=" font-family: 'font-exp';font-size: 20px; ">GAME TECHNOLOGU at <a href="https://www.linkedin.com/school/smkn1boyolangu/" target="blank"><u>Electronic Engineering Polytechnic Institute of Surabaya</u></a></p>
+                            <em style=" font-family: 'font-content';font-size: 14px; ">2022 - Now</em>
+                            <p style="font-family: 'font-content';font-size: 16px; ">Currently, I am continuing my studies in the Game Technology (GT) program for 4 years, which covers various aspects of game development and the supporting technologies.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 " data-aos="fade-up " data-aos-delay="100 ">
-                        <h3 class="resume-title " style="color: #ffffff; ">Pengalaman Bekerja</h3>
+                        <h3 class="resume-title" style="color: #A5A7A9;">Work Experience</h3>
                         <div class="resume-item ">
-                            <h4 style="color: #ffffff; font-family: 'font-exp'; ">Intership Web Programmer</u>
-                            </h4>
-                            <em style="font-weight: bold; color: #ffffff; font-family: 'font-content'; ">Adisatya IT Consultan</em>
-                            <p><em style="color: #ffffff; font-family: 'font-content'; ">Agustus 2020 - Desember 2020</em></p>
-                            <ul style="font-family: 'font-content'; ">
-                                <li>Tugas & Pekerjaan:</li>
-                                <li>&middot; Membangun Web Resep Makanan Rumah Tangga (Django, HTML/CSS, PostgreSQL).</li>
-                                <li>&middot; Membangun Aplikasi GenReClass (Django, HTML/CSS, PostgreSQL).</li>
+                            <p style=" font-family: 'font-exp';font-size: 20px;">WEBSITE DEVELOPER INTERNSHIP</u>
+                            </p>
+                            <em style="font-weight: bold;  font-family: 'font-content'; font-size: 16px;"><a href="https://www.linkedin.com/company/adisatya-it-consultant/" target="blank"><u>Adisatya IT Consultan</u></a></em>
+                            <p><em style=" font-family: 'font-content'; font-size: 14px;">August 2020 - December  2020</em></p>
+                            <ul style="font-family: 'font-content'; padding-top: 10px;">
+                                <li style="font-size: 14px;">Job Description:</li>
+                                <li style="font-size: 14px;">&middot; Creating a Homemade Food Recipe Website <em>(Fullstack + Django).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a GenRe Class Website <em>(Fullstack + Django).</em></li>
+                            </ul>
+                            <br>
+                            <em style="font-weight: bold;  font-family: 'font-content'; font-size: 16px;"><a href="https://www.linkedin.com/company/eepis-news-and-network-team/" target="blank"><u>EEPIS NEWS AND NETWORK TEAM PENS</u></a></em>
+                            <p><em style=" font-family: 'font-content'; font-size: 14px;">August 2022 - Now</em></p>
+                            <ul style="font-family: 'font-content'; padding-top: 10px;">
+                                <li style="font-size: 14px;">Job Description:</li>
+                                <li style="font-size: 14px;">&middot; Creating a Cyber Incident Response Team PENS Website <em>(Frontend + Vue).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a Media ENT Website <em>(Frontend + Vue).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a EEPIS NEWS and Network Team Website <em>(Frontend + React).</em></li>
                             </ul>
                         </div>
-                        <!-- <div class="resume-item ">
-                            <h4 style="color: #ffffff; font-family: 'font-exp'; ">Freelance Game Programmer</u>
-                            </h4>
-                            <em style="color: #ffffff; font-family: 'font-content'; ">Oktober 2021 - Desember 2021</em>
-                            <ul style="font-family: 'font-content'; ">
-                                <li>Tugas & Pekerjaan:</li>
-                                <li>&middot; Membuat UI Game FairyTale(Figma).</li>
-                                <li>&middot; Membuat Animation Game FairyTale (Blender).</li>
-                                <li>&middot; Membuat Script Program Skill Attack / Third Person Controller(C#).</li>
-                                <li>&middot; Membangun Aplikasi Game FairyTale (UNITY).</li>
-                                <li>&middot; Membangun Aplikasi Game Pentolf (UNITY).</li>
-                            </ul>
-                        </div> -->
+
                         <div class="resume-item ">
-                            <h4 style="color: #ffffff; font-family: 'font-exp'; ">Freelance Web Programmer</u>
-                            </h4>
-                            <em style="color: #ffffff; font-family: 'font-content'; ">Januari 2021 - Agustus 2022</em>
-                            <ul style="font-family: 'font-content'; ">
-                                <li>Tugas & Pekerjaan:</li>
-                                <li>&middot; Membangun Aplikasi Laundry(Laravel, HTML/CSS, Ajax , Jquery, MySql).</li>
-                                <li>&middot; Membangun Aplikasi Voting Pramuka(Laravel, HTML/CSS, Ajax , Jquery, MySql).</li>
-                                <li>&middot; Membangun Aplikasi Tiket Kereta (Java NetBeans, MysQL).</li>
-                                <li>&middot; Membangun Aplikasi Kasir Cafe (CodeIgniter, HTML/CSS, MySql).</li>
-                                <li>&middot; Membangun Aplikasi Anti Bullying (Laravel, HTML/CSS, Jquery, Ajax) .</li>
-                                <li>&middot; Membangun Web Tefa (HTML/CSS, Bootstrap, Javascript).</li>
-                                <li>&middot; Membangun Web CorakRaya (HTML/CSS, Bootstrap, Javascript).</li>
-                                <li>&middot; Membangun Aplikasi Self Order Fast Food (Laravel, HTML/CSS, Bootstrap, Ajax , Jquery, MySql).</li>
+                            <p style=" font-family: 'font-exp'; font-size: 20px; color: #A5A7A9;" >FREELANCE WEBSITE DEVELOPER</u>
+                            </p>
+                            <em style=" font-family: 'font-content'; font-size: 14px;">January 2021 - August 2022</em>
+                            <ul style="font-family: 'font-content'; padding-top: 10px;">
+                                <li style="font-size: 14px;">Job Description:</li>
+                                <li style="font-size: 14px;">&middot; Creating a Laundry Website <em>(Fullstack + Laravel).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a Scout Voting Website <em>(Fullstack + Laravel).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a Train Ticket Application <em>(Java NetBeans).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a Cafe Cashier Website <em>(Fullstack + CodeIgnit</em>er).</li>
+                                <li style="font-size: 14px;">&middot; Creating an Anti-Bullying Website <em>(Fullstack + Laravel).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a Tefa Website <em>(HTML/CSS + Javascript).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a CorakRaya Website <em>(HTML/CSS + Javascript).</em></li>
+                                <li style="font-size: 14px;">&middot; Creating a Self-Order Fast Food Website <em>(Fullstack + Laravel).</em></li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item ">
+                            <p style=" font-family: 'font-exp';font-size: 20px;">GAME DEVELOPER INTERNSHIP</u>
+                            </p>
+                            <em style="font-weight: bold;  font-family: 'font-content'; font-size: 16px;"><a href="https://www.linkedin.com/company/game-for-education-and-cultural-heritage/" target="blank"><u>Game for Education and Cultural Heritage PENS</u></a></em>
+                            <p><em style=" font-family: 'font-content'; font-size: 14px;">August 2023 - December  2023</em></p>
+                            <ul style="font-family: 'font-content'; padding-top: 10px;">
+                                <li style="font-size: 14px;">Job Description:</li>
+                                <li style="font-size: 14px;">&middot; Creating a Save System.</li>
+                                <li style="font-size: 14px;">&middot; Creating a Health System.</li>
+                                <li style="font-size: 14px;">&middot; Creating a Enemy AI System.</li>
+                                <li style="font-size: 14px;">&middot; Creating a Movement Mechanics.</li>
+                            </ul>
+
+                            <br>
+
+                            <em style="font-weight: bold;  font-family: 'font-content'; font-size: 16px;"><a href="https://www.linkedin.com/company/bso-gt/" target="blank"><u>Badan Staf Otonom Game Technology PENS</u></a></em>
+                            <p><em style=" font-family: 'font-content'; font-size: 14px;">August 2023 - Now</em></p>
+                            <ul style="font-family: 'font-content'; padding-top: 10px;">
+                                <li style="font-size: 14px;">Job Description:</li>
+                                <li style="font-size: 14px;">&middot; Teaching Game Technology Students about UNITY.</li>
+                                <li style="font-size: 14px;">&middot; Teaching Game Technology Students about UNREAL.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item ">
+                            <p style=" font-family: 'font-exp'; font-size: 20px; color: #A5A7A9;" >GAME DEVELOPER MENTOR CONTRACT</u>
+                            </p>
+                            <em style="font-weight: bold;  font-family: 'font-content'; font-size: 16px;"><a href="https://www.linkedin.com/https://www.linkedin.com/company/sma-progresif-bumi-shalawat/" target="blank"><u>Progressive Bumi Shalawat High School Sidoarjo</u></a></em>
+                            <p><em style=" font-family: 'font-content'; font-size: 14px;">October 2024 - November 2024</em></p>
+                            <ul style="font-family: 'font-content'; padding-top: 10px;">
+                                <li style="font-size: 14px;">Job Description:</li>
+                                <li style="font-size: 14px;">&middot; Teaching Student About Game Development.</li>
+                                <li style="font-size: 14px;">&middot; Teaching Student About Game Design.</li>
+                                <li style="font-size: 14px;">&middot; Teaching Student About Game Artist.</li>
+                                <li style="font-size: 14px;">&middot; Teaching Student About Game Programmer.</li>
+                            </ul>
+                            <br>
+                            <em style="font-weight: bold;  font-family: 'font-content'; font-size: 16px;"><a href="https://www.instagram.com/smkn12surabaya/" target="blank"><u>Surabaya State Vocational High School 12</u></a></em>
+                            <p><em style=" font-family: 'font-content'; font-size: 14px;">October 2024 - November 2024</em></p>
+                            <ul style="font-family: 'font-content'; padding-top: 10px;">
+                                <li style="font-size: 14px;">Job Description:</li>
+                                <li style="font-size: 14px;">&middot; Teach interns About VR Games.</li>
+                                <li style="font-size: 14px;">&middot; Teach interns About Game Design.</li>
+                                <li style="font-size: 14px;">&middot; Teach interns About Game Programmer.</li>
                             </ul>
                         </div>
                     </div>
@@ -404,12 +492,12 @@
 
 
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio section-bg ">
+        <section id="gameport" class="portfolio section-bg ">
             <div class="container ">
                 <div class="section-title ">
                     <h2 style="color: #149DDD;">Portfolio</h2>
                     <hr>
-                    <b style=" font-size: 15px; font-family: 'font-content'; "> Projects Game</b>
+                    <b style=" font-size: 20px; font-family: 'font-content'; ">Game Projects</b>
                 </div>
 
                 <div class="row portfolio-container" data-aos="fade-up " data-aos-delay="100 ">
@@ -422,7 +510,7 @@
                          <a href="fairytale.html" class="texthover" >
                             <div class="col-md-6 portfolio-item">
                                 <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                    <img src="assets/img/category/game/fairy/fairy1.png"
+                                    <img src="assets/img/category/game/fairy/fairy2.png"
                                         style="object-position: left; width: 100%; border-radius: 20px;"
                                         class="card-img-top" alt="game">
                                     <div class="card-body my-2">
@@ -436,7 +524,7 @@
                          <a href="sesat.html" class="texthover" >
                             <div class="col-md-6 portfolio-item">
                                 <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                    <img src="assets/img/category/game/sesat/sesat.png"
+                                    <img src="assets/img/category/game/sesat/sesat1.png"
                                         style="object-position: left; width: 100%; border-radius: 20px;"
                                         class="card-img-top" alt="game">
                                     <div class="card-body my-2">
@@ -449,7 +537,7 @@
                         <a href="pentolf.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                <img src="assets/img/category/game/pentol/pentol.png"
+                                <img src="assets/img/category/game/pentolf/pentolf2.png"
                                     style=" object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game">
                                 <div class="card-body my-2">
@@ -462,7 +550,7 @@
                         <a href="gerilya.html" class="texthover" >
                             <div class="col-md-6 portfolio-item">
                                 <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                    <img src="assets/img/category/game/geril/geril.png"
+                                    <img src="assets/img/category/game/geril/gerilya2.png"
                                         style="object-position: left; width: 100%; border-radius: 20px;"
                                         class="card-img-top" alt="game Finding Fungus">
                                     <div class="card-body my-2">
@@ -482,7 +570,7 @@
                         <a href="yufo.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                <img src="assets/img/category/game/yufo/yufo.png"
+                                <img src="assets/img/category/game/yufo/yufo3.png"
                                     style=" object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game">
                                 <div class="card-body my-2">
@@ -497,7 +585,7 @@
                         <a href="mememory.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                <img src="assets/img/category/game/meme/meme.png"
+                                <img src="assets/img/category/game/meme/meme2.png"
                                     style="object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game MEMEMORY">
                                 <div class="card-body my-2">
@@ -512,7 +600,7 @@
                         <a href="findingfungus.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                <img src="assets/img/category/game/fungus/fungus3.png"
+                                <img src="assets/img/category/game/fungus/fungus2.png"
                                     style="object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game Finding Fungus">
                                 <div class="card-body my-2">
@@ -532,7 +620,7 @@
                         <a href="lontong.html" class="texthover" >
                         <div class="col-md-6 portfolio-item">
                             <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                <img src="assets/img/category/game/lontong/lontong.png"
+                                <img src="assets/img/category/game/lontong/lontong2.png"
                                     style="object-position: left; width: 100%; border-radius: 20px;"
                                     class="card-img-top" alt="game Finding Fungus">
                                 <div class="card-body my-2">
@@ -552,7 +640,7 @@
                         <a href="space.html" class="texthover" >
                             <div class="col-md-6 portfolio-item">
                                 <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                    <img src="assets/img/category/game/space/space.png"
+                                    <img src="assets/img/category/game/space/space2.png"
                                         style="object-position: left; width: 100%; border-radius: 20px;"
                                         class="card-img-top" alt="game Finding Fungus">
                                     <div class="card-body my-2">
@@ -569,10 +657,10 @@
                             </div>
                         </a>
                         
-                        <a href="project.html" class="texthover" >
+                        <a href="white.html" class="texthover" >
                             <div class="col-md-6 portfolio-item">
                                 <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                    <img src="assets/img/category/game/white/white.png"
+                                    <img src="assets/img/category/game/white/white2.png"
                                         style="object-position: left; width: 100%; border-radius: 20px;"
                                         class="card-img-top" alt="game Finding Fungus">
                                     <div class="card-body my-2">
@@ -592,7 +680,7 @@
                         <a href="aventala.html" class="texthover" >
                             <div class="col-md-6 portfolio-item">
                                 <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%; border-radius: 20px;">
-                                    <img src="assets/img/category/game/aventala/aventala.png"
+                                    <img src="assets/img/category/game/ecosity/ecosity2.png"
                                         style="object-position: left; width: 100%; border-radius: 20px;"
                                         class="card-img-top" alt="game Finding Fungus">
                                     <div class="card-body my-2">
@@ -613,13 +701,53 @@
                         <a href="ecosity.html" class="texthover" >
                             <div class="col-md-6 portfolio-item">
                                 <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%;">
-                                    <img src="assets/img/category/game/ecosity/ecosity.png"
+                                    <img src="assets/img/category/game/ecosity/ecosity2.png"
                                         style="object-position: left; width: 100%;"
                                         class="card-img-top" alt="game Finding Fungus">
                                     <div class="card-body my-2">
                                         <label style="font-size: 20px; font-family: 'font-content';">ECOSITY : New Dawn On Mars</label>
                                         <!-- <p>
-                                            <label style="font-size: 1rem; font-family: 'font-port';">(RESEARCH VIRTUAL ASSISTANT)</label>
+                                            <label style="font-size: 20px; font-family: 'font-content';">(RESEARCH VIRTUAL ASSISTANT)</label>
+                                        </p>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#gameAIModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>-->
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- <a href="ecosity.html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%;">
+                                    <img src="assets/img/category/game/ecosity/ecosity2.png"
+                                        style="object-position: left; width: 100%;"
+                                        class="card-img-top" alt="game Finding Fungus">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">Fisherman Manager</label>
+                                        <p>
+                                            <label style="font-size: 20px; font-family: 'font-content';">(RESEARCH VIRTUAL ASSISTANT)</label>
+                                        </p>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#gameAIModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </a> -->
+                        
+                        <a href="   .html" class="texthover" >
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1 cardwhite" style="background-color: #0D3C52;width: 100%;">
+                                    <img src="assets/img/category/game/ecosity/ecosity2.png"
+                                        style="object-position: left; width: 100%;"
+                                        class="card-img-top" alt="game Finding Fungus">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content';">VR Game : Kisah Kadet Soewoko</label>
+                                        <!-- <p>
+                                            <label style="font-size: 20px; font-family: 'font-content';">(RESEARCH VIRTUAL ASSISTANT)</label>
                                         </p>
                                         <hr>
                                         <a href="#" data-toggle="modal" data-target="#gameAIModal" class="btn btn-sm"
@@ -631,300 +759,443 @@
                         </a>
                         
 
-                        
-
                     </center>
                 </div>
 
                 <br>
                 <br>
-                <br><br>
-                <div class="section-title ">
-                    <b style=" font-size: 15px; font-family: 'font-content'; ">&middot; Projects Web</b>
+                <br>
+                <br>
+
+                <div class="section-title" id="websiteport">   
+                    <b style=" font-size: 20px; font-family: 'font-content'; ">Website Projects</b>
                 </div>
+
 
                 <div style="height: 500px;"class="row portfolio-container" data-aos="fade-up " data-aos-delay="100 ">
 
                     <center>
                         <!-- background-color: #0f4c75;  -->
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: white;">
-                                <img src="assets/img/category//corak/corak.png"
-                                    style="object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="corak">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">Corak Raya</label>
-                                    <div class="my-2">
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery
-                                            </span>
-                                    </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#corakModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a> |
-                                    <a href="https://corakraya.herokuapp.com" class="btn btn-sm"
-                                        style="background-color: #ff4646; color: white;" title="Code"><i
-                                            class="fa fa-code"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//genre/genre.png"
-                                    style="object-position: left; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="genre">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';"> 
-                                        GenRe Class
-                                    </label>
-                                    <div class="my-2">
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Django</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">HTML</span>
+                        <a href="" class="texthoverweb" data-toggle="modal" data-target="#corakModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/corak/corak.png"
+                                        style="object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="corak">
+                                    <div class="card-body my-2">
+                                        <label  style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Corak Raya</label>
+                                        <!-- <div class="my-2">
                                             <span class="badge badge-light mt-2"
-                                            style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">CSS</span>
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery
+                                                </span>
+                                        </div> -->
+                                        <!-- <a href="#" data-toggle="modal" data-target="#corakModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> |
+                                        <a href="https://corakraya.herokuapp.com" class="btn btn-sm"
+                                            style="background-color: #ff4646; color: white;" title="Code"><i
+                                                class="fa fa-code"></i></a> -->
                                     </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#genreModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a> 
-                                    <!-- <a href="https://genreclass.herokuapp.com/" class="btn btn-sm"
-                                    style="background-color: #ff4646; color: white;" title="Code"><i
-                                        class="fa fa-code"></i></a> -->
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="texthoverweb" data-toggle="modal" data-target="#mediaModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/corak/corak.png"
+                                        style="object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="corak">
+                                    <div class="card-body my-2">
+                                        <label  style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Media ENT</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery
+                                                </span>
+                                        </div> -->
+                                        <!-- <a href="#" data-toggle="modal" data-target="#corakModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> |
+                                        <a href="https://corakraya.herokuapp.com" class="btn btn-sm"
+                                            style="background-color: #ff4646; color: white;" title="Code"><i
+                                                class="fa fa-code"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="texthoverweb" data-toggle="modal" data-target="#entModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/corak/corak.png"
+                                        style="object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="corak">
+                                    <div class="card-body my-2">
+                                        <label  style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">ENT Website</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery
+                                                </span>
+                                        </div> -->
+                                        <!-- <a href="#" data-toggle="modal" data-target="#corakModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> |
+                                        <a href="https://corakraya.herokuapp.com" class="btn btn-sm"
+                                            style="background-color: #ff4646; color: white;" title="Code"><i
+                                                class="fa fa-code"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="texthoverweb" data-toggle="modal" data-target="#cirtModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/corak/corak.png"
+                                        style="object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="corak">
+                                    <div class="card-body my-2">
+                                        <label  style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Cyber Incident Response Team PENS</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery
+                                                </span>
+                                        </div> -->
+                                        <!-- <a href="#" data-toggle="modal" data-target="#corakModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> |
+                                        <a href="https://corakraya.herokuapp.com" class="btn btn-sm"
+                                            style="background-color: #ff4646; color: white;" title="Code"><i
+                                                class="fa fa-code"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="texthoverweb" data-toggle="modal" data-target="#portModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/corak/corak.png"
+                                        style="object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="corak">
+                                    <div class="card-body my-2">
+                                        <label  style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Web Portfolio</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery
+                                                </span>
+                                        </div> -->
+                                        <!-- <a href="#" data-toggle="modal" data-target="#corakModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> |
+                                        <a href="https://corakraya.herokuapp.com" class="btn btn-sm"
+                                            style="background-color: #ff4646; color: white;" title="Code"><i
+                                                class="fa fa-code"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//warrior/warrior.png"
-                                    style=" object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="Tefa">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">The Warriors</label>
-                                    <div class="my-2">
+                        <a href="" class="texthoverweb" data-toggle="modal" data-target="#warriorModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/warrior/warrior.png"
+                                        style=" object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="Tefa">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">The Warriors</label>
+                                        <!--<div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
                                         <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
-                                       <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
 
+                                        </div>
+                                        <hr> -->
+                                        <!-- <a href="#" data-toggle="modal" data-target="#warriorModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>  -->
                                     </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#warriorModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a> 
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//ent/ent.png"
-                                    style=" object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">ENT - CAFE</label>
-                                    <div class="my-2">
+                        <a class="texthoverweb" data-toggle="modal" data-target="#entModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/ent/ent.png"
+                                        style=" object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">ENT - CAFE</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">PHP</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
                                         <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">PHP</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
-                                       <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
 
+                                        </div> -->
+                                        <!-- <hr>
+                                        <a href="#" data-toggle="modal" data-target="#entModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>  -->
                                     </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#entModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a> 
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//resep/resep.png"
-                                    style=" object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="Tefa">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">Resep Makanan</label>
-                                    <div class="my-2">
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Django</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
-                                       <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
 
+
+                        <a class="texthoverweb" data-toggle="modal" data-target="#cafeModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/cafe/cafe.png"
+                                        style=" object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="cafe Auth">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Kasir Cafe</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">CI 3</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 90px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Jquery</span>
+                                        </div>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#cafeModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> -->
                                     </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#resepModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a> 
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//cafe/cafe.png"
-                                    style=" object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="cafe Auth">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">Kasir Cafe</label>
-                                    <div class="my-2">
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">CI 3</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 90px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Jquery</span>
+                        </a>
+
+                        <a class="texthoverweb" data-toggle="modal" data-target="#selfModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/self/self.png"
+                                        style=" object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="laundry">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Self Order Fast Food</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Laravel</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 80px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Mysql</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">CSS</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery</span>
+                                        </div>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#selfModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> -->
                                     </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#cafeModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//self/self.png"
-                                    style=" object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="laundry">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">Self Order Fast Food</label>
-                                    <div class="my-2">
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Laravel</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 80px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Mysql</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">CSS</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery</span>
-                                    </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#selfModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
+                        </a>
+
+                        <a class="texthoverweb" data-toggle="modal" data-target="#selfModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/laundry/laundry.png"
+                                        style=" object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="laundry">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Laundry</label>
+                                        <!--<div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Ci3</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 80px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Mysql</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">CSS</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery</span>
+                                        </div>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#laundryModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>-->
+                                    </div> 
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//laundry/laundry.png"
-                                    style=" object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="laundry">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">Laundry</label>
-                                    <div class="my-2">
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Ci3</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 80px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Mysql</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">CSS</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery</span>
+                        </a>
+
+                        <a class="texthoverweb" data-toggle="modal" data-target="#tefaModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/tefa/tefa.png"
+                                        style=" object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="Tefa">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Tefa</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery
+                                                </span>
+                                        </div>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#tefaModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> |
+                                        <a href="https://tefa-smkn1boyolangu.herokuapp.com" class="btn btn-sm"
+                                            style="background-color: #ff4646; color: white;" title="Code"><i
+                                                class="fa fa-code"></i></a> -->
                                     </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#laundryModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//tefa/tefa.png"
-                                    style=" object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="Tefa">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">Tefa</label>
-                                    <div class="my-2">
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">jQuery
-                                            </span>
-                                    </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#tefaModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a> |
-                                    <a href="https://tefa-smkn1boyolangu.herokuapp.com" class="btn btn-sm"
+                        </a>
+
+                        <a href="" class="texthoverweb" data-toggle="modal" data-target="#genreModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/genre/genre.png"
+                                        style="object-position: left; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="genre">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;"> 
+                                            GenRe Class
+                                        </label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Django</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">HTML</span>
+                                                <span class="badge badge-light mt-2"
+                                                style="width: 30px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">CSS</span>
+                                        </div>
+                                        <hr> -->
+                                        <!-- <a href="#" data-toggle="modal" data-target="#genreModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>  -->
+                                        <!-- <a href="https://genreclass.herokuapp.com/" class="btn btn-sm"
                                         style="background-color: #ff4646; color: white;" title="Code"><i
-                                            class="fa fa-code"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                                            class="fa fa-code"></i></a> -->
 
-                        <div class="col-md-6 portfolio-item">
-                            <div class="card p-1"
-                                style="width: 100%; background: linear-gradient(#1e3c72, #2a5298);">
-                                <img src="assets/img/category//voting/voting.png"
-                                    style=" object-position: top; width: 100%; object-fit: cover;"
-                                    class="card-img-top" alt="voting">
-                                <div class="card-body my-2">
-                                    <label style="font-size: 1rem; font-family: 'font-port';">Web Profile Pramuka & Voting</label>
-                                    <div class="my-2">
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Django
-                                        </span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
-                                        <span class="badge badge-light mt-2"
-                                            style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
                                     </div>
-                                    <hr>
-                                    <a href="#" data-toggle="modal" data-target="#votingModal" class="btn btn-sm"
-                                        style="background-color: #00af91; color: white;" title="Detail"><i
-                                            class="far fa-eye"></i></a>
                                 </div>
                             </div>
-                        </div>
+                        </a>
+                        <a class="texthoverweb" data-toggle="modal" data-target="#votingModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/voting/voting.png"
+                                        style=" object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="voting">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Web Profile Pramuka & Voting</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 85px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Django
+                                            </span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
+                                        </div>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#votingModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="texthoverweb" data-toggle="modal" data-target="#resepModal">
+                            <div class="col-md-6 portfolio-item">
+                                <div class="card p-1"
+                                    style="width: 100%; background: #A5A7A9;">
+                                    <img src="assets/img/category/website/resep/resep.png"
+                                        style=" object-position: top; width: 100%; object-fit: cover;"
+                                        class="card-img-top" alt="Tefa">
+                                    <div class="card-body my-2">
+                                        <label style="font-size: 20px; font-family: 'font-content'; font-weight: bold;">Resep Makanan</label>
+                                        <!-- <div class="my-2">
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Django</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 60px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Html</span>
+                                            <span class="badge badge-light mt-2"
+                                                style="width: 50px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Css</span>
+                                        <span class="badge badge-light mt-2"
+                                                style="width: 75px; height: 20px; font-size: 0.7rem; color: blue; font-family: 'font-content'">Bootstrap</span>
 
+                                        </div>
+                                        <hr>
+                                        <a href="#" data-toggle="modal" data-target="#resepModal" class="btn btn-sm"
+                                            style="background-color: #00af91; color: white;" title="Detail"><i
+                                                class="far fa-eye"></i></a>  -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
                     </center>
                 </div>
@@ -938,54 +1209,53 @@
             <div class="container ">
 
                 <div class="section-title ">
-                    <h2 style="color: #ffffff; ">Kontak</h2>
+                    <h2 style="color: #149DDD;">Contact</h2>
                 </div>
 
                 <div class="row" data-aos="fade-in ">
 
                     <div class="col-lg-12 d-flex align-items-stretch ">
-                        <div class="info " style="background-color: #040b14 ">
+                        <div class="info" style="background-color: #0C1623;">
                             <!-- <div class="address ">
                                 <i class="icofont-google-map "></i>
-                                <h4 style="color: #ffffff; ">Alamat</h4>
-                                <p style="color: #ffffff; font-family: 'font-content'; ">Jln. I Gusti Ngurah Rai Gg GKJW No.3 RT.01/RW.01, Kecamatan Tulungagung, Kabupaten Tulungagung</p>
+                                <h4>Alamat</h4>
+                                <p style=" font-family: 'font-content'; ">Jln. I Gusti Ngurah Rai Gg GKJW No.3 RT.01/RW.01, Kecamatan Tulungagung, Kabupaten Tulungagung</p>
                             </div> -->
 
                             <div class="email ">
                                 <i class="icofont-envelope "></i>
-                                <h4 style="color: #ffffff; ">Email</h4>
-                                <p style="color: #ffffff; font-family: 'font-content'; ">alfianaditya730@gmail.com</p>
-                            </div>
-
-                            <div class="phone ">
-                                <i class="icofont-phone "></i>
-                                <h4 style="color: #ffffff; ">Ponsel</h4>
-                                <p style="color: #ffffff; font-family: 'font-content'; ">08989896204 (Whatsapp /
-                                    Seluler)</p>
-                            </div>
-
-                            <div class="address ">
-                                <i class="icofont-telegram "></i>
-                                <h4 style="color: #ffffff; ">Telegram</h4>
-                                <p style="color: #ffffff; font-family: 'font-content'; ">
-                                    <a href="https://t.me/Alfianditya/ ">https://t.me/Alfianditya/</a>
-                                </p>
+                                <h4 style="color: #A5A7A9; font-family: font-desc;">Email</h4>
+                                <p style=" font-family: 'font-content'; "><a target="blank" href="mailto:alfianaditya730@gmail.com">alfianaditya730@gmail.com</a></p>
                             </div>
 
                             <div class="address ">
                                 <i class="icofont-github "></i>
-                                <h4 style="color: #ffffff; ">Github</h4>
-                                <p style="color: #ffffff; font-family: 'font-content'; ">
-                                    <a href="https://github.com/AlfianAditya">https://github.com/AlfianAditya</a>
+                                <h4 style="color: #A5A7A9; font-family: font-desc;">Github</h4>
+                                <p style=" font-family: 'font-content'; ">
+                                    <a target="blank" href="https://github.com/AlfianAditya">https://github.com/AlfianAditya</a>
                                 </p>
+                            </div>
+
+                            <div class="phone ">
+                                <i class="icofont-phone "></i>
+                                <h4 style="color: #A5A7A9; font-family: font-desc;">Phone Number</h4>
+                                <p style=" font-family: 'font-content'; "><a target="blank" href="https://wa.me/628989896204">+62 8989896204 (Whatsapp /
+                                    Phone Number)</a></p>
                             </div>
 
                             <div class="address ">
                                 <i class="icofont-instagram "></i>
-                                <h4 style="color: #ffffff; ">Instagram</h4>
-                                <p style="color: #ffffff; font-family: 'font-content'; ">
-                                    <a
-                                        href="https://www.instagram.com/alfiandty_/">https://www.instagram.com/alfiandty_/</a>
+                                <h4 style="color: #A5A7A9; font-family: font-desc;">Instagram</h4>
+                                <p style=" font-family: 'font-content'; ">
+                                    <a target="blank" href="https://www.instagram.com/alfiandty_/">https://www.instagram.com/alfiandty_/</a>
+                                </p>
+                            </div>
+
+                            <div class="address ">
+                                <i class="icofont-telegram "></i>
+                                <h4 style="color: #A5A7A9; font-family: font-desc;">Telegram</h4>
+                                <p style=" font-family: 'font-content'; ">
+                                    <a target="blank" href="https://t.me/Alfianditya/ ">https://t.me/Alfianditya/</a>
                                 </p>
                             </div>
                         </div>
@@ -1002,7 +1272,7 @@
     </main>
     <footer>
         <div class="text-secondary text-center offset-0">
-            <b style="text-decoration: none; color: white; font-family: 'font-desc'; ">Copyright &copy; 2021 Alfian Aditya
+            <b style="text-decoration: none; font-family: 'font-desc'; font-size: 18px;">Copyright &copy; 2024 Alfian Aditya
                 Kurniawan</b>
         </div>
     </footer>
@@ -1022,7 +1292,7 @@
                 <hr>
                 <div class="modal-body my-2" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//laundry/img.png"
+                        <img src="assets/img/category/website/laundry/img.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="laundry">
                     </div>
@@ -1057,7 +1327,7 @@
                 <hr>
                 <div class="modal-body my-2" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//self/self2.png"
+                        <img src="assets/img/category/website/self/self2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="Self">
                     </div>
@@ -1093,7 +1363,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//tefa/tefa.png"
+                        <img src="assets/img/category/website/tefa/tefa.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="tefa">
                     </div>
@@ -1129,7 +1399,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//voting/voting.png"
+                        <img src="assets/img/category/website/voting/voting.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="voting">
                     </div>
@@ -1166,7 +1436,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//corak/corak.png"
+                        <img src="assets/img/category/website/corak/corak.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="corak">
                     </div>
@@ -1204,7 +1474,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//ent/ent2.png"
+                        <img src="assets/img/category/website/ent/ent2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="">
                     </div>
@@ -1240,7 +1510,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//warrior/warrior2.png"
+                        <img src="assets/img/category/website/warrior/warrior2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="tefa">
                     </div>
@@ -1276,7 +1546,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//resep/resep.png"
+                        <img src="assets/img/category/website/resep/resep.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="tefa">
                     </div>
@@ -1313,7 +1583,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//cafe/cafe2.png"
+                        <img src="assets/img/category/website/cafe/cafe2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="cafe">
                     </div>
@@ -1349,7 +1619,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//genre/genre.png"
+                        <img src="assets/img/category/website/genre/genre.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="genre">
                     </div>
@@ -1384,7 +1654,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//game/game.png"
+                        <img src="assets/img/category/website/game/game.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="klinik">
                     </div>
@@ -1440,7 +1710,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//pentol/pentol2.png"
+                        <img src="assets/img/category/website/pentol/pentol2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="klinik">
                     </div>
@@ -1495,7 +1765,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//yufo/yufo2.png"
+                        <img src="assets/img/category/website/yufo/yufo2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="klinik">
                     </div>
@@ -1551,7 +1821,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//sesat/sesat2.png"
+                        <img src="assets/img/category/website/sesat/sesat2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="klinik">
                     </div>
@@ -1609,7 +1879,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//meme/meme2.png"
+                        <img src="assets/img/category/website/meme/meme2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="meme">
                     </div>
@@ -1667,7 +1937,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//geril/geril2.png"
+                        <img src="assets/img/category/website/geril/geril2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="Fungus">
                     </div>
@@ -1724,7 +1994,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//fungus/fungus2.png"
+                        <img src="assets/img/category/website/fungus/fungus2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="Fungus">
                     </div>
@@ -1781,7 +2051,7 @@
                 <hr>
                 <div class="modal-body" id="modal-body">
                     <div class="owl-carousel portfolio-details-carousel">
-                        <img src="assets/img/category//var/ai2.png"
+                        <img src="assets/img/category/website/var/ai2.png"
                             style="width: 100%; object-fit: cover; object-position: top left;"
                             alt="Fungus">
                     </div>

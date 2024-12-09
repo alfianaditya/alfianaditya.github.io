@@ -105,7 +105,7 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-    color: #fff;
+    color:#A5A7A9;
     text-decoration: none;
 }
 
@@ -779,7 +779,7 @@ section {
     margin-left: 80px;
     font-weight: 700;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .services .title a {
@@ -793,7 +793,7 @@ section {
 .services .description {
     margin-left: 80px;
     line-height: 24px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 
