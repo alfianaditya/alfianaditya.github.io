@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Bridge Simulator</title>
+    <meta content="a website made with all my heart & love" name="description">
+    <meta content="a website made with all my heart & love" name="keywords">
+
+     <!-- Favicons -->
+     <link href="assets/img/icon.png" rel="icon">
+
+     <!-- Google Fonts -->
+     <link
+         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+         rel="stylesheet">
+ 
+     <!-- Vendor CSS Files -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+     <!-- <link href="assets/vendor/venobox/venobox.css" rel="stylesheet"> -->
+     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+     <link rel="stylesheet" media="screen" href="css/style.css">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+ 
+     <!-- Main CSS File -->
+     <link href="assets/css/style.css" rel="stylesheet">
+     <link href="css/index.css" rel="stylesheet">
+     <style>
+         footer {
+             width: 100%;
+             background-color: #0C1623;
+             height: 50px;
+             padding: 10px;
+         }
+ 
+         .preloader {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             z-index: 9999;
+             background-color: #fff;
+         }
+ 
+         .preloader .loading {
+             position: absolute;
+             left: 50%;
+             top: 50%;
+             transform: translate(-50%, -50%);
+             font: 14px arial;
+         }
+         .texthover {
+             color: #A5A7A9;
+             font-weight: bold;
+             text-decoration: none;
+             .cardwhite {
+                 background-color: white;
+             }
+         }
+         .texthover:hover {
+             color: white;
+             text-decoration: none;
+             .cardwhite {
+                 background-color: #134675;
+             }
+         }   
+         .ron {
+             border-radius: 2px;
+         }
+
+         .p-desc{
+            text-indent: 0.5in; 
+            font-size: 20px; 
+            font-family: 'poppins'; 
+            font-weight:lighter;
+            word-spacing: 2px;
+            text-align: justify;
+         }
+
+
+         .p-info{
+            font-size: 20px; 
+            font-family: 'poppins'; 
+            font-weight:lighter;
+            word-spacing: 2px;
+            text-align: justify;
+         }
+     </style>
+ 
+     <script src="assets/vendor/jquery/jquery.min.js "></script>
+
+</head>
+<body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="d-flex flex-column" style="padding-top: 50px;">
+
+            <div class="profile">
+                <img src="assets/img/ian.jpeg" style="object-fit: cover;" alt="" class="img-fluid rounded-circle">
+                <h1 class="text-light" style="font-family: 'font-my-name';"><a href="index.html">Alfian Aditya</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a href="https://wa.me/+628989896204" class="instagram"><i class="bx bxl-whatsapp"></i></a>
+                    <a href="https://t.me/Alfianditya/" class="twitter"><i class="bx bxl-telegram"></i></a>
+                    <a href="https://github.com/AlfianAditya" class="google-plus"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.instagram.com/alfiandty_/" class="google-plus"><i class="bx bxl-instagram"></i></a>
+                </div>
+                <nav class="nav-menu">
+                    <ul style="font-family: 'font-sidebar';">
+                        <li class="active"><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="#gambar"><span>Description</span></a></li>
+                        <li><a href="#Story"><span>Story</span></a></li>
+                        <li><a href="#jobdesc"><span>Job Description</span></a></li>
+                        <li><a href="#GameEngine">Play the Game!</a></li>
+                    </ul>
+                </nav>
+                <!-- .nav-menu -->
+                <button type="button" class="mobile-nav-toggle d-xl-none"><i
+                        class="icofont-navigation-menu"></i></button>
+
+            </div>
+    </header>
+    <main id="main" style="background-color: #0C1623; color: #A5A7A9;">
+
+        <!-- ======= About Section ======= -->
+        <section id="gambar" class="about">
+            <div class="container">
+
+                <div class="section-title" >
+                    <h2 style="color: #A5A7A9; font-family: poppins; text-align: center;">Roblox : Bridge Simulator</h2>
+                    <div class="row mb-5" style="display: flex;">
+                        <div class="col-lg-8" >
+                            <img src="assets/img/category/game/bridge/bridge4.png" class="img-fluid" style="border-radius: 30px;" alt="">
+                        </div>
+
+                        <div class="col-lg-4 pt-4 pt-lg-0 content ci">
+                                <img src="assets/img/category/game/bridge/bridge2.png" class="img-fluid imeg" style="border-radius: 30px;" alt="">
+
+                                <img src="assets/img/category/game/bridge/bridge7.png" class="img-fluid imeg" style="border-radius: 30px;" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+
+
+        <!-- ======= experience Section ======= -->
+        <section id="deskripsi" class="resume ">
+            <div class="container">
+                <div>
+                    <h2 class="h2-title">Description</h2>
+                    <div >              
+                        <p class="p-desc">
+                            Bridge Simulator is the first game I created using Roblox Studio, completed within 2 days. In this game, players must build a bridge to escape the island before time runs out or the water level rises. This project marked my first experience exploring the Roblox platform and understanding its basic development tools.
+                        </p>
+                    </div>
+
+
+                    <h2 id="Story" class="h2-title" style="padding-top: 100px;" >Story</h2>
+                    <div >              
+                        <p class="p-desc">
+                            Players are trapped on an island and must cross to another island before time runs out or the water level rises and submerges the island.
+                        </p>
+                    </div>
+
+                    <h2 id="jobdesc" class="h2-title" style="padding-top: 100px;" >Job description</h2>
+                    <div >              
+                        <p class="p-desc">
+                            As the programmer, this was my first time using Roblox Studio and learning the Lua programming language. I gained valuable knowledge about this new engine and successfully implemented various mechanics, including chopping trees, collecting items, building bridges, tree respawn, inventory systems, UI systems, and win and lose conditions.
+                        </p>
+                    </div>
+
+                    <div style="padding-top: 100px;">
+                        <div class="content-wrapmekanik">
+                            <div class="list-mekanik" >
+                                <img style="width: 100%; border-radius: 30px;"
+                                src="assets/img/category/game/bridge/bridge4.png" 
+                                alt="">
+
+                                <div style="background-color: #0D3C52; border-radius: 30px; margin-top: -50px; position: relative;">
+                                    <div style="padding: 25px 20px;">
+                                        <h2 class="h2-title" style="text-align: center;">
+                                            Tree Chopping
+                                        </h2>
+                                        <p class="p-desc-content">
+                                            Allows players to chop down trees to gather wood as a resource for building bridges.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="list-mekanik" >
+                                <img style="width: 100%; border-radius: 30px;"
+                                src="assets/img/category/game/bridge/bridge5.png" 
+                                alt="">
+
+                                <div style="background-color: #0D3C52; border-radius: 30px; margin-top: -50px; position: relative;">
+                                    <div style="padding: 25px 20px;">
+                                        <h2 class="h2-title" style="text-align: center;">
+                                            Item Collection
+                                        </h2>
+                                        <p class="p-desc-content">
+                                            Players can pick up resources and items needed to progress in the game.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="list-mekanik" >
+                                <img style="width: 100%; border-radius: 30px;"
+                                src="assets/img/category/game/bridge/bridge6.png" 
+                                alt="">
+
+                                <div style="background-color: #0D3C52; border-radius: 30px; margin-top: -50px; position: relative;">
+                                    <div style="padding: 25px 20px;">
+                                        <h2 class="h2-title" style="text-align: center;">
+                                            Bridge Building
+                                        </h2>
+                                        <p class="p-desc-content">
+                                            Enables players to use collected resources to construct a bridge to escape the island.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="list-mekanik" >
+                                <img style="width: 100%; border-radius: 30px;"
+                                src="assets/img/category/game/bridge/bridge7.png" 
+                                alt="">
+
+                                <div style="background-color: #0D3C52; border-radius: 30px; margin-top: -50px; position: relative;">
+                                    <div style="padding: 25px 20px;">
+                                        <h2 class="h2-title" style="text-align: center;">
+                                            Tree Respawn
+                                        </h2>
+                                        <p class="p-desc-content">
+                                            Chopped-down trees regenerate after a set time, ensuring a continuous supply of resources.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="list-mekanik" >
+                                <img style="width: 100%; border-radius: 30px;"
+                                src="assets/img/category/game/bridge/bridge8.png" 
+                                alt="">
+
+                                <div style="background-color: #0D3C52; border-radius: 30px; margin-top: -50px; position: relative;">
+                                    <div style="padding: 25px 20px;">
+                                        <h2 class="h2-title" style="text-align: center;">
+                                            Inventory System
+                                        </h2>
+                                        <p class="p-desc-content">
+                                            Stores items collected by players and displays the resources they have gathered.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="list-mekanik" >
+                                <img style="width: 100%; border-radius: 30px;"
+                                src="assets/img/category/game/bridge/bridge9.png" 
+                                alt="">
+
+                                <div style="background-color: #0D3C52; border-radius: 30px; margin-top: -50px; position: relative;">
+                                    <div style="padding: 25px 20px;">
+                                        <h2 class="h2-title" style="text-align: center;">
+                                            UI System
+                                        </h2>
+                                        <p class="p-desc-content">
+                                            Displays bridge construction progress and inventory.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="list-mekanik" >
+                                <img style="width: 100%; border-radius: 30px;"
+                                src="assets/img/category/game/bridge/bridge10.png" 
+                                alt="">
+
+                                <div style="background-color: #0D3C52; border-radius: 30px; margin-top: -50px; position: relative;">
+                                    <div style="padding: 25px 20px;">
+                                        <h2 class="h2-title" style="text-align: center;">
+                                            Win/Lose Conditions
+                                        </h2>
+                                        <p class="p-desc-content">
+                                            Defines the objectives for winning (reaching the other island) and losing (time running out or water rising) with UI Panel.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div id="GameEngine" style="padding-top:100px;display: flex; ">
+                        <div style="width: 50%;">
+                            <h2 class="h2-title" >Game Engine</h2>
+                            <div >              
+                                <figure class="figure">
+                                    <img src="assets/img/fw/roblox.svg" style="width: 50px; height: 50px; object-fit: cover; "
+                                        class="figure-img img-fluid rounded " alt="... ">
+                                    <center><small style="font-family: 'font-content'; ">Roblox</small></center>
+                                </figure>
+                                <!-- <figure class="figure ml-2">
+                                    <img src="assets/img/fw/unreal.svg" style="width: 50px; height: 50px; object-fit: cover; "
+                                        class="figure-img img-fluid rounded " alt="... ">
+                                    <center><small style="font-family: 'font-content'; ">UNREAL</small></center>
+                                </figure> -->
+                                
+
+                            </div>
+
+                            <h2 class="h2-title"  style="padding-top: 15px;">Achievements</h2>
+                            <div >              
+                                <p class="p-info">
+                                    -
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style="width: 50%;">
+                            <h2 class="h2-title"  >Year</h2>
+                            <div >              
+                                <p class="p-info">
+                                    2024
+                                </p>
+                            </div>
+
+                            <h2 class="h2-title"   style="padding-top: 60px;">Publication Links</h2>
+                            <div >
+                                <p class="p-info">
+                                    <a class="texthover" href="https://bit.ly/GameBridgeSimulator" target="blank">
+                                        bit.ly/BridgeSimulator
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Resume Section -->
+
+
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+        
+
+    </main>
+
+    <a href="# " class="back-to-top "><i class="icofont-simple-up "></i></a>
+
+    <script>
+        $(document).ready(function () {
+            $(".preloader").delay(6000).fadeOut();
+        });
+        function myFunction() {
+        alert("Nyari ya wkwk... Maaf Aplikasi Sedang Dicarikan Foldernya, yang punya Game Designernya soalnya hehe.. ");
+        }
+    </script>
+    <!-- Vendor JS Files -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js "></script>
+    <script src="js/particles.js "></script>
+    <script src="js/app.js "></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js "></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js "></script>
+    <script src="assets/vendor/counterup/counterup.min.js "></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+    <script src="assets/vendor/venobox/venobox.min.js "></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js "></script>
+    <script src="assets/vendor/typed.js/typed.min.js "></script>
+    <script src="assets/vendor/aos/aos.js "></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js "></script>
+
+
+</body>
+</html>
