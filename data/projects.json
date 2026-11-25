@@ -186,7 +186,10 @@
       "Fuzzy Logic",
       "REST API"
     ],
-    "cover": null,
+    "cover": {
+      "src": "media/projects/red-life-ai-virtual-assistant/cover.webp",
+      "alt": "RED LIFE - the AI assistant LISA reporting vital systems to the player on a Mars landscape in Unreal Engine 5"
+    },
     "gallery": [],
     "links": [],
     "info": [],

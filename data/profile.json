@@ -208,7 +208,10 @@
           "Fuzzy Logic",
           "Python"
         ],
-        "cover": null,
+        "cover": {
+          "src": "media/projects/red-life-ai-virtual-assistant/cover.webp",
+          "alt": "RED LIFE AI assistant dialogue in Unreal Engine 5"
+        },
         "pageTitle": "AI virtual assistants",
         "pageText": "Intent classification, player-status models and assistant interfaces connected to real-time 3D applications.",
         "subcategories": [
