@@ -2,8 +2,12 @@
   "name": "Alfian Aditya Kurniawan",
   "shortName": "Alfian Aditya",
   "headline": "Software Engineer",
-  "specialties": ["Digital Twin", "Immersive Technology", "Full Stack Development"],
-  "intro": "I build interactive software for industry — Unity-based Digital Twins, VR safety training, and driving simulators — alongside full-stack web platforms and AI integrations.",
+  "specialties": [
+    "Digital Twin",
+    "Immersive Technology",
+    "Full Stack Development"
+  ],
+  "intro": "I'm Alfian Aditya Kurniawan, a software engineer in Surabaya. I build Unity-based Digital Twins, VR safety training and driving simulators, alongside full-stack web platforms and AI integrations.",
   "location": "Surabaya, Indonesia",
   "portrait": {
     "src": "media/profile/portrait.webp",
@@ -18,7 +22,7 @@
     "company": "FORTA Technology"
   },
   "about": {
-    "lead": "My work sits where real-time 3D, industrial operations and the web meet.",
+    "lead": "Real-time 3D, industrial operations and the web — that is where my work sits.",
     "paragraphs": [
       "At PT Molca Teknologi Nusantara I developed Unity-based Digital Twin applications for Molca Factory, PLN PLTU Labuan, Petrokimia Gresik, Nusametal Astra Otoparts and PT AlamTri Resources Indonesia, a hardware-integrated Safety Driving Simulator for PetroChina International Jabung, and Savior VR: Arecaverse, an immersive safety-training application.",
       "Alongside that, I design and develop full-stack products at FORTA Technology — a SaaS platform with centralized administration and CMS, a company profile with an administrative dashboard, and point-of-sale applications.",
@@ -32,17 +36,67 @@
     ]
   },
   "contact": {
-    "heading": "Let's build something that works in the real world.",
-    "text": "Interested in Digital Twin, simulation, VR or full-stack work? Send me an email or reach out on LinkedIn.",
+    "heading": "Hiring for Digital Twin, simulation or VR work?",
+    "text": "Send an email or message me on LinkedIn.",
     "email": "alfianaditya730@gmail.com",
     "links": [
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/alfian-aditya/", "handle": "in/alfian-aditya" },
-      { "label": "GitHub", "url": "https://github.com/AlfianAditya", "handle": "AlfianAditya" },
-      { "label": "WhatsApp", "url": "https://wa.me/628989896204", "handle": "+62 898 989 6204" }
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alfian-aditya/",
+        "handle": "in/alfian-aditya"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/AlfianAditya",
+        "handle": "AlfianAditya"
+      },
+      {
+        "label": "WhatsApp",
+        "url": "https://wa.me/628989896204",
+        "handle": "+62 898 989 6204"
+      }
     ]
   },
   "seo": {
     "title": "Alfian Aditya Kurniawan — Software Engineer, Digital Twin & Immersive Technology",
     "description": "Portfolio of Alfian Aditya Kurniawan, a software engineer building Unity Digital Twins, VR training, industrial simulators and full-stack web platforms."
+  },
+  "hero": {
+    "title": "Software engineer for industrial Digital Twins, VR training and simulators.",
+    "fact": "Built Digital Twins for PLN PLTU Labuan, Petrokimia Gresik and Nusametal Astra Otoparts.",
+    "primaryAction": {
+      "label": "View projects",
+      "target": "#industry"
+    },
+    "secondaryAction": {
+      "label": "Email me",
+      "target": "mailto"
+    }
+  },
+  "sections": {
+    "industry": {
+      "title": "Industrial software for PLN, PetroChina and Petrokimia",
+      "text": "Digital Twins, simulators, VR training and AI work from PT Molca Teknologi Nusantara and my final project at PENS."
+    },
+    "games": {
+      "title": "Games built in Unity and Unreal Engine",
+      "text": "Game jams, course projects and research games — mostly as programmer.",
+      "initialCount": 6,
+      "moreLabel": "Show all games",
+      "lessLabel": "Show fewer games"
+    },
+    "about": {
+      "title": "About my work"
+    },
+    "experience": {
+      "title": "Work experience from 2022 to now"
+    },
+    "skills": {
+      "title": "Languages, engines and tools",
+      "text": "Small numbers show how many projects on this site use a technology."
+    },
+    "recognition": {
+      "title": "Awards, certifications and education"
+    }
   }
 }

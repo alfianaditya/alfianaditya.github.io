@@ -29,7 +29,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "size": "wide"
   },
   {
     "slug": "savior-vr-arecaverse",
@@ -156,7 +157,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "size": "wide"
   },
   {
     "slug": "digital-twin-nusametal-astra-otoparts",
@@ -297,7 +299,7 @@
     "year": "2023",
     "role": "Game Programmer",
     "featured": true,
-    "order": 11,
+    "order": 101,
     "summary": "Gameplay systems for an adventure game — player data, combat, enemy AI, movement and character interactions.",
     "overview": [
       "Aventala: The Lost Tribe was developed with the Game for Education and Cultural Heritage team at PENS."
@@ -351,8 +353,8 @@
     "category": "Game Development",
     "year": "2021",
     "role": "Lead Programmer",
-    "featured": false,
-    "order": 12,
+    "featured": true,
+    "order": 104,
     "summary": "A 3D adventure RPG for Android, built in three months for the KKSI Game Development competition.",
     "overview": [
       "Fairy Tale was developed in three months for the KKSI Game Development competition organized by the Ministry of Education and Culture and the Directorate General of Vocational Education, with mentoring from Satriver Studio.",
@@ -431,7 +433,7 @@
     "year": "2024",
     "role": "Programmer",
     "featured": true,
-    "order": 11.5,
+    "order": 100,
     "summary": "A 3D shop-management and gardening simulation set on Mars, built in Unreal Engine by a team of seven over one year.",
     "overview": [
       "ECOSITY is a game developed as a course project in the GameTech study program. Created by a team of 7 people, this project was worked on across semesters 3 and 4 over a span of 1 year, featuring a shop management simulation genre with a vegetable garden theme. Designed for Windows, the game has 3D visuals and aims to teach players effective management skills and techniques for growing high-quality vegetables.",
@@ -523,8 +525,8 @@
     "category": "Game Development",
     "year": "2023",
     "role": "Programmer",
-    "featured": false,
-    "order": 13,
+    "featured": true,
+    "order": 103,
     "summary": "A VR experience introducing the story of national hero Kadet Soewoko, built for a research collaboration with the Lamongan government and tourism department.",
     "overview": [
       "Kadet Soewoko VR is a virtual reality game created as part of a lecturer's research project in collaboration with the Lamongan government and the tourism department. This project aims to introduce the story of Kadet Soewoko, a national hero, through an interactive and immersive VR experience. Players can explore historical events and learn about his heroic deeds.",
@@ -579,8 +581,8 @@
     "category": "Game Development",
     "year": "2023",
     "role": "Programmer",
-    "featured": false,
-    "order": 14,
+    "featured": true,
+    "order": 102,
     "summary": "A 3D adventure RPG for Android that teaches players about edible, poisonous and rare mushrooms — built by a team of five over four months.",
     "overview": [
       "Finding Fungus is a 3D Adventure RPG game created as a project in the GameTech study program. Developed by a team of five over four months in the second semester, this Android game introduces players to various types of mushrooms, including edible, poisonous, and rare species, along with their habitats and Latin names.",
@@ -669,8 +671,8 @@
     "category": "Game Development",
     "year": "2023",
     "role": "Programmer",
-    "featured": false,
-    "order": 15,
+    "featured": true,
+    "order": 105,
     "summary": "An arcade shooter made in 2.5 days at the PENS Internal GameJam: pilot a UFO and destroy cities to collect resources.",
     "overview": [
       "Yufo is a Shooter game created during PENS' Internal GameJam, hosted by GADAS in collaboration with GameTech PENS. This 2.5-day event followed an Arcade theme, with a story of aliens attacking planets to seek new resources. Players gain points by destroying cities and buildings.",
