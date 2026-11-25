@@ -110,7 +110,7 @@
     "links": [],
     "info": [
       {
-        "label": "Team award",
+        "label": "Award",
         "value": "Top 3 Incubated Startup, PLN Startup Day"
       }
     ]
@@ -192,7 +192,12 @@
     },
     "gallery": [],
     "links": [],
-    "info": [],
+    "info": [
+      {
+        "label": "Award",
+        "value": "1st Place, Final Project Competition"
+      }
+    ],
     "size": "wide"
   },
   {
@@ -570,7 +575,7 @@
         "value": "Course project"
       },
       {
-        "label": "Team award",
+        "label": "Award",
         "value": "1st Place, KMIPN VI"
       }
     ],
@@ -870,7 +875,7 @@
         "value": "Game Design Connect 3.0 - Gameloft Indonesia"
       },
       {
-        "label": "Team award",
+        "label": "Award",
         "value": "Best Game Design & Best Team"
       },
       {
@@ -1433,7 +1438,7 @@
         "value": "Web"
       },
       {
-        "label": "Team award",
+        "label": "Award",
         "value": "1st Place, Best Website Design"
       }
     ],
