@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Monogram "A" for Alfian Aditya: near-black tile, paper letter, blue crossbar. -->
+  <rect width="64" height="64" rx="14" fill="#151515"/>
+  <path d="M27 13h10l14 38h-9.5L32 23.5 22.5 51H13z" fill="#f5f3ee"/>
+  <rect x="22" y="35" width="20" height="5.5" rx="1" fill="#7ab8ff"/>
+</svg>

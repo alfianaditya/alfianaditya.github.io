@@ -28,13 +28,7 @@
       "Virtual Reality & hardware integration",
       "Full-stack SaaS & CMS platforms",
       "AI integration for interactive applications"
-    ],
-    "photo": {
-      "src": "media/profile/about.webp",
-      "width": 900,
-      "height": 1125,
-      "alt": "Alfian standing in a batik shirt at the Jembatan Merah battle monument wall in Surabaya at night"
-    }
+    ]
   },
   "contact": {
     "heading": "Hiring a software, AI or game developer?",
@@ -152,7 +146,10 @@
           "Nusametal",
           "AlamTri"
         ],
-        "cover": null,
+        "cover": {
+          "src": "media/projects/savior-vr-arecaverse/cover.webp",
+          "alt": "Savior VR: Arecaverse valve interaction in VR"
+        },
         "pageTitle": "XR, Digital Twins and simulators",
         "pageText": "Real-time 3D in Unity for industrial clients at PT Molca Teknologi Nusantara, plus VR training, a multiplayer VR prototype and a VR history experience.",
         "subcategories": [

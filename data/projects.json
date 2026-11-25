@@ -61,8 +61,20 @@
       "C#",
       "Virtual Reality"
     ],
-    "cover": null,
-    "gallery": [],
+    "cover": {
+      "src": "media/projects/savior-vr-arecaverse/cover.webp",
+      "alt": "Savior VR: Arecaverse - VR hands turning a highlighted valve wheel during a safety procedure"
+    },
+    "gallery": [
+      {
+        "src": "media/projects/savior-vr-arecaverse/01.webp",
+        "alt": "Savior VR: Arecaverse - safety quiz on handling a worker exposed to phosphoric acid"
+      },
+      {
+        "src": "media/projects/savior-vr-arecaverse/02.webp",
+        "alt": "Savior VR: Arecaverse - the processing plant environment"
+      }
+    ],
     "links": [],
     "info": []
   },
