@@ -96,7 +96,12 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [
+      {
+        "label": "Team award",
+        "value": "Top 3 Incubated Startup, PLN Startup Day"
+      }
+    ]
   },
   {
     "slug": "digital-twin-petrokimia-gresik",
