@@ -39,23 +39,13 @@
     "project": "media-ent"
   },
   {
-    "id": "gameloft-best-team-2023",
-    "type": "award",
-    "recipient": "personal",
-    "title": "Best Team - Game Design Connect 3.0",
-    "issuer": "Gameloft Indonesia",
-    "year": "2023",
-    "role": "Shared with the other programmer on our 3-person Project White team",
-    "project": "project-white"
-  },
-  {
-    "id": "gameloft-best-game-design-2023",
+    "id": "gameloft-2023",
     "type": "award",
     "recipient": "team",
-    "title": "Best Game Design - Game Design Connect 3.0",
+    "title": "Best Game Design & Best Team - Game Design Connect 3.0",
     "issuer": "Gameloft Indonesia",
     "year": "2023",
-    "role": "Won by our team's game designer; I was one of the two programmers",
+    "role": "Developer on the Project White team",
     "project": "project-white"
   },
   {
