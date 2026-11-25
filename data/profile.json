@@ -28,7 +28,13 @@
       "Virtual Reality & hardware integration",
       "Full-stack SaaS & CMS platforms",
       "AI integration for interactive applications"
-    ]
+    ],
+    "photo": {
+      "src": "media/profile/about.webp",
+      "width": 900,
+      "height": 1125,
+      "alt": "Alfian standing in a batik shirt at the Jembatan Merah battle monument wall in Surabaya at night"
+    }
   },
   "contact": {
     "heading": "Hiring a software, AI or game developer?",
