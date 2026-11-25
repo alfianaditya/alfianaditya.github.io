@@ -1,0 +1,16 @@
+[
+  {
+    "id": "pens",
+    "institution": "Politeknik Elektronika Negeri Surabaya (PENS)",
+    "degree": "D4 (Applied Bachelor)",
+    "field": "Game Technology",
+    "location": "Surabaya, Indonesia",
+    "start": "2022",
+    "end": "2026",
+    "status": "Graduated",
+    "gpa": "3.73",
+    "notes": [
+      "Final project: RED LIFE — Hybrid Cloud-Local AI Virtual Assistant for Unreal Engine 5."
+    ]
+  }
+]

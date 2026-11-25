@@ -1,0 +1,325 @@
+[
+  {
+    "slug": "safety-driving-simulator-petrochina",
+    "title": "Safety Driving Simulator",
+    "client": "PetroChina International Jabung",
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "Simulation",
+    "year": "2026",
+    "role": "Unity Developer Intern",
+    "featured": true,
+    "order": 1,
+    "summary": "A hardware-integrated driving simulator for safety training, built in Unity with Moza steering wheel, pedals, gear shifter and handbrake input.",
+    "overview": [
+      "A Safety Driving Simulator developed for PetroChina International Jabung, integrating a Moza steering wheel, pedals, gear shifter, handbrake and other hardware inputs."
+    ],
+    "contributions": [
+      "Integrated Moza steering wheel, pedals, gear shifter, handbrake and other hardware inputs.",
+      "Implemented day/night cycle, lighting and weather systems.",
+      "Implemented force feedback.",
+      "Built scenario management, waypoints and checkpoints.",
+      "Implemented NPC traffic.",
+      "Developed a driver logbook."
+    ],
+    "technologies": ["Unity", "C#", "Moza Racing Hardware"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "savior-vr-arecaverse",
+    "title": "Savior VR: Arecaverse",
+    "client": null,
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "Virtual Reality",
+    "year": "2026",
+    "role": "Unity Developer (Freelance)",
+    "featured": true,
+    "order": 2,
+    "summary": "An immersive VR safety-training application simulating industrial palm-oil operations and safety procedures.",
+    "overview": [
+      "Savior VR: Arecaverse is an immersive VR safety-training application that simulates industrial palm-oil operations and safety procedures."
+    ],
+    "contributions": [
+      "Implemented interactive equipment workflows, including grab, hose and valve interactions.",
+      "Developed activity validation and progression logic to evaluate correct and incorrect procedures during training."
+    ],
+    "technologies": ["Unity", "C#", "Virtual Reality"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "digital-twin-pltu-labuan",
+    "title": "Digital Twin — Labuan Steam Power Plant",
+    "client": "PLN PLTU Labuan",
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "Digital Twin",
+    "year": "2025",
+    "role": "Unity Developer Intern",
+    "featured": true,
+    "order": 3,
+    "summary": "A Unity-based Digital Twin application for PLN's Labuan steam power plant.",
+    "overview": [
+      "A Unity-based Digital Twin application developed for PLN PLTU Labuan."
+    ],
+    "contributions": [
+      "Implemented dynamic camera controls.",
+      "Implemented object visibility and highlighting.",
+      "Implemented material and theme customization.",
+      "Implemented asset relayouting."
+    ],
+    "technologies": ["Unity", "C#"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "digital-twin-petrokimia-gresik",
+    "title": "Digital Twin — Petrokimia Gresik",
+    "client": "Petrokimia Gresik",
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "Digital Twin",
+    "year": "2025",
+    "role": "Unity Developer Intern",
+    "featured": true,
+    "order": 4,
+    "summary": "A Unity-based Digital Twin application for Petrokimia Gresik.",
+    "overview": [
+      "A Unity-based Digital Twin application developed for Petrokimia Gresik."
+    ],
+    "contributions": [
+      "Implemented dynamic camera controls.",
+      "Implemented object visibility and highlighting.",
+      "Implemented material and theme customization.",
+      "Implemented asset relayouting."
+    ],
+    "technologies": ["Unity", "C#"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "red-life-ai-virtual-assistant",
+    "title": "RED LIFE — Hybrid AI Virtual Assistant",
+    "client": null,
+    "company": "Politeknik Elektronika Negeri Surabaya",
+    "category": "AI Research",
+    "year": "2025–2026",
+    "role": "AI Software Developer · Final Project",
+    "featured": true,
+    "order": 5,
+    "summary": "A hybrid cloud-local AI virtual assistant for Unreal Engine 5, combining BERT, a Deep Neural Network and Fuzzy Logic.",
+    "overview": [
+      "A Hybrid Cloud-Local AI Virtual Assistant developed as the RED LIFE final project at PENS, using BERT, a Deep Neural Network (DNN) and Fuzzy Logic."
+    ],
+    "contributions": [
+      "Developed the hybrid cloud-local AI virtual assistant.",
+      "Built REST API integration between Unreal Engine 5 and a Python server."
+    ],
+    "metrics": [
+      { "value": "95%", "label": "BERT intent-classification accuracy" },
+      { "value": ">90%", "label": "DNN player-status classification accuracy" }
+    ],
+    "technologies": ["Unreal Engine 5", "Python", "BERT", "Deep Neural Network", "Fuzzy Logic", "REST API"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "digital-twin-nusametal-astra-otoparts",
+    "title": "Digital Twin — Nusametal Astra Otoparts",
+    "client": "Nusametal Astra Otoparts",
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "Digital Twin",
+    "year": "2025–2026",
+    "role": "Unity Developer Intern",
+    "featured": true,
+    "order": 6,
+    "summary": "A Unity-based Digital Twin, later extended with research and prototyping of real-time API communication using Socket.IO.",
+    "overview": [
+      "A Unity-based Digital Twin application developed for Nusametal Astra Otoparts.",
+      "In 2026, I researched and prototyped real-time API communication using Socket.IO for the same Digital Twin."
+    ],
+    "contributions": [
+      "Implemented dynamic camera controls, object visibility and highlighting.",
+      "Implemented material and theme customization and asset relayouting.",
+      "Researched and prototyped real-time API communication using Socket.IO."
+    ],
+    "technologies": ["Unity", "C#", "Socket.IO"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "digital-twin-alamtri-resources",
+    "title": "Digital Twin — PT AlamTri Resources Indonesia",
+    "client": "PT AlamTri Resources Indonesia",
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "Digital Twin",
+    "year": "2026",
+    "role": "Unity Developer Intern",
+    "featured": false,
+    "order": 7,
+    "summary": "A Digital Twin application for PT AlamTri Resources Indonesia.",
+    "overview": [
+      "A Digital Twin application developed for PT AlamTri Resources Indonesia."
+    ],
+    "contributions": [],
+    "technologies": ["Unity", "C#"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "digital-twin-molca-factory",
+    "title": "Digital Twin — Molca Factory",
+    "client": "Molca Factory",
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "Digital Twin",
+    "year": "2025",
+    "role": "Unity Developer Intern",
+    "featured": false,
+    "order": 8,
+    "summary": "A Unity-based Digital Twin application for Molca Factory.",
+    "overview": [
+      "A Unity-based Digital Twin application developed for Molca Factory."
+    ],
+    "contributions": [
+      "Implemented dynamic camera controls, object visibility and highlighting.",
+      "Implemented material and theme customization and asset relayouting."
+    ],
+    "technologies": ["Unity", "C#"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "alica-ai-virtual-assistant",
+    "title": "ALICA — AI Virtual Assistant",
+    "client": null,
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "AI Integration",
+    "year": "2025",
+    "role": "Unity Developer Intern",
+    "featured": false,
+    "order": 9,
+    "summary": "User interface for ALICA, an AI virtual assistant integrated into the ROCE Calculator.",
+    "overview": [
+      "ALICA is an AI Virtual Assistant integrated into the ROCE Calculator. I developed its user interface."
+    ],
+    "contributions": [
+      "Developed the user interface for ALICA."
+    ],
+    "technologies": ["Unity"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "multiplayer-vr-prototype",
+    "title": "Multiplayer VR Prototype",
+    "client": null,
+    "company": "PT Molca Teknologi Nusantara",
+    "category": "Virtual Reality",
+    "year": "2025",
+    "role": "Unity Developer Intern · Contributor",
+    "featured": false,
+    "order": 10,
+    "summary": "A multiplayer Unity VR prototype.",
+    "overview": [
+      "A multiplayer VR prototype built in Unity, to which I contributed during my internship."
+    ],
+    "contributions": [],
+    "technologies": ["Unity", "Virtual Reality"],
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "aventala-the-lost-tribe",
+    "title": "Aventala: The Lost Tribe",
+    "client": null,
+    "company": "Game for Education and Cultural Heritage",
+    "category": "Game Development",
+    "year": "2023",
+    "role": "Game Programmer",
+    "featured": true,
+    "order": 11,
+    "summary": "Gameplay systems for an adventure game — player data, combat, enemy AI, movement and character interactions.",
+    "overview": [
+      "Aventala: The Lost Tribe was developed with the Game for Education and Cultural Heritage team at PENS."
+    ],
+    "contributions": [
+      "Developed player data storage.",
+      "Developed health and damage systems.",
+      "Developed enemy AI.",
+      "Developed movement and combat.",
+      "Developed character interactions.",
+      "Integrated character animations with gameplay mechanics to support responsive player controls."
+    ],
+    "technologies": ["Unity", "C#"],
+    "cover": { "src": "media/projects/aventala-the-lost-tribe/02.webp", "alt": "Aventala: The Lost Tribe title artwork" },
+    "gallery": [
+      { "src": "media/projects/aventala-the-lost-tribe/01.webp", "alt": "Aventala gameplay screenshot" },
+      { "src": "media/projects/aventala-the-lost-tribe/03.webp", "alt": "Aventala gameplay screenshot" },
+      { "src": "media/projects/aventala-the-lost-tribe/05.webp", "alt": "Aventala gameplay screenshot" },
+      { "src": "media/projects/aventala-the-lost-tribe/06.webp", "alt": "Aventala gameplay screenshot" },
+      { "src": "media/projects/aventala-the-lost-tribe/07.webp", "alt": "Aventala gameplay screenshot" }
+    ],
+    "links": [],
+    "info": []
+  },
+  {
+    "slug": "fairy-tale-return-of-heroes",
+    "title": "Fairy Tale: Return of Heroes",
+    "client": null,
+    "company": null,
+    "category": "Game Development",
+    "year": "2021",
+    "role": "Lead Programmer",
+    "featured": false,
+    "order": 12,
+    "summary": "A 3D adventure RPG for Android, built in three months for the KKSI Game Development competition.",
+    "overview": [
+      "Fairy Tale was developed in three months for the KKSI Game Development competition organized by the Ministry of Education and Culture and the Directorate General of Vocational Education, with mentoring from Satriver Studio.",
+      "The game follows a hero fighting through multiple levels to rescue his wife from monsters. It was my first complete game-development experience."
+    ],
+    "contributions": [
+      "Implemented skill-based attacks and player combat interactions.",
+      "Implemented enemy AI behavior for interaction and attacks.",
+      "Implemented character movement mechanics.",
+      "Built a minimap-based navigation system for locations and objectives.",
+      "Implemented healing mechanics and player-status UI.",
+      "Implemented story and objective dialogue presentation."
+    ],
+    "technologies": ["Unity", "C#", "Android"],
+    "cover": { "src": "media/projects/fairy-tale-return-of-heroes/02.webp", "alt": "Fairy Tale: Return of Heroes title screen" },
+    "gallery": [
+      { "src": "media/projects/fairy-tale-return-of-heroes/01.webp", "alt": "Fairy Tale gameplay screenshot" },
+      { "src": "media/projects/fairy-tale-return-of-heroes/03.webp", "alt": "Fairy Tale gameplay screenshot" },
+      { "src": "media/projects/fairy-tale-return-of-heroes/04.webp", "alt": "Fairy Tale gameplay screenshot" },
+      { "src": "media/projects/fairy-tale-return-of-heroes/05.webp", "alt": "Fairy Tale gameplay screenshot" },
+      { "src": "media/projects/fairy-tale-return-of-heroes/06.webp", "alt": "Fairy Tale gameplay screenshot" },
+      { "src": "media/projects/fairy-tale-return-of-heroes/08.webp", "alt": "Fairy Tale gameplay screenshot" }
+    ],
+    "links": [
+      { "label": "Project files (Google Drive)", "url": "https://drive.google.com/drive/folders/1mBEkz-EUR-xWlRn-X-B0N-Ai5cyYkoPy?usp=sharing" }
+    ],
+    "info": [
+      { "label": "Duration", "value": "3 months" },
+      { "label": "Platform", "value": "Android" },
+      { "label": "Project type", "value": "Competition project" }
+    ]
+  }
+]

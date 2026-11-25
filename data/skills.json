@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": "languages",
+      "label": "Programming Languages",
+      "items": ["C#", "Python", "PHP", "JavaScript", "C++", "Unreal Engine Blueprint", "Lua"]
+    },
+    {
+      "id": "game",
+      "label": "Software & Game Development",
+      "items": ["Unity", "Unreal Engine 5", "Virtual Reality", "Meta XR SDK"]
+    },
+    {
+      "id": "web",
+      "label": "Web Development",
+      "items": ["React", "Vue.js", "Laravel", "Tailwind CSS", "Django", "REST API", "WebSocket", "Socket.IO"]
+    },
+    {
+      "id": "ai",
+      "label": "AI & Machine Learning",
+      "items": ["TensorFlow", "PyTorch", "Hugging Face", "BERT", "Deep Neural Network", "Fuzzy Logic"]
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "items": ["MySQL", "SQLite", "phpMyAdmin"]
+    },
+    {
+      "id": "tools",
+      "label": "Tools & Platforms",
+      "items": ["Git", "VS Code", "Postman", "Figma", "Draw.io", "Notion", "Miro"]
+    }
+  ],
+  "uncategorizedLabel": "Also used",
+  "hidden": ["Android"]
+}

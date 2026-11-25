@@ -1,0 +1,11 @@
+[
+  { "id": "pens-final-2026", "type": "award", "title": "1st Place — Final Project Competition", "issuer": "PENS", "year": "2026" },
+  { "id": "pln-startup-2025", "type": "award", "title": "Top 3 Incubated Startup — PLN Startup Day", "issuer": "PLN", "year": "2025" },
+  { "id": "kmipn-2024", "type": "award", "title": "1st Place — KMIPN VI, Game Application Development", "issuer": "KMIPN", "year": "2024" },
+  { "id": "pcf-2023", "type": "award", "title": "1st Place — Best Website Design", "issuer": "Polytechnic Creative Festival", "year": "2023" },
+  { "id": "gpa-2024", "type": "certification", "title": "Google Play Store Listing Certificate", "issuer": "Google Play Academy", "year": "2024" },
+  { "id": "igdx-2024", "type": "training", "title": "IGDX Bootcamp 2024", "issuer": "Ministry of Communication and Digital Affairs (KOMDIGI)", "year": "2024" },
+  { "id": "dicoding-ml-2026", "type": "training", "title": "Machine Learning for Beginners", "issuer": "Dicoding × Google Cloud", "year": "2026" },
+  { "id": "dicoding-ai-2026", "type": "training", "title": "Basic AI", "issuer": "Dicoding × Google Cloud", "year": "2026" },
+  { "id": "dicoding-python-2026", "type": "training", "title": "Python Programming", "issuer": "Dicoding × Google Cloud", "year": "2026" }
+]

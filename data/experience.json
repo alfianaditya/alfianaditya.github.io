@@ -1,0 +1,267 @@
+[
+  {
+    "id": "forta-saas",
+    "company": "FORTA Technology",
+    "position": "Full Stack Developer",
+    "engagement": "SaaS Platform & CMS",
+    "type": "professional",
+    "location": "Surabaya, Indonesia",
+    "start": "2026-10",
+    "end": null,
+    "description": "Design and develop a Software-as-a-Service (SaaS) platform, including centralized administration and a Content Management System (CMS) for dynamic data, content and service configuration.",
+    "responsibilities": [
+      "Develop application architecture with consideration for scalability, user management, feature flexibility and potential multi-tenant implementation.",
+      "Support a subscription-based service model through configurable software features tailored to different client requirements."
+    ],
+    "contributions": [],
+    "technologies": [],
+    "projects": []
+  },
+  {
+    "id": "molca-freelance",
+    "company": "PT Molca Teknologi Nusantara",
+    "position": "Unity Developer (Freelance)",
+    "engagement": "Savior VR: Arecaverse",
+    "type": "professional",
+    "location": "Surabaya, Indonesia",
+    "start": "2026-08",
+    "end": "2026-11",
+    "description": "Developed Savior VR: Arecaverse, an immersive VR safety-training application simulating industrial palm-oil operations and safety procedures.",
+    "responsibilities": [
+      "Implemented interactive equipment workflows, including grab, hose and valve interactions.",
+      "Developed activity validation and progression logic to evaluate correct and incorrect procedures during training."
+    ],
+    "contributions": [],
+    "technologies": [
+      "Unity",
+      "C#",
+      "Virtual Reality"
+    ],
+    "projects": [
+      "savior-vr-arecaverse"
+    ]
+  },
+  {
+    "id": "forta-company-profile",
+    "company": "FORTA Technology",
+    "position": "Full Stack Developer",
+    "engagement": "Company Profile & Admin CMS",
+    "type": "professional",
+    "location": "Surabaya, Indonesia",
+    "start": "2026-07",
+    "end": "2026-08",
+    "description": "Developed the FORTA company profile and portfolio website to present the company's software development and technology consulting services.",
+    "responsibilities": [
+      "Built an administrative CMS to manage company information, services, project portfolios and website content dynamically.",
+      "Integrated the public-facing website with the administration dashboard to centralize content updates without direct code changes."
+    ],
+    "contributions": [],
+    "technologies": [],
+    "projects": []
+  },
+  {
+    "id": "molca-intern-2026",
+    "company": "PT Molca Teknologi Nusantara",
+    "position": "Unity Developer Intern",
+    "type": "professional",
+    "location": "Surabaya, Indonesia",
+    "start": "2026-01",
+    "end": "2026-06",
+    "description": "Developed a Safety Driving Simulator for PetroChina International Jabung and a Digital Twin application for PT AlamTri Resources Indonesia.",
+    "responsibilities": [
+      "Integrated Moza steering wheel, pedals, gear shifter, handbrake and other hardware inputs.",
+      "Implemented simulation systems including day/night cycle, lighting, weather, force feedback, scenario management, waypoints, NPC traffic, checkpoints and driver logbook.",
+      "Researched and prototyped real-time API communication using Socket.IO for the Nusametal Astra Otoparts Digital Twin."
+    ],
+    "contributions": [],
+    "technologies": [
+      "Unity",
+      "C#",
+      "Socket.IO"
+    ],
+    "projects": [
+      "safety-driving-simulator-petrochina",
+      "digital-twin-alamtri-resources",
+      "digital-twin-nusametal-astra-otoparts"
+    ]
+  },
+  {
+    "id": "forta-pos-cafe",
+    "company": "FORTA Technology",
+    "position": "Full Stack Developer",
+    "engagement": "Café Point of Sale",
+    "type": "professional",
+    "location": "Surabaya, Indonesia",
+    "start": "2026-04",
+    "end": "2026-05",
+    "description": "Developed a Point of Sale (POS) application for café operations, supporting order entry, menu and price management, transaction processing, sales monitoring and transaction history.",
+    "responsibilities": [
+      "Implemented administrative features for managing products and menu categories to improve operational visibility."
+    ],
+    "contributions": [],
+    "technologies": [],
+    "projects": []
+  },
+  {
+    "id": "forta-pos-laundry",
+    "company": "FORTA Technology",
+    "position": "Full Stack Developer",
+    "engagement": "Laundry Point of Sale",
+    "type": "professional",
+    "location": "Surabaya, Indonesia",
+    "start": "2026-01",
+    "end": "2026-02",
+    "description": "Developed a laundry Point of Sale (POS) application to manage customer orders, transactions, service status and order progress from intake to completion.",
+    "responsibilities": [
+      "Implemented administration features for customer, service, pricing and transaction-history management."
+    ],
+    "contributions": [],
+    "technologies": [],
+    "projects": []
+  },
+  {
+    "id": "pens-red-life",
+    "company": "Politeknik Elektronika Negeri Surabaya",
+    "position": "AI Software Developer — RED LIFE Final Project",
+    "type": "academic",
+    "location": "Surabaya, Indonesia",
+    "start": "2025-08",
+    "end": "2026-07",
+    "description": "Developed a Hybrid Cloud-Local AI Virtual Assistant using BERT, Deep Neural Network (DNN) and Fuzzy Logic.",
+    "responsibilities": [
+      "Built REST API integration between Unreal Engine 5 and a Python server."
+    ],
+    "contributions": [
+      "Achieved 95% BERT intent-classification accuracy.",
+      "Achieved more than 90% DNN player-status classification accuracy."
+    ],
+    "technologies": [
+      "Unreal Engine 5",
+      "Python",
+      "BERT",
+      "Deep Neural Network",
+      "Fuzzy Logic",
+      "REST API"
+    ],
+    "projects": [
+      "red-life-ai-virtual-assistant"
+    ]
+  },
+  {
+    "id": "molca-intern-2025",
+    "company": "PT Molca Teknologi Nusantara",
+    "position": "Unity Developer Intern",
+    "type": "professional",
+    "location": "Surabaya, Indonesia",
+    "start": "2025-02",
+    "end": "2025-07",
+    "description": "Developed Unity-based Digital Twin applications for Molca Factory, PLN PLTU Labuan, Petrokimia Gresik and Nusametal Astra Otoparts.",
+    "responsibilities": [
+      "Implemented interactive 3D features including dynamic camera controls, object visibility, highlighting, material and theme customization, and asset relayouting.",
+      "Developed the user interface for ALICA, an AI Virtual Assistant integrated into the ROCE Calculator.",
+      "Contributed to a multiplayer VR prototype."
+    ],
+    "contributions": [],
+    "technologies": [
+      "Unity",
+      "C#",
+      "Virtual Reality"
+    ],
+    "projects": [
+      "digital-twin-molca-factory",
+      "digital-twin-pltu-labuan",
+      "digital-twin-petrokimia-gresik",
+      "digital-twin-nusametal-astra-otoparts",
+      "alica-ai-virtual-assistant",
+      "multiplayer-vr-prototype"
+    ]
+  },
+  {
+    "id": "instructor-2024",
+    "company": "PENS & SMA Progresif Bumi Shalawat",
+    "position": "Game Development Instructor",
+    "type": "professional",
+    "location": "Surabaya & Sidoarjo, Indonesia",
+    "start": "2024-10",
+    "end": "2024-11",
+    "description": "Delivered Unity game-development training covering game design, gameplay mechanics, C# programming, VR development workflows and project implementation.",
+    "responsibilities": [
+      "Guided students through development tasks and provided technical assistance and troubleshooting."
+    ],
+    "contributions": [],
+    "technologies": [
+      "Unity",
+      "C#",
+      "Virtual Reality"
+    ],
+    "projects": []
+  },
+  {
+    "id": "gech-2023",
+    "company": "Game for Education and Cultural Heritage",
+    "position": "Game Programmer",
+    "type": "professional",
+    "location": "Surabaya, Indonesia",
+    "start": "2023-08",
+    "end": "2023-12",
+    "description": "Developed gameplay systems for Aventala: The Lost Tribe, including player data storage, health and damage, enemy AI, movement, combat and character interactions.",
+    "responsibilities": [
+      "Integrated character animations with gameplay mechanics to support responsive player controls."
+    ],
+    "contributions": [],
+    "technologies": [
+      "Unity",
+      "C#"
+    ],
+    "projects": [
+      "aventala-the-lost-tribe"
+    ]
+  },
+  {
+    "id": "bso-gt",
+    "company": "BSO Game Technology",
+    "position": "Expert Staff — Research and Technology Division",
+    "type": "organization",
+    "location": null,
+    "start": "2024-09",
+    "end": "2025-01",
+    "description": "Mentored members in Unity development, reviewed projects, provided technical guidance, and developed and maintained the organization's website.",
+    "responsibilities": [],
+    "contributions": [],
+    "technologies": [
+      "Unity"
+    ],
+    "projects": []
+  },
+  {
+    "id": "ent-chair",
+    "company": "EEPIS News and Network Team",
+    "position": "Chair of the Webmaster Division",
+    "type": "organization",
+    "location": null,
+    "start": "2023-11",
+    "end": "2024-11",
+    "description": "Led and mentored members in web development and UI/UX; reviewed projects and supported technical problem-solving for student web services.",
+    "responsibilities": [],
+    "contributions": [],
+    "technologies": [],
+    "projects": []
+  },
+  {
+    "id": "ent-member",
+    "company": "EEPIS News and Network Team",
+    "position": "Member of the Webmaster Division",
+    "type": "organization",
+    "location": null,
+    "start": "2022-09",
+    "end": "2023-11",
+    "description": "Developed responsive interfaces for Media PENS, PENS CIRT Website and ENT Landing Page using Vue.js and React.",
+    "responsibilities": [],
+    "contributions": [],
+    "technologies": [
+      "Vue.js",
+      "React"
+    ],
+    "projects": []
+  }
+]

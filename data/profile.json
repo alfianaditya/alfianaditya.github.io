@@ -1,0 +1,48 @@
+{
+  "name": "Alfian Aditya Kurniawan",
+  "shortName": "Alfian Aditya",
+  "headline": "Software Engineer",
+  "specialties": ["Digital Twin", "Immersive Technology", "Full Stack Development"],
+  "intro": "I build interactive software for industry — Unity-based Digital Twins, VR safety training, and driving simulators — alongside full-stack web platforms and AI integrations.",
+  "location": "Surabaya, Indonesia",
+  "portrait": {
+    "src": "media/profile/portrait.webp",
+    "alt": "Portrait of Alfian Aditya Kurniawan"
+  },
+  "availability": {
+    "enabled": false,
+    "label": "Open to new opportunities"
+  },
+  "currentRole": {
+    "position": "Full Stack Developer",
+    "company": "FORTA Technology"
+  },
+  "about": {
+    "lead": "My work sits where real-time 3D, industrial operations and the web meet.",
+    "paragraphs": [
+      "At PT Molca Teknologi Nusantara I developed Unity-based Digital Twin applications for Molca Factory, PLN PLTU Labuan, Petrokimia Gresik, Nusametal Astra Otoparts and PT AlamTri Resources Indonesia, a hardware-integrated Safety Driving Simulator for PetroChina International Jabung, and Savior VR: Arecaverse, an immersive safety-training application.",
+      "Alongside that, I design and develop full-stack products at FORTA Technology — a SaaS platform with centralized administration and CMS, a company profile with an administrative dashboard, and point-of-sale applications.",
+      "My final project at PENS was a hybrid cloud-local AI virtual assistant connecting Unreal Engine 5 to a Python server, reaching 95% BERT intent-classification accuracy."
+    ],
+    "focus": [
+      "Digital Twin & industrial simulation",
+      "Virtual Reality & hardware integration",
+      "Full-stack SaaS & CMS platforms",
+      "AI integration for interactive applications"
+    ]
+  },
+  "contact": {
+    "heading": "Let's build something that works in the real world.",
+    "text": "Interested in Digital Twin, simulation, VR or full-stack work? Send me an email or reach out on LinkedIn.",
+    "email": "alfianaditya730@gmail.com",
+    "links": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/alfian-aditya/", "handle": "in/alfian-aditya" },
+      { "label": "GitHub", "url": "https://github.com/AlfianAditya", "handle": "AlfianAditya" },
+      { "label": "WhatsApp", "url": "https://wa.me/628989896204", "handle": "+62 898 989 6204" }
+    ]
+  },
+  "seo": {
+    "title": "Alfian Aditya Kurniawan — Software Engineer, Digital Twin & Immersive Technology",
+    "description": "Portfolio of Alfian Aditya Kurniawan, a software engineer building Unity Digital Twins, VR training, industrial simulators and full-stack web platforms."
+  }
+}
