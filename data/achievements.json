@@ -9,22 +9,13 @@
     "project": "red-life-ai-virtual-assistant"
   },
   {
-    "id": "gameloft-double-winner-2023",
-    "type": "award",
-    "recipient": "personal",
-    "title": "Double winner - Best Game Design & Best Team, Game Design Connect 3.0",
-    "issuer": "Gameloft Indonesia",
-    "year": "2023",
-    "project": "project-white"
-  },
-  {
     "id": "pln-startup-2025",
     "type": "award",
     "recipient": "team",
     "title": "Top 3 Incubated Startup - PLN Startup Day",
     "issuer": "PLN",
     "year": "2025",
-    "role": "Developer on the PLN PLTU Labuan Digital Twin team",
+    "role": "Developer on the PLN PLTU Labuan Digital Twin team; I did not enter the competition",
     "project": "digital-twin-pltu-labuan"
   },
   {
@@ -34,7 +25,7 @@
     "title": "1st Place - KMIPN VI, Game Application Development",
     "issuer": "KMIPN",
     "year": "2024",
-    "role": "Developer on the ECOSITY team",
+    "role": "Developer on the ECOSITY team; I did not enter the competition",
     "project": "ecosity-new-dawn-on-mars"
   },
   {
@@ -44,8 +35,28 @@
     "title": "1st Place - Best Website Design",
     "issuer": "Polytechnic Creative Festival",
     "year": "2023",
-    "role": "Developer on the Media ENT team",
+    "role": "Developer on the Media ENT team; I did not enter the competition",
     "project": "media-ent"
+  },
+  {
+    "id": "gameloft-best-team-2023",
+    "type": "award",
+    "recipient": "personal",
+    "title": "Best Team - Game Design Connect 3.0",
+    "issuer": "Gameloft Indonesia",
+    "year": "2023",
+    "role": "Shared with the other programmer on our 3-person Project White team",
+    "project": "project-white"
+  },
+  {
+    "id": "gameloft-best-game-design-2023",
+    "type": "award",
+    "recipient": "team",
+    "title": "Best Game Design - Game Design Connect 3.0",
+    "issuer": "Gameloft Indonesia",
+    "year": "2023",
+    "role": "Won by our team's game designer; I was one of the two programmers",
+    "project": "project-white"
   },
   {
     "id": "gpa-2024",
