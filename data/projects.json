@@ -1411,6 +1411,10 @@
       {
         "label": "Platform",
         "value": "Web"
+      },
+      {
+        "label": "Team award",
+        "value": "1st Place, Best Website Design"
       }
     ],
     "featured": true,
