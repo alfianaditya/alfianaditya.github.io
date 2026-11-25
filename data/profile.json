@@ -9,8 +9,8 @@
     "alt": "Portrait of Alfian Aditya Kurniawan"
   },
   "availability": {
-    "enabled": false,
-    "label": "Open to new opportunities"
+    "enabled": true,
+    "label": "Open to full-time roles, freelance work and collaborations"
   },
   "currentRole": {
     "position": "Full Stack Developer",
@@ -57,11 +57,20 @@
     "description": "Portfolio of Alfian Aditya Kurniawan: software engineer, full-stack developer, AI engineer and Unity & Unreal Engine developer based in Surabaya."
   },
   "hero": {
-    "bio": "I build software end to end - web platforms and SaaS, AI-powered features, and real-time 3D apps and games in Unity and Unreal Engine.",
+    "bio": "I like owning the whole build: the data model, the API and the screen people actually use, whether that screen is a dashboard or a real-time 3D scene.",
     "photo": {
-      "src": "media/profile/hero.webp",
-      "srcSmall": "media/profile/hero-640.webp",
-      "alt": "Alfian Aditya Kurniawan wearing a blue batik shirt, standing in front of a historical monument wall in Surabaya"
+      "wide": {
+        "src": "media/profile/hero-wide.webp",
+        "srcSmall": "media/profile/hero-wide-1280.webp",
+        "width": 2000,
+        "height": 1126
+      },
+      "mobile": {
+        "src": "media/profile/hero-mobile.webp",
+        "width": 800,
+        "height": 1000
+      },
+      "alt": "Alfian Aditya Kurniawan in a blue batik shirt, smiling in front of a dark wall with leaf shadows"
     },
     "primaryAction": {
       "label": "View projects",
