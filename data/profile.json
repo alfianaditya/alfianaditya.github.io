@@ -2,7 +2,7 @@
   "name": "Alfian Aditya Kurniawan",
   "shortName": "Alfian Aditya",
   "headline": "Software Engineer",
-  "intro": "I build software end to end — web platforms and SaaS, AI-powered features, and real-time 3D apps and games in Unity and Unreal Engine.",
+  "intro": "I build software end to end - web platforms and SaaS, AI-powered features, and real-time 3D apps and games in Unity and Unreal Engine.",
   "location": "Surabaya, Indonesia",
   "portrait": {
     "src": "media/profile/portrait.webp",
@@ -17,10 +17,10 @@
     "company": "FORTA Technology"
   },
   "about": {
-    "lead": "Web platforms, AI features and real-time 3D — designed and built end to end.",
+    "lead": "Web platforms, AI features and real-time 3D - designed and built end to end.",
     "paragraphs": [
       "At PT Molca Teknologi Nusantara I developed Unity-based Digital Twin applications for Molca Factory, PLN PLTU Labuan, Petrokimia Gresik, Nusametal Astra Otoparts and PT AlamTri Resources Indonesia, a hardware-integrated Safety Driving Simulator for PetroChina International Jabung, and Savior VR: Arecaverse, an immersive safety-training application.",
-      "Alongside that, I design and develop full-stack products at FORTA Technology — a SaaS platform with centralized administration and CMS, a company profile with an administrative dashboard, and point-of-sale applications.",
+      "Alongside that, I design and develop full-stack products at FORTA Technology - a SaaS platform with centralized administration and CMS, a company profile with an administrative dashboard, and point-of-sale applications.",
       "My final project at PENS was a hybrid cloud-local AI virtual assistant connecting Unreal Engine 5 to a Python server, reaching 95% BERT intent-classification accuracy."
     ],
     "focus": [
@@ -53,11 +53,11 @@
     ]
   },
   "seo": {
-    "title": "Alfian Aditya Kurniawan — Software Engineer, Full-Stack, AI and Unity & Unreal Engine Developer",
+    "title": "Alfian Aditya Kurniawan - Software Engineer, Full-Stack, AI and Unity & Unreal Engine Developer",
     "description": "Portfolio of Alfian Aditya Kurniawan: software engineer, full-stack developer, AI engineer and Unity & Unreal Engine developer based in Surabaya."
   },
   "hero": {
-    "bio": "I build software end to end — web platforms and SaaS, AI-powered features, and real-time 3D apps and games in Unity and Unreal Engine.",
+    "bio": "I build software end to end - web platforms and SaaS, AI-powered features, and real-time 3D apps and games in Unity and Unreal Engine.",
     "photo": {
       "src": "media/profile/hero.webp",
       "srcSmall": "media/profile/hero-640.webp",
@@ -104,7 +104,7 @@
           "alt": "ECOSITY: New Dawn on Mars cover"
         },
         "pageTitle": "Games built in Unity and Unreal Engine",
-        "pageText": "Game jams, course projects and research games — mostly as programmer.",
+        "pageText": "Game jams, course projects and research games - mostly as programmer.",
         "subcategories": [
           {
             "id": "pc",

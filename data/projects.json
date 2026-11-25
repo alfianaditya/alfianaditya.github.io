@@ -68,7 +68,7 @@
   },
   {
     "slug": "digital-twin-pltu-labuan",
-    "title": "Digital Twin — Labuan Steam Power Plant",
+    "title": "Digital Twin - Labuan Steam Power Plant",
     "client": "PLN PLTU Labuan",
     "company": "PT Molca Teknologi Nusantara",
     "category": "Digital Twin",
@@ -100,7 +100,7 @@
   },
   {
     "slug": "digital-twin-petrokimia-gresik",
-    "title": "Digital Twin — Petrokimia Gresik",
+    "title": "Digital Twin - Petrokimia Gresik",
     "client": "Petrokimia Gresik",
     "company": "PT Molca Teknologi Nusantara",
     "category": "Digital Twin",
@@ -132,14 +132,14 @@
   },
   {
     "slug": "red-life-ai-virtual-assistant",
-    "title": "RED LIFE — Hybrid AI Virtual Assistant",
+    "title": "RED LIFE - Hybrid AI Virtual Assistant",
     "client": null,
     "company": "Politeknik Elektronika Negeri Surabaya",
     "category": "AI Research",
     "taxonomy": {
       "ai": "assistant"
     },
-    "year": "2025–2026",
+    "year": "2025-2026",
     "role": "AI Software Developer · Final Project",
     "featured": true,
     "order": 5,
@@ -177,14 +177,14 @@
   },
   {
     "slug": "digital-twin-nusametal-astra-otoparts",
-    "title": "Digital Twin — Nusametal Astra Otoparts",
+    "title": "Digital Twin - Nusametal Astra Otoparts",
     "client": "Nusametal Astra Otoparts",
     "company": "PT Molca Teknologi Nusantara",
     "category": "Digital Twin",
     "taxonomy": {
       "xr": "digital-twin"
     },
-    "year": "2025–2026",
+    "year": "2025-2026",
     "role": "Unity Developer Intern",
     "featured": true,
     "order": 6,
@@ -210,7 +210,7 @@
   },
   {
     "slug": "digital-twin-alamtri-resources",
-    "title": "Digital Twin — PT AlamTri Resources Indonesia",
+    "title": "Digital Twin - PT AlamTri Resources Indonesia",
     "client": "PT AlamTri Resources Indonesia",
     "company": "PT Molca Teknologi Nusantara",
     "category": "Digital Twin",
@@ -237,7 +237,7 @@
   },
   {
     "slug": "digital-twin-molca-factory",
-    "title": "Digital Twin — Molca Factory",
+    "title": "Digital Twin - Molca Factory",
     "client": "Molca Factory",
     "company": "PT Molca Teknologi Nusantara",
     "category": "Digital Twin",
@@ -267,7 +267,7 @@
   },
   {
     "slug": "alica-ai-virtual-assistant",
-    "title": "ALICA — AI Virtual Assistant",
+    "title": "ALICA - AI Virtual Assistant",
     "client": null,
     "company": "PT Molca Teknologi Nusantara",
     "category": "AI Integration",
@@ -333,7 +333,7 @@
     "role": "Game Programmer",
     "featured": true,
     "order": 101,
-    "summary": "Gameplay systems for an adventure game — player data, combat, enemy AI, movement and character interactions.",
+    "summary": "Gameplay systems for an adventure game - player data, combat, enemy AI, movement and character interactions.",
     "overview": [
       "Aventala: The Lost Tribe was developed with the Game for Education and Cultural Heritage team at PENS."
     ],
@@ -479,19 +479,19 @@
       "In ECOSITY, you are a volunteer sent to Mars to help establish a sustainable colony. To survive, you must grow crops, manage resources, and adapt to Mars' harsh conditions, aiming to transform the barren landscape into a thriving ecosystem."
     ],
     "contributions": [
-      "Inventory System — Allows players to pick up, store and use items.",
-      "Gardening System — Enables players to plant seeds into pots and grow vegetables.",
-      "Energy Power System — Manages resource required for gardening tasks.",
-      "Water Power System — Manages resource required for gardening tasks.",
-      "Time, Day, and Night Cycles — Creates a dynamic day system to simulate time passing.",
-      "UI System — Provides intuitive navigation for players.",
-      "Setting System — Allows players to adjust game settings.",
-      "Movement Mechanic — Includes walking and interacting within the environment.",
-      "Shop System — Allows players to buy and sell items.",
-      "Cooking System — Allows player to Cooking any foods.",
-      "Dialog System — Provides story and information to players.",
-      "Quest System — Provides objectives and rewards for players.",
-      "Tutorial System — Guides players through the game's mechanics."
+      "Inventory System - Allows players to pick up, store and use items.",
+      "Gardening System - Enables players to plant seeds into pots and grow vegetables.",
+      "Energy Power System - Manages resource required for gardening tasks.",
+      "Water Power System - Manages resource required for gardening tasks.",
+      "Time, Day, and Night Cycles - Creates a dynamic day system to simulate time passing.",
+      "UI System - Provides intuitive navigation for players.",
+      "Setting System - Allows players to adjust game settings.",
+      "Movement Mechanic - Includes walking and interacting within the environment.",
+      "Shop System - Allows players to buy and sell items.",
+      "Cooking System - Allows player to Cooking any foods.",
+      "Dialog System - Provides story and information to players.",
+      "Quest System - Provides objectives and rewards for players.",
+      "Tutorial System - Guides players through the game's mechanics."
     ],
     "technologies": [
       "Unreal Engine"
@@ -576,9 +576,9 @@
       "Kadet Soewoko was a young air force cadet who courageously defended Indonesia during the early days of its independence. Despite limited resources and training, he played a vital role in defending the nation's sovereignty, showing unwavering dedication and bravery. His actions inspire future generations to value patriotism and resilience."
     ],
     "contributions": [
-      "Interact Raycast System — Enables players to point their gaze or controller at objects and interact, such as reading information or triggering events related to Kadet Soewoko's story.",
-      "Pick-Up Mechanic — Allows players to grab and move objects in the game, such as documents or artifacts that provide context about Kadet Soewoko's heroism.",
-      "Movement System — Designed to let players explore the environment smoothly and comfortably in VR, including teleportation and smooth locomotion options."
+      "Interact Raycast System - Enables players to point their gaze or controller at objects and interact, such as reading information or triggering events related to Kadet Soewoko's story.",
+      "Pick-Up Mechanic - Allows players to grab and move objects in the game, such as documents or artifacts that provide context about Kadet Soewoko's heroism.",
+      "Movement System - Designed to let players explore the environment smoothly and comfortably in VR, including teleportation and smooth locomotion options."
     ],
     "technologies": [
       "Unity",
@@ -629,24 +629,24 @@
     "role": "Programmer",
     "featured": true,
     "order": 102,
-    "summary": "A 3D adventure RPG for Android that teaches players about edible, poisonous and rare mushrooms — built by a team of five over four months.",
+    "summary": "A 3D adventure RPG for Android that teaches players about edible, poisonous and rare mushrooms - built by a team of five over four months.",
     "overview": [
       "Finding Fungus is a 3D Adventure RPG game created as a project in the GameTech study program. Developed by a team of five over four months in the second semester, this Android game introduces players to various types of mushrooms, including edible, poisonous, and rare species, along with their habitats and Latin names.",
       "The story follows Alice, the main character, on a quest to rescue her kidnapped grandmother from a witch. Players must gather special stones to fulfill the witch's demands, but they face monsters along the journey to obtain these stones."
     ],
     "contributions": [
-      "Item Pickup Mechanic — Allows players to collect mushrooms in the game world.",
-      "Inventory System — Stores collected mushrooms for easy access.",
-      "Shop System — Enables players to trade inventory items for items in the shop.",
-      "Crafting System — Allows players to combine items to create new ones.",
-      "Quest System — Guides players to complete tasks and progress through the game.",
-      "UI Navigation System — Provides intuitive menu navigation for the game interface.",
-      "Minimap — Guides players through the game world and tracks their location.",
-      "Movement & Combat Mechanics — Includes character movement, attack combos, spinning attacks, and a basket-throwing feature.",
-      "Dialogue System — Provides story progression and character interactions.",
-      "Cutscene System — Plays animated sequences to advance the story.",
-      "Encyclopedia System — Provides information on mushrooms, including their Latin names and habitats.",
-      "AI Enemy Behavior — Controls enemy movement and attack patterns."
+      "Item Pickup Mechanic - Allows players to collect mushrooms in the game world.",
+      "Inventory System - Stores collected mushrooms for easy access.",
+      "Shop System - Enables players to trade inventory items for items in the shop.",
+      "Crafting System - Allows players to combine items to create new ones.",
+      "Quest System - Guides players to complete tasks and progress through the game.",
+      "UI Navigation System - Provides intuitive menu navigation for the game interface.",
+      "Minimap - Guides players through the game world and tracks their location.",
+      "Movement & Combat Mechanics - Includes character movement, attack combos, spinning attacks, and a basket-throwing feature.",
+      "Dialogue System - Provides story progression and character interactions.",
+      "Cutscene System - Plays animated sequences to advance the story.",
+      "Encyclopedia System - Provides information on mushrooms, including their Latin names and habitats.",
+      "AI Enemy Behavior - Controls enemy movement and attack patterns."
     ],
     "technologies": [
       "Unity",
@@ -728,11 +728,11 @@
       "Players take on the role of aliens piloting a UFO, tasked with destroying cities and buildings to accumulate points by clearing obstacles in the search for planetary resources."
     ],
     "contributions": [
-      "Flying Mechanic — Allows the UFO to move up and down with helicopter-like controls.",
-      "Shooting Mechanic — Enables the UFO to fire missiles at targets.",
-      "Health System — Assigns health values to buildings.",
-      "Damage System — Reduces building health upon missile impact using Unity Tags.",
-      "Score System — Tracks and displays points for each building destroyed."
+      "Flying Mechanic - Allows the UFO to move up and down with helicopter-like controls.",
+      "Shooting Mechanic - Enables the UFO to fire missiles at targets.",
+      "Health System - Assigns health values to buildings.",
+      "Damage System - Reduces building health upon missile impact using Unity Tags.",
+      "Score System - Tracks and displays points for each building destroyed."
     ],
     "technologies": [
       "Unity",
@@ -799,14 +799,14 @@
     "role": "Programmer",
     "featured": false,
     "order": 16,
-    "summary": "My first 2D game — a casual narrative game about a terminally ill character whose final activities shape the ending.",
+    "summary": "My first 2D game - a casual narrative game about a terminally ill character whose final activities shape the ending.",
     "overview": [
       "Project White is my first 2D game, created during the Game Design Connect 3.0 event organized by Gameloft Indonesia. This event allowed programmers and game designers to collaborate on a predetermined theme. We developed a Windows-based casual game with 2D visuals, centered around a terminally ill main character awaiting their final moments. Players can perform various activities, each of which influences the game’s ending.",
       "The story revolves around a main character who is ill and near the end of their life. The character can choose to perform various activities or do nothing, with each choice affecting the game’s ending."
     ],
     "contributions": [
-      "Watering Mechanic — Enables players to water plants, with animated visuals of water splashing from a teapot for enhanced interaction.",
-      "Rubbing Mechanic — Involves rubbing a piece of paper to reveal a hidden image of a flower, adding an engaging, interactive element."
+      "Watering Mechanic - Enables players to water plants, with animated visuals of water splashing from a teapot for enhanced interaction.",
+      "Rubbing Mechanic - Involves rubbing a piece of paper to reveal a hidden image of a flower, adding an engaging, interactive element."
     ],
     "technologies": [
       "Unity",
@@ -847,7 +847,7 @@
       },
       {
         "label": "Context",
-        "value": "Game Design Connect 3.0 — Gameloft Indonesia"
+        "value": "Game Design Connect 3.0 - Gameloft Indonesia"
       },
       {
         "label": "Achievement",
@@ -875,10 +875,10 @@
       "The world in MEMEMORY is taken over by four Mixsuwe mascots, threatening to turn everything into a Mixsuwe shop once the time runs out. Players must collect memory pieces and place them in the Mixsuwe shop to restore it to normal, making the mascots disappear and winning the game."
     ],
     "contributions": [
-      "Movement Mechanic — Controls player movement and camera rotation in the game.",
-      "Interaction System — Allows players to pick up items and interact with the environment.",
-      "Detection System — Tracks Mixsuwe shop with mini map and memory progres item.",
-      "Memory Placement Mechanic — Enables players to place memory pieces in the Mixsuwe shop to make Mixsuwe shop back to normal."
+      "Movement Mechanic - Controls player movement and camera rotation in the game.",
+      "Interaction System - Allows players to pick up items and interact with the environment.",
+      "Detection System - Tracks Mixsuwe shop with mini map and memory progres item.",
+      "Memory Placement Mechanic - Enables players to place memory pieces in the Mixsuwe shop to make Mixsuwe shop back to normal."
     ],
     "technologies": [
       "Unity",
@@ -945,16 +945,16 @@
     "role": "Programmer",
     "featured": false,
     "order": 18,
-    "summary": "A 3D jet shooter made in seven days for GameJamPlus — destroy endless waves of meteors and enemy planes.",
+    "summary": "A 3D jet shooter made in seven days for GameJamPlus - destroy endless waves of meteors and enemy planes.",
     "overview": [
       "SPACE-301 is a 3D jet plane shooter game developed during the 7-day GameJamPlus event open to all Indonesian citizens. The game features a casual theme where players control a jet to destroy endless waves of meteors and enemy planes while avoiding incoming obstacles. A scoreboard tracks player progress and skills."
     ],
     "contributions": [
-      "Jet Movement and Control — Provides smooth, responsive movement for the jet, allowing the player to navigate and dodge obstacles effectively.",
-      "Meteor Destruction and Particle Effects — Destroys meteors on impact and releases particles sized to match the meteors for a satisfying visual effect.",
-      "Meteor Spawning System — Randomly generates meteors of various sizes and rotations to create diverse and unpredictable challenges.",
-      "Enemy Plane Spawning and Missile Attack — Spawns enemy planes in unique patterns, each capable of firing missiles at the player's jet to increase difficulty.",
-      "UI Navigation — Includes start screen, main menu, loading screen, name entry, and scoreboard to guide players through the game interface."
+      "Jet Movement and Control - Provides smooth, responsive movement for the jet, allowing the player to navigate and dodge obstacles effectively.",
+      "Meteor Destruction and Particle Effects - Destroys meteors on impact and releases particles sized to match the meteors for a satisfying visual effect.",
+      "Meteor Spawning System - Randomly generates meteors of various sizes and rotations to create diverse and unpredictable challenges.",
+      "Enemy Plane Spawning and Missile Attack - Spawns enemy planes in unique patterns, each capable of firing missiles at the player's jet to increase difficulty.",
+      "UI Navigation - Includes start screen, main menu, loading screen, name entry, and scoreboard to guide players through the game interface."
     ],
     "technologies": [
       "Unity",
@@ -1026,10 +1026,10 @@
       "Lontong Balap is a 3D multiplayer racing game developed in two and a half days during the 11th Internal GameJam. Designed for split-screen play, it follows a Jungle theme, with two players racing on obstacle-filled tracks."
     ],
     "contributions": [
-      "Driving Mechanics — Core racing controls for player movement.",
-      "Split-Screen Camera System — Dual camera views for each player, displaying a third-person perspective.",
-      "Obstacle Placement — Track obstacles designed to increase the game’s challenge.",
-      "UI Navigation System — Includes loading screens, main menu, and map selection options."
+      "Driving Mechanics - Core racing controls for player movement.",
+      "Split-Screen Camera System - Dual camera views for each player, displaying a third-person perspective.",
+      "Obstacle Placement - Track obstacles designed to increase the game’s challenge.",
+      "UI Navigation System - Includes loading screens, main menu, and map selection options."
     ],
     "technologies": [
       "Unity",
@@ -1102,11 +1102,11 @@
       "The player is trapped in an almost inescapable maze, haunted by ghosts lurking around every corner, which must be killed using weapons."
     ],
     "contributions": [
-      "Pickup Item Mechanic — Allows players to collect items tagged as interactable.",
-      "Shooting Mechanic — Allows players to use weapons to attack ghosts.",
-      "Movement Mechanism — Character movement mechanics that include basic and advanced movements.",
-      "Ghost AI System — Ghosts can chase and attack the player based on proximity.",
-      "Damage and Blood System — Applies damage to ghosts and displays UI death for the player."
+      "Pickup Item Mechanic - Allows players to collect items tagged as interactable.",
+      "Shooting Mechanic - Allows players to use weapons to attack ghosts.",
+      "Movement Mechanism - Character movement mechanics that include basic and advanced movements.",
+      "Ghost AI System - Ghosts can chase and attack the player based on proximity.",
+      "Damage and Blood System - Applies damage to ghosts and displays UI death for the player."
     ],
     "technologies": [
       "Unity",
@@ -1170,9 +1170,9 @@
       "Pentol Golf is a 3D Arcade game I created during the Internal GameJam event in the Game Technology program, with a development time limit of 2.5 days. Working in a randomly assigned team, we created a golf-style game with levels and various obstacles, based on the theme “Pentol & AirFryer.”"
     ],
     "contributions": [
-      "Hitting Mechanic — Allows players to hit the golf ball in the desired direction.",
-      "Level Terrain — Designed and implemented terrain for levels 1, 2, and 3.",
-      "Line Trace System — Determines the direction of the ball before hitting."
+      "Hitting Mechanic - Allows players to hit the golf ball in the desired direction.",
+      "Level Terrain - Designed and implemented terrain for levels 1, 2, and 3.",
+      "Line Trace System - Determines the direction of the ball before hitting."
     ],
     "technologies": [
       "Unity",
@@ -1238,10 +1238,10 @@
     "summary": "A two-player strategy board game, inspired by Monopoly, where colonizers and indigenous people compete for Indonesia's provinces.",
     "overview": [
       "This board game, inspired by Monopoly, is set on a map of Indonesia divided into provinces. Played by two players who take turns, each player represents one of two factions: the colonizers or the indigenous people, competing to gain control over regions across the country.",
-      "In a struggle for dominance over the Indonesian archipelago, two factions face off—the colonizers, aiming to expand their rule, and the indigenous people, determined to defend their homeland. Players strategically capture provinces, rally support, and build influence, striving to shape the fate of Indonesia."
+      "In a struggle for dominance over the Indonesian archipelago, two factions face off - the colonizers, aiming to expand their rule, and the indigenous people, determined to defend their homeland. Players strategically capture provinces, rally support, and build influence, striving to shape the fate of Indonesia."
     ],
     "contributions": [
-      "Trailer Animation — I animated the Gerilya trailer in Unity, highlighting money, cards, and the territorial struggle."
+      "Trailer Animation - I animated the Gerilya trailer in Unity, highlighting money, cards, and the territorial struggle."
     ],
     "technologies": [
       "Unity"
@@ -1420,7 +1420,7 @@
       "Vue.js"
     ],
     "order": 204,
-    "year": "2022–2023",
+    "year": "2022-2023",
     "role": "Frontend Developer",
     "summary": "Website for Media ENT, the campus media and branding team at PENS, with contact options for collaboration.",
     "overview": [
@@ -1454,7 +1454,7 @@
       "Vue.js"
     ],
     "order": 205,
-    "year": "2022–2023",
+    "year": "2022-2023",
     "role": "Frontend Developer",
     "summary": "Website for the PENS Cyber Incident Response Team, which handles cyber-security issues on campus.",
     "overview": [
@@ -1488,7 +1488,7 @@
       "React"
     ],
     "order": 206,
-    "year": "2022–2023",
+    "year": "2022-2023",
     "role": "Frontend Developer",
     "summary": "Official landing page for the EEPIS News and Network Team.",
     "overview": [
@@ -1527,7 +1527,7 @@
       "Laravel"
     ],
     "order": 207,
-    "year": "2021–2022",
+    "year": "2021-2022",
     "role": "Full Stack Developer",
     "summary": "A self-ordering app where customers order food and drinks without a waiter and receive a receipt to collect their order.",
     "overview": [
@@ -1561,7 +1561,7 @@
       "Laravel"
     ],
     "order": 208,
-    "year": "2021–2022",
+    "year": "2021-2022",
     "role": "Full Stack Developer",
     "summary": "A web app that helps laundry owners manage incoming and returned clothing.",
     "overview": [
@@ -1600,11 +1600,11 @@
       "CodeIgniter"
     ],
     "order": 209,
-    "year": "2021–2022",
+    "year": "2021-2022",
     "role": "Full Stack Developer",
     "summary": "A café cashier app for taking orders, with food stock tracking.",
     "overview": [
-      "An application that makes ordering easier in a café — a café cashier — including a food stock feature."
+      "An application that makes ordering easier in a café - a café cashier - including a food stock feature."
     ]
   },
   {
@@ -1634,7 +1634,7 @@
       "Laravel"
     ],
     "order": 210,
-    "year": "2021–2022",
+    "year": "2021-2022",
     "role": "Full Stack Developer",
     "summary": "Profile website for the SMKN 1 Boyolangu scout organization, with an election voting feature.",
     "overview": [
@@ -1670,7 +1670,7 @@
       "JavaScript"
     ],
     "order": 211,
-    "year": "2021–2022",
+    "year": "2021-2022",
     "role": "Web Developer",
     "summary": "A profile website introducing Indonesian batik, with seller contacts for buying the products.",
     "overview": [
@@ -1706,7 +1706,7 @@
       "JavaScript"
     ],
     "order": 212,
-    "year": "2021–2022",
+    "year": "2021-2022",
     "role": "Web Developer",
     "summary": "A profile website for the Visual Communication Design department at SMKN 1 Boyolangu.",
     "overview": [
