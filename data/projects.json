@@ -855,12 +855,8 @@
         "value": "Game Design Connect 3.0 - Gameloft Indonesia"
       },
       {
-        "label": "Team award",
-        "value": "Best Game Design"
-      },
-      {
         "label": "Personal award",
-        "value": "Best Team"
+        "value": "Double winner: Best Game Design & Best Team"
       }
     ],
     "contributionIntro": "As the programmer, I was responsible for implementing the mechanics of each minigame requested by the game designer. Initially, I faced challenges due to limited experience with 2D game development, so I collaborated with team members to address potential issues. After gaining a foundational understanding of 2D concepts, I developed all the minigame mechanics."
