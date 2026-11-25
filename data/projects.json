@@ -30,7 +30,8 @@
     "gallery": [],
     "links": [],
     "info": [],
-    "size": "wide"
+    "size": "wide",
+    "discipline": "industry"
   },
   {
     "slug": "savior-vr-arecaverse",
@@ -58,7 +59,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "industry"
   },
   {
     "slug": "digital-twin-pltu-labuan",
@@ -87,7 +89,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "industry"
   },
   {
     "slug": "digital-twin-petrokimia-gresik",
@@ -116,7 +119,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "industry"
   },
   {
     "slug": "red-life-ai-virtual-assistant",
@@ -158,7 +162,8 @@
     "gallery": [],
     "links": [],
     "info": [],
-    "size": "wide"
+    "size": "wide",
+    "discipline": "industry"
   },
   {
     "slug": "digital-twin-nusametal-astra-otoparts",
@@ -188,7 +193,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "industry"
   },
   {
     "slug": "digital-twin-alamtri-resources",
@@ -212,7 +218,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "industry"
   },
   {
     "slug": "digital-twin-molca-factory",
@@ -239,7 +246,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "industry"
   },
   {
     "slug": "alica-ai-virtual-assistant",
@@ -264,7 +272,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "industry"
   },
   {
     "slug": "multiplayer-vr-prototype",
@@ -288,7 +297,8 @@
     "cover": null,
     "gallery": [],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "industry"
   },
   {
     "slug": "aventala-the-lost-tribe",
@@ -343,7 +353,8 @@
       }
     ],
     "links": [],
-    "info": []
+    "info": [],
+    "discipline": "games"
   },
   {
     "slug": "fairy-tale-return-of-heroes",
@@ -422,7 +433,8 @@
         "label": "Project type",
         "value": "Competition project"
       }
-    ]
+    ],
+    "discipline": "games"
   },
   {
     "slug": "ecosity-new-dawn-on-mars",
@@ -515,7 +527,8 @@
         "value": "1st Place in KMIPN VI"
       }
     ],
-    "contributionIntro": "As a programmer, my main challenge was adapting to Unreal Engine, as it was my first time using this tool. With the help of YouTube and Udemy tutorials, I managed to create a modular inventory system and implement various core mechanics."
+    "contributionIntro": "As a programmer, my main challenge was adapting to Unreal Engine, as it was my first time using this tool. With the help of YouTube and Udemy tutorials, I managed to create a modular inventory system and implement various core mechanics.",
+    "discipline": "games"
   },
   {
     "slug": "kadet-soewoko-vr",
@@ -571,7 +584,8 @@
         "value": "Lecturer research project"
       }
     ],
-    "contributionIntro": "I contributed as a programmer responsible for implementing the interact raycast system, pick-up mechanics, and player movement system. These mechanics enable players to interact with objects, navigate the environment smoothly, and fully immerse themselves in the historical narrative."
+    "contributionIntro": "I contributed as a programmer responsible for implementing the interact raycast system, pick-up mechanics, and player movement system. These mechanics enable players to interact with objects, navigate the environment smoothly, and fully immerse themselves in the historical narrative.",
+    "discipline": "games"
   },
   {
     "slug": "finding-fungus",
@@ -661,7 +675,8 @@
         "value": "Course project"
       }
     ],
-    "contributionIntro": "As the programmer, I handled the core mechanics and UI interactions. I applied concepts like Instances and Singletons in Unity to manage more complex UI setups. In this project, I created mechanics including an item pickup system for collecting mushrooms, an Inventory System to store collected mushrooms, a Shop System where players can exchange items, and additional features such as a UI navigation system, Minimap, and movement and combat mechanics, including combos, spins, and a basket-throwing attack."
+    "contributionIntro": "As the programmer, I handled the core mechanics and UI interactions. I applied concepts like Instances and Singletons in Unity to manage more complex UI setups. In this project, I created mechanics including an item pickup system for collecting mushrooms, an Inventory System to store collected mushrooms, a Shop System where players can exchange items, and additional features such as a UI navigation system, Minimap, and movement and combat mechanics, including combos, spins, and a basket-throwing attack.",
+    "discipline": "games"
   },
   {
     "slug": "yufo-new-planet",
@@ -735,7 +750,8 @@
         "value": "1st Place in Best Fun Game"
       }
     ],
-    "contributionIntro": "As a programmer, I collaborated with other team programmers, focusing on key mechanics and visual elements. I explored lockable physics in Unity for buildings and UFOs and learned about customizable Bloom effects in Unity's Material & Tag Inspector, which I applied to bullets. The main challenge was inserting materials into Unity manually, a task I tackled with the assistance of the Game Artist. I implemented mechanics such as a Flying system for UFO movement resembling helicopter controls, a Shooting Mechanic to fire missiles, a Health System for buildings, and a Damage System to apply damage using Unity Tags. I also developed a Score system to track destroyed buildings."
+    "contributionIntro": "As a programmer, I collaborated with other team programmers, focusing on key mechanics and visual elements. I explored lockable physics in Unity for buildings and UFOs and learned about customizable Bloom effects in Unity's Material & Tag Inspector, which I applied to bullets. The main challenge was inserting materials into Unity manually, a task I tackled with the assistance of the Game Artist. I implemented mechanics such as a Flying system for UFO movement resembling helicopter controls, a Shooting Mechanic to fire missiles, a Health System for buildings, and a Damage System to apply damage using Unity Tags. I also developed a Score system to track destroyed buildings.",
+    "discipline": "games"
   },
   {
     "slug": "project-white",
@@ -802,7 +818,8 @@
         "value": "Best Game Design"
       }
     ],
-    "contributionIntro": "As the programmer, I was responsible for implementing the mechanics of each minigame requested by the game designer. Initially, I faced challenges due to limited experience with 2D game development, so I collaborated with team members to address potential issues. After gaining a foundational understanding of 2D concepts, I developed all the minigame mechanics."
+    "contributionIntro": "As the programmer, I was responsible for implementing the mechanics of each minigame requested by the game designer. Initially, I faced challenges due to limited experience with 2D game development, so I collaborated with team members to address potential issues. After gaining a foundational understanding of 2D concepts, I developed all the minigame mechanics.",
+    "discipline": "games"
   },
   {
     "slug": "mememory",
@@ -875,7 +892,8 @@
         "value": "Game jam (ITB)"
       }
     ],
-    "contributionIntro": "As a programmer, I developed the main game mechanics and created an item pickup system prototype. Although I had experience with similar mechanics, integrating items with the UI presented challenges. Through experimentation, I implemented a Movement mechanic for player controls, an Interaction system for picking up items, and a Detection System to manage the UI Memory configuration, allowing players to track whether a memory has been used to transform the Mixsuwe shop back to its original form."
+    "contributionIntro": "As a programmer, I developed the main game mechanics and created an item pickup system prototype. Although I had experience with similar mechanics, integrating items with the UI presented challenges. Through experimentation, I implemented a Movement mechanic for player controls, an Interaction system for picking up items, and a Detection System to manage the UI Memory configuration, allowing players to track whether a memory has been used to transform the Mixsuwe shop back to its original form.",
+    "discipline": "games"
   },
   {
     "slug": "space-301",
@@ -948,7 +966,8 @@
         "value": "Game jam (GameJamPlus)"
       }
     ],
-    "contributionIntro": "As the programmer, I implemented various gameplay mechanics specified by the game design. I learned how to customize particle effects in Unity, ensuring that particles matched the size of larger meteors through various adjustments. I was also responsible for programming the jet movement mechanics, rotation for targeting meteors, and different spawn patterns for meteors and enemy planes. Additionally, I created UI elements such as start screens, loading, main menu, name entry, and scoreboard."
+    "contributionIntro": "As the programmer, I implemented various gameplay mechanics specified by the game design. I learned how to customize particle effects in Unity, ensuring that particles matched the size of larger meteors through various adjustments. I was also responsible for programming the jet movement mechanics, rotation for targeting meteors, and different spawn patterns for meteors and enemy planes. Additionally, I created UI elements such as start screens, loading, main menu, name entry, and scoreboard.",
+    "discipline": "games"
   },
   {
     "slug": "lontong-balap",
@@ -1020,7 +1039,8 @@
         "value": "Game jam (11th Internal GameJam)"
       }
     ],
-    "contributionIntro": "As the programmer, I focused on creating driving mechanics, implementing split-screen cameras, and setting up track obstacles. I also developed UI navigation elements, including loading screens, a main menu, map selection, and a win/loss system to display race outcomes."
+    "contributionIntro": "As the programmer, I focused on creating driving mechanics, implementing split-screen cameras, and setting up track obstacles. I also developed UI navigation elements, including loading screens, a main menu, map selection, and a win/loss system to display race outcomes.",
+    "discipline": "games"
   },
   {
     "slug": "sesat-tersesat",
@@ -1086,7 +1106,8 @@
         "value": "Game jam (BINUS GameJam)"
       }
     ],
-    "contributionIntro": "As the programmer, this was my first experience creating a First Person game. I learned about FPS mechanics in Unity using the Raycast System through YouTube tutorials. My main challenge was implementing interactions in the game, where I tagged interactable items. I created mechanics like Pickup Item, allowing players to collect tagged items, as well as movement, shooting, and an AI system for ghosts to chase and attack the player. I also developed a Damage and Blood system to deal damage to the ghosts."
+    "contributionIntro": "As the programmer, this was my first experience creating a First Person game. I learned about FPS mechanics in Unity using the Raycast System through YouTube tutorials. My main challenge was implementing interactions in the game, where I tagged interactable items. I created mechanics like Pickup Item, allowing players to collect tagged items, as well as movement, shooting, and an AI system for ghosts to chase and attack the player. I also developed a Damage and Blood system to deal damage to the ghosts.",
+    "discipline": "games"
   },
   {
     "slug": "pentol-golf",
@@ -1153,7 +1174,8 @@
         "value": "Game jam (Internal GameJam)"
       }
     ],
-    "contributionIntro": "As the programmer, I developed core mechanics and experimented with assets provided by the Game Artist. I learned about Trace line, Physics, and Collision in Unity. Despite time constraints and evolving mechanics from Game Design, I successfully implemented the Hitting mechanic to control the golf ball’s direction. Additionally, I developed Terrain for levels 1, 2, and 3, the Line Trace system to set ball direction, and a UI System for game navigation, including Loading and Main Menu."
+    "contributionIntro": "As the programmer, I developed core mechanics and experimented with assets provided by the Game Artist. I learned about Trace line, Physics, and Collision in Unity. Despite time constraints and evolving mechanics from Game Design, I successfully implemented the Hitting mechanic to control the golf ball’s direction. Additionally, I developed Terrain for levels 1, 2, and 3, the Line Trace system to set ball direction, and a UI System for game navigation, including Loading and Main Menu.",
+    "discipline": "games"
   },
   {
     "slug": "gerilya-dominate-nusantara",
@@ -1210,6 +1232,546 @@
         "value": "Board game project"
       }
     ],
-    "contributionIntro": "As the Game Designer, I was responsible for developing game mechanics, balancing the board elements, and creating strategic objectives for both factions to enhance replayability and immersion. Additionally, as an Animator, I crafted the trailer video in Unity, utilizing Unity Animation to bring the game’s conflict and visuals to life, effectively capturing the tension and excitement of the gameplay."
+    "contributionIntro": "As the Game Designer, I was responsible for developing game mechanics, balancing the board elements, and creating strategic objectives for both factions to enhance replayability and immersion. Additionally, as an Animator, I crafted the trailer video in Unity, utilizing Unity Animation to bring the game’s conflict and visuals to life, effectively capturing the tension and excitement of the gameplay.",
+    "discipline": "games"
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Status",
+        "value": "Ongoing"
+      }
+    ],
+    "featured": true,
+    "cover": null,
+    "gallery": [],
+    "contributions": [
+      "Developed application architecture with consideration for scalability, user management, feature flexibility and potential multi-tenant implementation.",
+      "Supported a subscription-based service model through configurable software features tailored to different client requirements."
+    ],
+    "technologies": [],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 200,
+    "slug": "forta-saas-platform",
+    "title": "SaaS Platform & CMS",
+    "company": "FORTA Technology",
+    "year": "2026",
+    "role": "Full Stack Developer",
+    "summary": "A Software-as-a-Service platform with centralized administration and a CMS for dynamic data, content and service configuration.",
+    "overview": [
+      "Design and development of a SaaS platform, including centralized administration and a Content Management System (CMS) for dynamic data, content and service configuration."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [],
+    "featured": true,
+    "cover": null,
+    "gallery": [],
+    "contributions": [
+      "Built an administrative CMS to manage company information, services, project portfolios and website content dynamically.",
+      "Integrated the public-facing website with the administration dashboard to centralize content updates without direct code changes."
+    ],
+    "technologies": [],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 201,
+    "slug": "forta-company-profile",
+    "title": "FORTA Company Profile & Admin CMS",
+    "company": "FORTA Technology",
+    "year": "2026",
+    "role": "Full Stack Developer",
+    "summary": "The FORTA company profile and portfolio website, managed from an administrative CMS.",
+    "overview": [
+      "Developed the FORTA company profile and portfolio website to present the company's software development and technology consulting services."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [],
+    "featured": true,
+    "cover": null,
+    "gallery": [],
+    "contributions": [
+      "Implemented administrative features for managing products and menu categories to improve operational visibility."
+    ],
+    "technologies": [],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 202,
+    "slug": "forta-cafe-pos",
+    "title": "Café Point of Sale",
+    "company": "FORTA Technology",
+    "year": "2026",
+    "role": "Full Stack Developer",
+    "summary": "A point-of-sale application for café operations: order entry, menu and price management, transactions and sales monitoring.",
+    "overview": [
+      "Developed a Point of Sale (POS) application for café operations, supporting order entry, menu and price management, transaction processing, sales monitoring and transaction history."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [],
+    "featured": false,
+    "cover": null,
+    "gallery": [],
+    "contributions": [
+      "Implemented administration features for customer, service, pricing and transaction-history management."
+    ],
+    "technologies": [],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 203,
+    "slug": "forta-laundry-pos",
+    "title": "Laundry Point of Sale",
+    "company": "FORTA Technology",
+    "year": "2026",
+    "role": "Full Stack Developer",
+    "summary": "A laundry POS that tracks customer orders, transactions, service status and order progress from intake to completion.",
+    "overview": [
+      "Developed a laundry Point of Sale (POS) application to manage customer orders, transactions, service status and order progress from intake to completion."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": true,
+    "cover": {
+      "src": "media/projects/media-ent/cover.webp",
+      "alt": "Media ENT screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "Vue.js"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 204,
+    "slug": "media-ent",
+    "title": "Media ENT",
+    "company": "EEPIS News and Network Team",
+    "year": "2022–2023",
+    "role": "Frontend Developer",
+    "summary": "Website for Media ENT, the campus media and branding team at PENS, with contact options for collaboration.",
+    "overview": [
+      "A website introducing Media ENT, which works in campus media and branding, with a way to contact the team."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": true,
+    "cover": {
+      "src": "media/projects/pens-cirt-website/cover.webp",
+      "alt": "PENS CIRT website screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "Vue.js"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 205,
+    "slug": "pens-cirt-website",
+    "title": "PENS CIRT Website",
+    "company": "EEPIS News and Network Team",
+    "year": "2022–2023",
+    "role": "Frontend Developer",
+    "summary": "Website for the PENS Cyber Incident Response Team, which handles cyber-security issues on campus.",
+    "overview": [
+      "A website introducing CIRT, the team set up to handle cyber-security problems, with a way to contact them."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": true,
+    "cover": {
+      "src": "media/projects/ent-website/cover.webp",
+      "alt": "ENT official website screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "React"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 206,
+    "slug": "ent-website",
+    "title": "ENT Official Website",
+    "company": "EEPIS News and Network Team",
+    "year": "2022–2023",
+    "role": "Frontend Developer",
+    "summary": "Official landing page for the EEPIS News and Network Team.",
+    "overview": [
+      "The official website introducing ENT, which works in campus media and branding, with a way to contact the team."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": true,
+    "cover": {
+      "src": "media/projects/self-order-fast-food/cover.webp",
+      "alt": "Self-order fast food screenshot"
+    },
+    "gallery": [
+      {
+        "src": "media/projects/self-order-fast-food/01.webp",
+        "alt": "Self-order fast food screenshot"
+      }
+    ],
+    "contributions": [],
+    "technologies": [
+      "Laravel"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 207,
+    "slug": "self-order-fast-food",
+    "title": "Self-Order Fast Food",
+    "company": "Freelance",
+    "year": "2021–2022",
+    "role": "Full Stack Developer",
+    "summary": "A self-ordering app where customers order food and drinks without a waiter and receive a receipt to collect their order.",
+    "overview": [
+      "An application that lets customers order food or drinks themselves without a waiter. A receipt is printed and used to collect the order."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/laundry-management/cover.webp",
+      "alt": "Laundry management screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "Laravel"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 208,
+    "slug": "laundry-management",
+    "title": "Laundry Management",
+    "company": "Freelance",
+    "year": "2021–2022",
+    "role": "Full Stack Developer",
+    "summary": "A web app that helps laundry owners manage incoming and returned clothing.",
+    "overview": [
+      "A website built to help laundry business owners manage and return customers' clothing."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/cafe-cashier/cover.webp",
+      "alt": "Café cashier screenshot"
+    },
+    "gallery": [
+      {
+        "src": "media/projects/cafe-cashier/01.webp",
+        "alt": "Café cashier screenshot"
+      }
+    ],
+    "contributions": [],
+    "technologies": [
+      "CodeIgniter"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 209,
+    "slug": "cafe-cashier",
+    "title": "Café Cashier",
+    "company": "Freelance",
+    "year": "2021–2022",
+    "role": "Full Stack Developer",
+    "summary": "A café cashier app for taking orders, with food stock tracking.",
+    "overview": [
+      "An application that makes ordering easier in a café — a café cashier — including a food stock feature."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/scout-voting/cover.webp",
+      "alt": "Scout website screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "Laravel"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 210,
+    "slug": "scout-voting",
+    "title": "SMKN 1 Boyolangu Scout Website & Voting",
+    "company": "Freelance",
+    "year": "2021–2022",
+    "role": "Full Stack Developer",
+    "summary": "Profile website for the SMKN 1 Boyolangu scout organization, with an election voting feature.",
+    "overview": [
+      "A profile website for the scout organization at SMKN 1 Boyolangu, with a voting feature for elections."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/corak-raya/cover.webp",
+      "alt": "Corak Raya screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 211,
+    "slug": "corak-raya",
+    "title": "Corak Raya",
+    "company": "Freelance",
+    "year": "2021–2022",
+    "role": "Web Developer",
+    "summary": "A profile website introducing Indonesian batik, with seller contacts for buying the products.",
+    "overview": [
+      "A profile website that introduces Indonesian batik so more people know these products, with contacts for batik sellers."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/teaching-factory-profile/cover.webp",
+      "alt": "Teaching Factory profile screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 212,
+    "slug": "teaching-factory-profile",
+    "title": "Teaching Factory Profile",
+    "company": "Freelance",
+    "year": "2021–2022",
+    "role": "Web Developer",
+    "summary": "A profile website for the Visual Communication Design department at SMKN 1 Boyolangu.",
+    "overview": [
+      "A profile website introducing the Visual Communication Design (DKV) department at SMKN 1 Boyolangu."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/genre-class/cover.webp",
+      "alt": "GenRe Class screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "Django"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 213,
+    "slug": "genre-class",
+    "title": "GenRe Class",
+    "company": "Adisatya IT Consultant",
+    "year": "2020",
+    "role": "Full Stack Developer Intern",
+    "summary": "An online education platform about adolescence for teenagers, parents and carers, under the Generasi Berencana programme.",
+    "overview": [
+      "GenRe Class is an online education and information platform for teenagers, their parents and anyone who cares about teenagers, within the Generasi Berencana (GenRe) programme."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/food-recipe/cover.webp",
+      "alt": "Food recipe website screenshot"
+    },
+    "gallery": [],
+    "contributions": [],
+    "technologies": [
+      "Django"
+    ],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 214,
+    "slug": "food-recipe",
+    "title": "Homemade Food Recipes",
+    "company": "Adisatya IT Consultant",
+    "year": "2020",
+    "role": "Full Stack Developer Intern",
+    "summary": "A recipe website that helps home cooks find and learn recipes.",
+    "overview": [
+      "A website of recipes for home cooks, making it easier to find and learn the recipes available in the app."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/the-warriors/cover.webp",
+      "alt": "The Warriors website screenshot"
+    },
+    "gallery": [
+      {
+        "src": "media/projects/the-warriors/01.webp",
+        "alt": "The Warriors website screenshot"
+      }
+    ],
+    "contributions": [],
+    "technologies": [],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 215,
+    "slug": "the-warriors",
+    "title": "The Warriors",
+    "company": null,
+    "year": null,
+    "role": "Web Developer",
+    "summary": "A review website for the game The Warriors, to help players find and learn about it.",
+    "overview": [
+      "The Warriors is a review website for the game The Warriors, making it easier for users to find and learn about the game."
+    ]
+  },
+  {
+    "client": null,
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Web"
+      }
+    ],
+    "featured": false,
+    "cover": {
+      "src": "media/projects/ent-cafe/cover.webp",
+      "alt": "ENT Café landing page screenshot"
+    },
+    "gallery": [
+      {
+        "src": "media/projects/ent-cafe/01.webp",
+        "alt": "ENT Café landing page screenshot"
+      }
+    ],
+    "contributions": [],
+    "technologies": [],
+    "discipline": "web",
+    "category": "Web Development",
+    "order": 216,
+    "slug": "ent-cafe",
+    "title": "ENT Café Landing Page",
+    "company": null,
+    "year": null,
+    "role": "Web Developer",
+    "summary": "A landing page for ENT Café that makes it easy to buy its products.",
+    "overview": [
+      "ENT Café is a landing-page website for a café called ENT, making it easier for users to buy products."
+    ]
   }
 ]

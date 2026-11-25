@@ -66,7 +66,7 @@
     "fact": "Built Digital Twins for PLN PLTU Labuan, Petrokimia Gresik and Nusametal Astra Otoparts.",
     "primaryAction": {
       "label": "View projects",
-      "target": "#industry"
+      "target": "#work"
     },
     "secondaryAction": {
       "label": "Email me",
@@ -74,17 +74,6 @@
     }
   },
   "sections": {
-    "industry": {
-      "title": "Industrial software for PLN, PetroChina and Petrokimia",
-      "text": "Digital Twins, simulators, VR training and AI work from PT Molca Teknologi Nusantara and my final project at PENS."
-    },
-    "games": {
-      "title": "Games built in Unity and Unreal Engine",
-      "text": "Game jams, course projects and research games — mostly as programmer.",
-      "initialCount": 6,
-      "moreLabel": "Show all games",
-      "lessLabel": "Show fewer games"
-    },
     "about": {
       "title": "About my work"
     },
@@ -98,5 +87,51 @@
     "recognition": {
       "title": "Awards, certifications and education"
     }
+  },
+  "catalog": {
+    "title": "Projects in three fields",
+    "text": "Pick the field you are hiring for. Each one has its own page you can share.",
+    "categories": [
+      {
+        "id": "industry",
+        "title": "Industrial software",
+        "summary": "Digital Twins, simulators, VR training and AI for PLN, PetroChina and Petrokimia.",
+        "noun": "projects",
+        "showcase": [
+          "PLN",
+          "PetroChina",
+          "Petrokimia",
+          "Nusametal",
+          "AlamTri"
+        ],
+        "cover": null,
+        "pageTitle": "Industrial software for PLN, PetroChina and Petrokimia",
+        "pageText": "Digital Twins, simulators, VR training and AI work from PT Molca Teknologi Nusantara and my final project at PENS."
+      },
+      {
+        "id": "games",
+        "title": "Games",
+        "summary": "Unity and Unreal Engine games from game jams, course projects and a VR history experience.",
+        "noun": "games",
+        "cover": {
+          "src": "media/projects/ecosity-new-dawn-on-mars/cover.webp",
+          "alt": "ECOSITY: New Dawn on Mars cover"
+        },
+        "pageTitle": "Games built in Unity and Unreal Engine",
+        "pageText": "Game jams, course projects and research games — mostly as programmer."
+      },
+      {
+        "id": "web",
+        "title": "Web platforms",
+        "summary": "SaaS, CMS and point-of-sale apps at FORTA, plus campus and freelance websites.",
+        "noun": "projects",
+        "cover": {
+          "src": "media/projects/media-ent/cover.webp",
+          "alt": "Media ENT website"
+        },
+        "pageTitle": "Web platforms, from SaaS to campus websites",
+        "pageText": "Full-stack work at FORTA Technology, frontend work for the EEPIS News and Network Team, and freelance and internship projects in Laravel, Django, Vue.js and React."
+      }
+    ]
   }
 }
