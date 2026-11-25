@@ -2,12 +2,7 @@
   "name": "Alfian Aditya Kurniawan",
   "shortName": "Alfian Aditya",
   "headline": "Software Engineer",
-  "specialties": [
-    "Digital Twin",
-    "Immersive Technology",
-    "Full Stack Development"
-  ],
-  "intro": "I'm Alfian Aditya Kurniawan, a software engineer in Surabaya. I build Unity-based Digital Twins, VR safety training and driving simulators, alongside full-stack web platforms and AI integrations.",
+  "intro": "I build software end to end — web platforms and SaaS, AI-powered features, and real-time 3D apps and games in Unity and Unreal Engine.",
   "location": "Surabaya, Indonesia",
   "portrait": {
     "src": "media/profile/portrait.webp",
@@ -22,7 +17,7 @@
     "company": "FORTA Technology"
   },
   "about": {
-    "lead": "Real-time 3D, industrial operations and the web — that is where my work sits.",
+    "lead": "Web platforms, AI features and real-time 3D — designed and built end to end.",
     "paragraphs": [
       "At PT Molca Teknologi Nusantara I developed Unity-based Digital Twin applications for Molca Factory, PLN PLTU Labuan, Petrokimia Gresik, Nusametal Astra Otoparts and PT AlamTri Resources Indonesia, a hardware-integrated Safety Driving Simulator for PetroChina International Jabung, and Savior VR: Arecaverse, an immersive safety-training application.",
       "Alongside that, I design and develop full-stack products at FORTA Technology — a SaaS platform with centralized administration and CMS, a company profile with an administrative dashboard, and point-of-sale applications.",
@@ -58,12 +53,16 @@
     ]
   },
   "seo": {
-    "title": "Alfian Aditya Kurniawan — Software Engineer, Digital Twin & Immersive Technology",
-    "description": "Portfolio of Alfian Aditya Kurniawan, a software engineer building Unity Digital Twins, VR training, industrial simulators and full-stack web platforms."
+    "title": "Alfian Aditya Kurniawan — Software Engineer, Full-Stack, AI and Unity & Unreal Engine Developer",
+    "description": "Portfolio of Alfian Aditya Kurniawan: software engineer, full-stack developer, AI engineer and Unity & Unreal Engine developer based in Surabaya."
   },
   "hero": {
-    "title": "Software engineer for industrial Digital Twins, VR training and simulators.",
-    "fact": "Built Digital Twins for PLN PLTU Labuan, Petrokimia Gresik and Nusametal Astra Otoparts.",
+    "bio": "I build software end to end — web platforms and SaaS, AI-powered features, and real-time 3D apps and games in Unity and Unreal Engine.",
+    "photo": {
+      "src": "media/profile/hero.webp",
+      "srcSmall": "media/profile/hero-640.webp",
+      "alt": "Alfian Aditya Kurniawan wearing a blue batik shirt, standing in front of a historical monument wall in Surabaya"
+    },
     "primaryAction": {
       "label": "View projects",
       "target": "#work"
@@ -133,5 +132,11 @@
         "pageText": "Full-stack work at FORTA Technology, frontend work for the EEPIS News and Network Team, and freelance and internship projects in Laravel, Django, Vue.js and React."
       }
     ]
-  }
+  },
+  "roles": [
+    "Software Engineer",
+    "Full-Stack Developer",
+    "AI Engineer",
+    "Unity & Unreal Engine Developer"
+  ]
 }
