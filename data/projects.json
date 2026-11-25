@@ -550,8 +550,8 @@
         "value": "Course project"
       },
       {
-        "label": "Achievement",
-        "value": "1st Place in KMIPN VI"
+        "label": "Team award",
+        "value": "1st Place, KMIPN VI"
       }
     ],
     "contributionIntro": "As a programmer, my main challenge was adapting to Unreal Engine, as it was my first time using this tool. With the help of YouTube and Udemy tutorials, I managed to create a modular inventory system and implement various core mechanics."
@@ -850,8 +850,12 @@
         "value": "Game Design Connect 3.0 - Gameloft Indonesia"
       },
       {
-        "label": "Achievement",
+        "label": "Team award",
         "value": "Best Game Design"
+      },
+      {
+        "label": "Personal award",
+        "value": "Best Team"
       }
     ],
     "contributionIntro": "As the programmer, I was responsible for implementing the mechanics of each minigame requested by the game designer. Initially, I faced challenges due to limited experience with 2D game development, so I collaborated with team members to address potential issues. After gaining a foundational understanding of 2D concepts, I developed all the minigame mechanics."
