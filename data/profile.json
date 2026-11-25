@@ -88,25 +88,12 @@
     }
   },
   "catalog": {
-    "title": "Projects in three fields",
+    "title": "Projects in four fields",
     "text": "Pick the field you are hiring for. Each one has its own page you can share.",
+    "legacyIds": {
+      "industry": "xr"
+    },
     "categories": [
-      {
-        "id": "industry",
-        "title": "Industrial software",
-        "summary": "Digital Twins, simulators, VR training and AI for PLN, PetroChina and Petrokimia.",
-        "noun": "projects",
-        "showcase": [
-          "PLN",
-          "PetroChina",
-          "Petrokimia",
-          "Nusametal",
-          "AlamTri"
-        ],
-        "cover": null,
-        "pageTitle": "Industrial software for PLN, PetroChina and Petrokimia",
-        "pageText": "Digital Twins, simulators, VR training and AI work from PT Molca Teknologi Nusantara and my final project at PENS."
-      },
       {
         "id": "games",
         "title": "Games",
@@ -117,11 +104,59 @@
           "alt": "ECOSITY: New Dawn on Mars cover"
         },
         "pageTitle": "Games built in Unity and Unreal Engine",
-        "pageText": "Game jams, course projects and research games — mostly as programmer."
+        "pageText": "Game jams, course projects and research games — mostly as programmer.",
+        "subcategories": [
+          {
+            "id": "pc",
+            "label": "PC games"
+          },
+          {
+            "id": "mobile",
+            "label": "Mobile games"
+          },
+          {
+            "id": "vr",
+            "label": "VR games"
+          },
+          {
+            "id": "board",
+            "label": "Board game"
+          }
+        ]
+      },
+      {
+        "id": "xr",
+        "title": "XR & Simulation",
+        "summary": "Digital Twins, VR training and a hardware driving simulator for PLN, PetroChina and Petrokimia.",
+        "noun": "projects",
+        "showcase": [
+          "PLN",
+          "PetroChina",
+          "Petrokimia",
+          "Nusametal",
+          "AlamTri"
+        ],
+        "cover": null,
+        "pageTitle": "XR, Digital Twins and simulators",
+        "pageText": "Real-time 3D in Unity for industrial clients at PT Molca Teknologi Nusantara, plus VR training, a multiplayer VR prototype and a VR history experience.",
+        "subcategories": [
+          {
+            "id": "digital-twin",
+            "label": "Digital Twin"
+          },
+          {
+            "id": "vr",
+            "label": "Virtual Reality"
+          },
+          {
+            "id": "simulator",
+            "label": "Simulator"
+          }
+        ]
       },
       {
         "id": "web",
-        "title": "Web platforms",
+        "title": "Web & Software",
         "summary": "SaaS, CMS and point-of-sale apps at FORTA, plus campus and freelance websites.",
         "noun": "projects",
         "cover": {
@@ -129,7 +164,46 @@
           "alt": "Media ENT website"
         },
         "pageTitle": "Web platforms, from SaaS to campus websites",
-        "pageText": "Full-stack work at FORTA Technology, frontend work for the EEPIS News and Network Team, and freelance and internship projects in Laravel, Django, Vue.js and React."
+        "pageText": "Full-stack work at FORTA Technology, frontend work for the EEPIS News and Network Team, and freelance and internship projects in Laravel, Django, Vue.js and React.",
+        "subcategories": [
+          {
+            "id": "saas-cms",
+            "label": "SaaS & CMS"
+          },
+          {
+            "id": "business-apps",
+            "label": "Business apps (POS & cashier)"
+          },
+          {
+            "id": "websites",
+            "label": "Company & campus websites"
+          },
+          {
+            "id": "content",
+            "label": "Content platforms"
+          }
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "AI",
+        "summary": "AI virtual assistants: a hybrid cloud-local assistant for Unreal Engine 5 and the ALICA assistant interface.",
+        "noun": "projects",
+        "showcase": [
+          "BERT",
+          "DNN",
+          "Fuzzy Logic",
+          "Python"
+        ],
+        "cover": null,
+        "pageTitle": "AI virtual assistants",
+        "pageText": "Intent classification, player-status models and assistant interfaces connected to real-time 3D applications.",
+        "subcategories": [
+          {
+            "id": "assistant",
+            "label": "Virtual assistants"
+          }
+        ]
       }
     ]
   },

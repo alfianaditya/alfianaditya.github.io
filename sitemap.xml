@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://alfianaditya.github.io/</loc></url>
-  <url><loc>https://alfianaditya.github.io/work/industry/</loc></url>
   <url><loc>https://alfianaditya.github.io/work/games/</loc></url>
+  <url><loc>https://alfianaditya.github.io/work/xr/</loc></url>
   <url><loc>https://alfianaditya.github.io/work/web/</loc></url>
+  <url><loc>https://alfianaditya.github.io/work/ai/</loc></url>
   <url><loc>https://alfianaditya.github.io/projects/safety-driving-simulator-petrochina/</loc></url>
   <url><loc>https://alfianaditya.github.io/projects/savior-vr-arecaverse/</loc></url>
   <url><loc>https://alfianaditya.github.io/projects/digital-twin-pltu-labuan/</loc></url>
