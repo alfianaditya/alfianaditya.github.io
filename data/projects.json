@@ -1983,5 +1983,88 @@
     "overview": [
       "ENT Café is a landing-page website for a café called ENT, making it easier for users to buy products."
     ]
+  },
+  {
+    "slug": "bridge-simulator",
+    "title": "Bridge Simulator",
+    "client": null,
+    "company": null,
+    "category": "Game Development",
+    "taxonomy": {
+      "games": "roblox"
+    },
+    "year": "2025",
+    "role": "Programmer",
+    "featured": false,
+    "order": 23,
+    "summary": "My first Roblox game, built in two days: chop trees, gather wood and build a bridge off the island before the water rises.",
+    "overview": [
+      "Bridge Simulator is the first game I created using Roblox Studio, completed within 2 days. In this game, players must build a bridge to escape the island before time runs out or the water level rises. This project marked my first experience exploring the Roblox platform and understanding its basic development tools.",
+      "Players are trapped on an island and must cross to another island before time runs out or the water level rises and submerges the island."
+    ],
+    "contributionIntro": "As the programmer, this was my first time using Roblox Studio and learning the Lua programming language. I gained valuable knowledge about this new engine and successfully implemented various mechanics, including chopping trees, collecting items, building bridges, tree respawn, inventory systems, UI systems, and win and lose conditions.",
+    "contributions": [
+      "Tree Chopping - Allows players to chop down trees to gather wood as a resource for building bridges.",
+      "Item Collection - Players can pick up resources and items needed to progress in the game.",
+      "Bridge Building - Enables players to use collected resources to construct a bridge to escape the island.",
+      "Tree Respawn - Chopped-down trees regenerate after a set time, ensuring a continuous supply of resources.",
+      "Inventory System - Stores items collected by players and displays the resources they have gathered.",
+      "UI System - Displays bridge construction progress and inventory.",
+      "Win/Lose Conditions - Defines the objectives for winning (reaching the other island) and losing (time running out or water rising) with a UI panel."
+    ],
+    "technologies": [
+      "Roblox Studio",
+      "Lua"
+    ],
+    "cover": {
+      "src": "media/projects/bridge-simulator/cover.webp",
+      "alt": "Bridge Simulator title screen"
+    },
+    "gallery": [
+      {
+        "src": "media/projects/bridge-simulator/01.webp",
+        "alt": "Bridge Simulator screenshot"
+      },
+      {
+        "src": "media/projects/bridge-simulator/02.webp",
+        "alt": "Bridge Simulator screenshot"
+      },
+      {
+        "src": "media/projects/bridge-simulator/03.webp",
+        "alt": "Bridge Simulator screenshot"
+      },
+      {
+        "src": "media/projects/bridge-simulator/04.webp",
+        "alt": "Bridge Simulator screenshot"
+      },
+      {
+        "src": "media/projects/bridge-simulator/05.webp",
+        "alt": "Bridge Simulator screenshot"
+      },
+      {
+        "src": "media/projects/bridge-simulator/06.webp",
+        "alt": "Bridge Simulator screenshot"
+      },
+      {
+        "src": "media/projects/bridge-simulator/07.webp",
+        "alt": "Bridge Simulator screenshot"
+      }
+    ],
+    "links": [
+      {
+        "label": "Play / download the game",
+        "url": "https://bit.ly/GameBridgeSimulator"
+      }
+    ],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Roblox"
+      },
+      {
+        "label": "Context",
+        "value": "2-day build"
+      }
+    ]
   }
 ]

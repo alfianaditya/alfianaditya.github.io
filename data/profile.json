@@ -106,13 +106,13 @@
       {
         "id": "games",
         "title": "Games",
-        "summary": "Unity and Unreal Engine games from game jams, course projects and a VR history experience.",
+        "summary": "Unity, Unreal Engine and Roblox games from game jams, course projects and a VR history experience.",
         "noun": "games",
         "cover": {
           "src": "media/projects/ecosity-new-dawn-on-mars/cover.webp",
           "alt": "ECOSITY: New Dawn on Mars cover"
         },
-        "pageTitle": "Games built in Unity and Unreal Engine",
+        "pageTitle": "Games built in Unity, Unreal Engine and Roblox",
         "pageText": "Game jams, course projects and research games - mostly as programmer.",
         "subcategories": [
           {
@@ -130,6 +130,10 @@
           {
             "id": "board",
             "label": "Board game"
+          },
+          {
+            "id": "roblox",
+            "label": "Roblox game"
           }
         ]
       },
