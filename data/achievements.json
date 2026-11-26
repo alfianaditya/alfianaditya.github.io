@@ -7,7 +7,7 @@
     "issuer": "PENS",
     "year": "2026",
     "project": "red-life-ai-virtual-assistant",
-    "role": "Developer of the RED LIFE final project"
+    "role": "Developer of LISA, the AI assistant for REDLIFE"
   },
   {
     "id": "pln-startup-2025",
@@ -83,5 +83,13 @@
     "title": "Python Programming",
     "issuer": "Dicoding × Google Cloud",
     "year": "2026"
+  },
+  {
+    "id": "kksi-2021",
+    "type": "training",
+    "title": "KKSI Game Development Participant",
+    "issuer": "Kreativitas dan Kewirausahaan Siswa Indonesia (KKSI)",
+    "year": "2021",
+    "project": "fairy-tale-return-of-heroes"
   }
 ]

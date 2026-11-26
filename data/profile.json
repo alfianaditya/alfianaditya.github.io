@@ -203,7 +203,7 @@
       {
         "id": "ai",
         "title": "AI",
-        "summary": "AI virtual assistants: a hybrid cloud-local assistant for Unreal Engine 5 and the ALICA assistant interface.",
+        "summary": "AI virtual assistants and gesture recognition: LISA for Unreal Engine 5, the ALICA interface and webcam hand tracking.",
         "noun": "projects",
         "showcase": [
           "BERT",
@@ -213,7 +213,7 @@
         ],
         "cover": {
           "src": "media/projects/red-life-ai-virtual-assistant/cover.webp",
-          "alt": "RED LIFE AI assistant dialogue in Unreal Engine 5"
+          "alt": "LISA, the AI assistant in REDLIFE, talking to the player in Unreal Engine 5"
         },
         "pageTitle": "AI virtual assistants",
         "pageText": "Intent classification, player-status models and assistant interfaces connected to real-time 3D applications.",
@@ -221,6 +221,10 @@
           {
             "id": "assistant",
             "label": "Virtual assistants"
+          },
+          {
+            "id": "computer-vision",
+            "label": "Computer vision"
           }
         ]
       }

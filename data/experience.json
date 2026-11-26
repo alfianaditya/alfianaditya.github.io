@@ -122,7 +122,7 @@
   {
     "id": "pens-red-life",
     "company": "Politeknik Elektronika Negeri Surabaya",
-    "position": "AI Software Developer - RED LIFE Final Project",
+    "position": "AI Software Developer - LISA, REDLIFE Final Project",
     "type": "academic",
     "location": "Surabaya, Indonesia",
     "start": "2025-08",
@@ -144,7 +144,8 @@
       "REST API"
     ],
     "projects": [
-      "red-life-ai-virtual-assistant"
+      "red-life-ai-virtual-assistant",
+      "redlife-survival-on-mars"
     ]
   },
   {

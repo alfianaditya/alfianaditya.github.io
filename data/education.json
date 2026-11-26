@@ -10,7 +10,20 @@
     "status": "Graduated",
     "gpa": "3.73",
     "notes": [
-      "Final project: RED LIFE - Hybrid Cloud-Local AI Virtual Assistant for Unreal Engine 5."
+      "Final project: LISA - Hybrid Cloud-Local AI Virtual Assistant for the Unreal Engine 5 game REDLIFE."
     ]
+  },
+  {
+    "id": "smkn1-boyolangu",
+    "institution": "SMKN 1 Boyolangu",
+    "degree": "SMK (Vocational High School)",
+    "field": "Software Engineering (RPL)",
+    "location": "Tulungagung, Indonesia",
+    "start": "2019",
+    "end": "2022",
+    "status": "Graduated",
+    "gpa": "89.00",
+    "scoreLabel": "Final grade",
+    "notes": []
   }
 ]

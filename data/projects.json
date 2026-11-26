@@ -149,7 +149,7 @@
   },
   {
     "slug": "red-life-ai-virtual-assistant",
-    "title": "RED LIFE - Hybrid AI Virtual Assistant",
+    "title": "LISA - Hybrid AI Virtual Assistant",
     "client": null,
     "company": "Politeknik Elektronika Negeri Surabaya",
     "category": "AI Research",
@@ -160,12 +160,15 @@
     "role": "AI Software Developer · Final Project",
     "featured": true,
     "order": 5,
-    "summary": "A hybrid cloud-local AI virtual assistant for Unreal Engine 5, combining BERT, a Deep Neural Network and Fuzzy Logic.",
+    "summary": "LISA, the AI assistant for the survival game REDLIFE: a hybrid cloud-local assistant for Unreal Engine 5 combining BERT, a Deep Neural Network and Fuzzy Logic.",
     "overview": [
-      "A Hybrid Cloud-Local AI Virtual Assistant developed as the RED LIFE final project at PENS, using BERT, a Deep Neural Network (DNN) and Fuzzy Logic."
+      "LISA is a Hybrid Cloud-Local AI Virtual Assistant developed as my final project at PENS for REDLIFE: Survival on Mars, using BERT, a Deep Neural Network (DNN) and Fuzzy Logic.",
+      "It gives the player contextual assistance during the survival game."
     ],
     "contributions": [
-      "Developed the hybrid cloud-local AI virtual assistant.",
+      "Developed an AI-powered virtual assistant in Unreal Engine 5 to provide contextual gameplay assistance in a survival game.",
+      "Implemented BERT-based intent classification to identify player requests and a Deep Neural Network (DNN) to classify player status.",
+      "Integrated AI decision logic to deliver relevant assistance based on player conditions and gameplay context.",
       "Built REST API integration between Unreal Engine 5 and a Python server."
     ],
     "metrics": [
@@ -188,7 +191,7 @@
     ],
     "cover": {
       "src": "media/projects/red-life-ai-virtual-assistant/cover.webp",
-      "alt": "RED LIFE - the AI assistant LISA reporting vital systems to the player on a Mars landscape in Unreal Engine 5"
+      "alt": "LISA - the AI assistant reporting vital systems to the player on a Mars landscape in Unreal Engine 5"
     },
     "gallery": [],
     "links": [],
@@ -639,8 +642,8 @@
       "games": "vr",
       "xr": "vr"
     },
-    "year": "2023",
-    "role": "Programmer",
+    "year": "2024",
+    "role": "Game Development Instructor & VR Developer",
     "featured": true,
     "order": 103,
     "summary": "A VR experience introducing the story of national hero Kadet Soewoko, built for a research collaboration with the Lamongan government and tourism department.",
@@ -649,6 +652,9 @@
       "Kadet Soewoko was a young air force cadet who courageously defended Indonesia during the early days of its independence. Despite limited resources and training, he played a vital role in defending the nation's sovereignty, showing unwavering dedication and bravery. His actions inspire future generations to value patriotism and resilience."
     ],
     "contributions": [
+      "Instructed students from SMK Negeri 12 Surabaya in developing VR games using Unity.",
+      "Taught fundamental game development concepts, including game design, programming, and game development workflows.",
+      "Guided students throughout the development process and provided technical assistance during implementation.",
       "Interact Raycast System - Enables players to point their gaze or controller at objects and interact, such as reading information or triggering events related to Kadet Soewoko's story.",
       "Pick-Up Mechanic - Allows players to grab and move objects in the game, such as documents or artifacts that provide context about Kadet Soewoko's heroism.",
       "Movement System - Designed to let players explore the environment smoothly and comfortably in VR, including teleportation and smooth locomotion options."
@@ -691,7 +697,7 @@
         "value": "Lecturer research project"
       }
     ],
-    "contributionIntro": "I contributed as a programmer responsible for implementing the interact raycast system, pick-up mechanics, and player movement system. These mechanics enable players to interact with objects, navigate the environment smoothly, and fully immerse themselves in the historical narrative."
+    "contributionIntro": "I taught students from SMK Negeri 12 Surabaya to build the VR version in Unity and helped develop it, implementing the interaction raycast, pick-up and movement systems."
   },
   {
     "slug": "finding-fungus",
@@ -2065,6 +2071,196 @@
         "label": "Context",
         "value": "2-day build"
       }
+    ]
+  },
+  {
+    "client": null,
+    "company": "Ecosity team",
+    "featured": false,
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": [
+      {
+        "label": "Period",
+        "value": "Feb - May 2024"
+      }
+    ],
+    "slug": "ecosity-harvest-haven",
+    "title": "ECOSITY: Harvest Haven",
+    "category": "Game Development",
+    "taxonomy": {
+      "games": "pc"
+    },
+    "year": "2024",
+    "role": "Unreal Engine Developer",
+    "order": 24,
+    "summary": "A gardening game in Unreal Engine with inventory, energy and water resources, and a day-night cycle.",
+    "overview": [
+      "ECOSITY: Harvest Haven is a game built in Unreal Engine by the Ecosity team between February and May 2024."
+    ],
+    "contributions": [
+      "Developed core gameplay systems in Unreal Engine using Blueprint, including inventory and gardening.",
+      "Implemented resource management mechanics for energy and water to support gardening and other gameplay activities.",
+      "Developed time and day-night cycles, movement, and UI systems, including settings and tutorials."
+    ],
+    "technologies": [
+      "Unreal Engine",
+      "Unreal Engine Blueprint"
+    ]
+  },
+  {
+    "client": null,
+    "company": "Politeknik Elektronika Negeri Surabaya",
+    "featured": false,
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": [
+      {
+        "label": "Period",
+        "value": "Jun 2025 - May 2026"
+      }
+    ],
+    "slug": "k3-vr-safety-training",
+    "title": "Keselamatan dan Kesehatan Kerja (K3) VR",
+    "category": "Virtual Reality",
+    "taxonomy": {
+      "xr": "vr"
+    },
+    "year": "2025-2026",
+    "role": "Unity Developer",
+    "order": 9,
+    "summary": "VR occupational safety training in Unity: working at height, head protection and forklift safety areas.",
+    "overview": [
+      "Immersive VR safety training simulations covering working-at-height safety, protective equipment and industrial vehicle safety procedures, developed at PENS from June 2025 to May 2026."
+    ],
+    "contributions": [
+      "Developed immersive VR safety training simulations in Unity, covering working-at-height safety, protective equipment, and industrial vehicle safety procedures.",
+      "Implemented a working-at-height scenario to train users in proper safety harness usage and fall prevention.",
+      "Developed a head protection simulation demonstrating the importance of safety helmets against falling objects.",
+      "Implemented forklift safety area procedures to ensure clear operating lanes and prevent workplace accidents."
+    ],
+    "technologies": [
+      "Unity",
+      "C#",
+      "Virtual Reality"
+    ]
+  },
+  {
+    "client": null,
+    "company": "Personal project",
+    "featured": false,
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": [
+      {
+        "label": "Status",
+        "value": "In progress (since Jul 2026)"
+      }
+    ],
+    "slug": "beat-immersive",
+    "title": "Beat Immersive",
+    "category": "Interactive Media",
+    "taxonomy": {
+      "games": "pc",
+      "ai": "computer-vision"
+    },
+    "year": "2026",
+    "role": "Unity Developer",
+    "order": 26,
+    "summary": "A rhythm game played with hand gestures: rock, paper and scissors read from a webcam with MediaPipe.",
+    "overview": [
+      "Beat Immersive is an interactive rhythm game in Unity. Players answer the beat with Rock, Paper and Scissors hand gestures, recognised from webcam input with MediaPipe hand tracking."
+    ],
+    "contributions": [
+      "Developed interactive rhythm gameplay in Unity using C#, featuring beat synchronization and gesture-based interactions.",
+      "Integrated MediaPipe hand tracking to recognize Rock, Paper, and Scissors gestures through webcam input.",
+      "Implemented scoring, combo, and visual feedback systems to support real-time player interaction and immersive gameplay."
+    ],
+    "technologies": [
+      "Unity",
+      "C#",
+      "MediaPipe"
+    ]
+  },
+  {
+    "client": null,
+    "company": "Ecosity team",
+    "featured": false,
+    "cover": {
+      "src": "media/projects/red-life-ai-virtual-assistant/cover.webp",
+      "alt": "REDLIFE: Survival on Mars - a Mars landscape with the assistant LISA talking to the player"
+    },
+    "gallery": [],
+    "links": [],
+    "info": [
+      {
+        "label": "Team",
+        "value": "3 people"
+      },
+      {
+        "label": "AI assistant",
+        "value": "LISA (my final project)"
+      }
+    ],
+    "slug": "redlife-survival-on-mars",
+    "title": "REDLIFE: Survival on Mars",
+    "category": "Game Development",
+    "taxonomy": {
+      "games": "pc"
+    },
+    "year": "2025-2026",
+    "role": "Unreal Engine Developer",
+    "order": 25,
+    "summary": "A survival game on Mars built in Unreal Engine 5 by a three-person team; its AI assistant LISA was my final project.",
+    "overview": [
+      "REDLIFE: Survival on Mars is a survival game built in Unreal Engine 5 by a three-person team between January 2025 and June 2026.",
+      "The in-game AI assistant, LISA, is shown as its own project in the AI category."
+    ],
+    "contributions": [],
+    "technologies": [
+      "Unreal Engine 5"
+    ]
+  },
+  {
+    "client": null,
+    "company": null,
+    "featured": false,
+    "cover": null,
+    "gallery": [],
+    "links": [],
+    "info": [
+      {
+        "label": "Platform",
+        "value": "Mobile"
+      },
+      {
+        "label": "Context",
+        "value": "Lecturer research project"
+      }
+    ],
+    "slug": "kadet-soewoko-mobile",
+    "title": "Kadet Soewoko (Mobile)",
+    "category": "Game Development",
+    "taxonomy": {
+      "games": "mobile"
+    },
+    "year": null,
+    "role": "Mobile porting",
+    "order": 27,
+    "summary": "The mobile version of the Kadet Soewoko history experience, which I ported for the same lecturer research project.",
+    "overview": [
+      "A mobile version of the Kadet Soewoko experience about the national hero Kadet Soewoko, made as part of the same lecturer research project as the VR version."
+    ],
+    "contributions": [
+      "Ported the Kadet Soewoko experience to mobile."
+    ],
+    "technologies": [
+      "Unity",
+      "C#",
+      "Android"
     ]
   }
 ]
